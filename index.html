@@ -19,7 +19,7 @@
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
 
 // Check that all required assets are uploaded and up-to-date
-if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "webpro.js", "musewpslideshow.js", "jquery.museoverlay.js", "touchswipe.js", "jquery.musepolyfill.bgsize.js", "jquery.musemenu.js", "jquery.museresponsive.js", "require.js", "index.css"], "outOfDate":[]};
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.musepolyfill.bgsize.js", "jquery.musemenu.js", "jquery.watch.js", "webpro.js", "musewpslideshow.js", "jquery.museoverlay.js", "touchswipe.js", "jquery.museresponsive.js", "require.js", "index.css"], "outOfDate":[]};
 </script>
   
   <link media="only screen and (max-width: 370px)" rel="alternate" href="https://github.com/saarangstudios/saarangstudios.github.io/phone/index.html"/>
@@ -27,8 +27,8 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <title>SAARANG STUDIOS</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=389828040"/>
-  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?crc=4058596207"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=3934608634" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?crc=4136501440"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=3869979043" id="pagesheet"/>
   <!-- IE-only CSS -->
   <!--[if lt IE 9]>
   <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_a-master.css?crc=416223306"/>
@@ -203,7 +203,23 @@ position: absolute;
 	})(window,document,'script','dataLayer','GTM-NQWFQPR');</script>
 	
 
-				<style>.js body{visibility:visible!important;}</style>
+				<style>
+				
+				body,img{
+				-webkit-animation-duration:4s;
+				animation-duration:4s;
+				-webkit-animation-name:load;
+				animation-name:load;
+				}
+				@keyframes load{
+				from {opacity:0;}
+				to {opacity:1;}
+				}
+				@-webkit-keyframes load{
+				from {opacity:0;}
+				to { opacity:1;}
+				}
+				</style>
 			
  </head>
  <body>
@@ -1172,7 +1188,7 @@ Muse.Utils.resizeHeight('.browser_width');/* resize height */
 Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
 Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
 Muse.Utils.initWidget('.MenuBar', ['#bp_infinity', '#bp_2560', '#bp_1920', '#bp_1536', '#bp_1440', '#bp_1366'], function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
-Muse.Utils.initWidget('#slideshowu7101', ['#bp_infinity', '#bp_2560', '#bp_1920', '#bp_1536', '#bp_1440', '#bp_1366'], function(elem) { var widget = new WebPro.Widget.ContentSlideShow(elem, {autoPlay:true,displayInterval:3500,slideLinkStopsSlideShow:false,transitionStyle:'fading',lightboxEnabled_runtime:false,shuffle:false,transitionDuration:500,enableSwipe:true,elastic:'fullWidth',resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:true}); $(elem).data('widget', widget); return widget; });/* #slideshowu7101 */
+Muse.Utils.initWidget('#slideshowu7101', ['#bp_infinity', '#bp_2560', '#bp_1920', '#bp_1536', '#bp_1440', '#bp_1366'], function(elem) { var widget = new WebPro.Widget.ContentSlideShow(elem, {autoPlay:true,displayInterval:3500,slideLinkStopsSlideShow:false,transitionStyle:'fading',lightboxEnabled_runtime:false,shuffle:false,transitionDuration:500,enableSwipe:false,elastic:'fullWidth',resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:true}); $(elem).data('widget', widget); return widget; });/* #slideshowu7101 */
 Muse.Utils.fullPage('#page');/* 100% height page */
 $( '.breakpoint' ).registerBreakpoint();/* Register breakpoints */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */

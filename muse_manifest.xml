@@ -1,17 +1,17 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://github.com/saarangstudios/saarangstudios.github.io" resolutions="1x" timestamp="1538729757037">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://github.com/saarangstudios/saarangstudios.github.io" resolutions="1x" timestamp="1538730175729">
   <folder name="css">
     <file name="site_global.css" crc="389828040"/>
-    <file name="master_a-master.css" crc="4058596207" ref="index:contact:services"/>
+    <file name="master_a-master.css" crc="4136501440" ref="index:contact:services"/>
     <file name="nomq_preview_master_a-master.css" crc="416223306" ref="index:contact:services"/>
-    <file name="master_picture-portofilio.css" crc="148963852" ref="about:stills:portfolio:stories:motion"/>
-    <file name="about.css" crc="394342329" ref="about"/>
-    <file name="stills.css" crc="4253215851" ref="stills"/>
-    <file name="portfolio.css" crc="422647840" ref="portfolio"/>
-    <file name="index.css" crc="3934608634" ref="index"/>
+    <file name="master_picture-portofilio.css" crc="248661302" ref="about:stills:portfolio:stories:motion"/>
+    <file name="about.css" crc="263390009" ref="about"/>
+    <file name="stills.css" crc="4083082231" ref="stills"/>
+    <file name="portfolio.css" crc="454191696" ref="portfolio"/>
+    <file name="index.css" crc="3869979043" ref="index"/>
     <file name="nomq_index.css" crc="3867344004" ref="index"/>
     <file name="contact.css" crc="357973605" ref="contact"/>
-    <file name="stories.css" crc="4155608282" ref="stories"/>
-    <file name="motion.css" crc="4006323054" ref="motion"/>
+    <file name="stories.css" crc="395813546" ref="stories"/>
+    <file name="motion.css" crc="250224918" ref="motion"/>
     <file name="services.css" crc="285551917" ref="services"/>
   </folder>
   <folder name="assets">
@@ -34,7 +34,7 @@
     <file name="require.js" crc="7928878" ref="phone>index:phone>services:phone>portfolio:phone>contact:index:services:contact:portfolio:about:stills:motion:stories"/>
   </folder>
   <folder name="images">
-    <file name="a-master-favicon.ico" crc="3918849811" ref="phone>index"/>
+    <file name="a-master-favicon.ico" crc="3918849811" ref="phone>index:index"/>
     <file name="blank.gif" crc="4208392903" ref="phone>index:phone>services:phone>portfolio:phone>contact:index:services:portfolio:stills:motion:stories"/>
     <file name="icons-01-crop-u32424.png" crc="4182621488" seo="true" ref="phone>index:phone>services:phone>portfolio:phone>contact">
       <caption webpage="index" alt=""/>
@@ -53,12 +53,8 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
     </file>
     <file name="saarang studios-1379.jpg" crc="4105206655" seo="true" ref="phone>index:index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -73,12 +69,8 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
     </file>
     <file name="saarang studios-1396.jpg" crc="3842969859" seo="true" ref="phone>index:index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -93,12 +85,8 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
     </file>
     <file name="saarang studios-1216.jpg" crc="7787828" seo="true" ref="phone>index:index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -113,8 +101,6 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
     </file>
     <file name="saarang studios-1248.jpg" crc="4132446498" seo="true" ref="phone>index:index">
       <caption webpage="index" alt=""/>
@@ -123,12 +109,8 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
     </file>
     <file name="img_7158-2.jpg" crc="167946734" seo="true" ref="phone>index:index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -145,8 +127,6 @@
       <caption webpage="portfolio" alt=""/>
     </file>
     <file name="saarang studios-10.jpg" crc="3871393200" ref="phone>index:index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -170,7 +150,7 @@
     <file name="450_1000.jpg" crc="3786491234" ref="phone>index:index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="studio-light-png-1-crop-u26055.png" crc="148696445" seo="true" ref="phone>index">
+    <file name="studio-light-png-1-crop-u26055.png" crc="4166951703" seo="true" ref="phone>index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="confetti-png-clipart-crop-u27147.png" crc="4126788496" seo="true" ref="phone>index">
@@ -180,7 +160,7 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="studio-light-png-1-crop-u260552.png" crc="254742774" seo="true" ref="phone>index">
+    <file name="studio-light-png-1-crop-u260552.png" crc="3904841345" seo="true" ref="phone>index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="confetti-png-clipart-crop-u271472.png" crc="3993595723" seo="true" ref="phone>index">
@@ -196,7 +176,7 @@
       <caption webpage="contact" alt=""/>
       <caption webpage="services" alt=""/>
     </file>
-    <file name="arrow.png" crc="201731658" seo="true" ref="index:services:stills:motion:stories">
+    <file name="arrow.png" crc="201731658" ref="index:services:stills:motion:stories">
       <caption webpage="index" alt=""/>
       <caption webpage="motion" alt=""/>
       <caption webpage="motion" alt=""/>
@@ -335,7 +315,7 @@
     <file name="saarang studios--5-crop-u46718.jpg" crc="3975637635" seo="true" ref="stills">
       <caption webpage="stills" alt=""/>
     </file>
-    <file name="saarang studios--7-crop-u46726.jpg" crc="284020901" seo="true" ref="stills">
+    <file name="saarang studios--7-crop-u46726.jpg" crc="105175583" seo="true" ref="stills">
       <caption webpage="stills" alt=""/>
     </file>
     <file name="saarang studios--2-crop-u46706.jpg" crc="3811064944" seo="true" ref="stills">
@@ -404,28 +384,28 @@
   </folder>
   <folder name="phone">
     <folder name="css">
-      <file name="master_a-master.css" crc="320484829" ref="phone>services:phone>index:phone>contact:phone>portfolio"/>
-      <file name="nomq_preview_master_a-master.css" crc="3807991685" ref="phone>services:phone>index:phone>contact:phone>portfolio"/>
-      <file name="services.css" crc="4031778603" ref="phone>services"/>
-      <file name="nomq_services.css" crc="503542116" ref="phone>services"/>
-      <file name="index.css" crc="4204072826" ref="phone>index"/>
-      <file name="nomq_index.css" crc="445224661" ref="phone>index"/>
-      <file name="contact.css" crc="67594107" ref="phone>contact"/>
-      <file name="nomq_contact.css" crc="3963459267" ref="phone>contact"/>
-      <file name="portfolio.css" crc="4031778603" ref="phone>portfolio"/>
-      <file name="nomq_portfolio.css" crc="503542116" ref="phone>portfolio"/>
+      <file name="master_a-master.css" crc="336769579" ref="phone>services:phone>index:phone>contact:phone>portfolio"/>
+      <file name="nomq_preview_master_a-master.css" crc="73166684" ref="phone>services:phone>index:phone>contact:phone>portfolio"/>
+      <file name="services.css" crc="414256696" ref="phone>services"/>
+      <file name="nomq_services.css" crc="4174918966" ref="phone>services"/>
+      <file name="index.css" crc="419573647" ref="phone>index"/>
+      <file name="nomq_index.css" crc="3988679413" ref="phone>index"/>
+      <file name="contact.css" crc="3882460030" ref="phone>contact"/>
+      <file name="nomq_contact.css" crc="4219602894" ref="phone>contact"/>
+      <file name="portfolio.css" crc="414256696" ref="phone>portfolio"/>
+      <file name="nomq_portfolio.css" crc="4174918966" ref="phone>portfolio"/>
     </folder>
-    <file name="index.html" crc="64840255" seo="true" mt="1538729333064" redirect="true"/>
-    <file name="services.html" crc="3937680174" seo="true" mt="1538652704205" redirect="true"/>
-    <file name="portfolio.html" crc="4192074491" seo="true" mt="1538652704205" redirect="true"/>
-    <file name="contact.html" crc="3832928685" seo="true" mt="1538652704205" redirect="true"/>
+    <file name="index.html" crc="3802341496" seo="true" mt="1538730067390" redirect="true"/>
+    <file name="services.html" crc="3933927350" seo="true" mt="1538730067390" redirect="true"/>
+    <file name="portfolio.html" crc="3856078210" seo="true" mt="1538730067390" redirect="true"/>
+    <file name="contact.html" crc="30555067" seo="true" mt="1538730067390" redirect="true"/>
   </folder>
-  <file name="index.html" crc="4023345097" seo="true" mt="1538729622310" redirect="true"/>
-  <file name="services.html" crc="92414825" seo="true" mt="1538652686838" redirect="true"/>
-  <file name="contact.html" crc="4102873293" seo="true" mt="1538652686838" redirect="true"/>
-  <file name="portfolio.html" crc="421572480" seo="true" mt="1538728929130" redirect="true"/>
-  <file name="about.html" crc="4120268158" seo="true" mt="1538652714405" redirect="true"/>
-  <file name="stills.html" crc="449169386" seo="true" mt="1538728933706" redirect="true"/>
-  <file name="motion.html" crc="103277228" seo="true" mt="1538652714405" redirect="true"/>
-  <file name="stories.html" crc="3873000248" seo="true" mt="1538652714405" redirect="true"/>
+  <file name="index.html" crc="3903511590" seo="true" mt="1538730144430" redirect="true"/>
+  <file name="services.html" crc="119431238" seo="true" mt="1538729962523" redirect="true"/>
+  <file name="contact.html" crc="441177206" seo="true" mt="1538729962523" redirect="true"/>
+  <file name="portfolio.html" crc="140053964" seo="true" mt="1538730038754" redirect="true"/>
+  <file name="about.html" crc="4051641395" seo="true" mt="1538730038754" redirect="true"/>
+  <file name="stills.html" crc="44639849" seo="true" mt="1538730038754" redirect="true"/>
+  <file name="motion.html" crc="8596696" seo="true" mt="1538730038754" redirect="true"/>
+  <file name="stories.html" crc="60549113" seo="true" mt="1538730038754" redirect="true"/>
 </manifest>
