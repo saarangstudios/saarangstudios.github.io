@@ -2,18 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://github.com/saarangstudios/saarangstudios.github.io/index.html</loc>
-    <lastmod>2018-10-04</lastmod>
+    <lastmod>2018-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="https://github.com/saarangstudios/saarangstudios.github.io/phone/index.html"/>
     <image:image>
       <image:loc>https://github.com/saarangstudios/saarangstudios.github.io/images/top.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://github.com/saarangstudios/saarangstudios.github.io/images/arrow.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://github.com/saarangstudios/saarangstudios.github.io/images/2018-09-10.jpg</image:loc>
     </image:image>
     <image:image>
       <image:loc>https://github.com/saarangstudios/saarangstudios.github.io/images/asset%201.png</image:loc>
@@ -97,9 +91,6 @@
       <image:loc>https://github.com/saarangstudios/saarangstudios.github.io/images/6528400368700182661.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://github.com/saarangstudios/saarangstudios.github.io/images/2018-09-10.jpg</image:loc>
-    </image:image>
-    <image:image>
       <image:loc>https://github.com/saarangstudios/saarangstudios.github.io/images/2018-09-10%20(6).jpg</image:loc>
     </image:image>
   </url>
@@ -108,9 +99,6 @@
     <lastmod>2018-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-    <image:image>
-      <image:loc>https://github.com/saarangstudios/saarangstudios.github.io/images/arrow.png</image:loc>
-    </image:image>
     <image:image>
       <image:loc>https://github.com/saarangstudios/saarangstudios.github.io/images/2018-09-10%20(4).jpg</image:loc>
     </image:image>
@@ -265,9 +253,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
-      <image:loc>https://github.com/saarangstudios/saarangstudios.github.io/images/arrow.png</image:loc>
-    </image:image>
-    <image:image>
       <image:loc>https://github.com/saarangstudios/saarangstudios.github.io/images/visit-our-facebook-page.svg</image:loc>
     </image:image>
   </url>
@@ -276,9 +261,6 @@
     <lastmod>2018-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-    <image:image>
-      <image:loc>https://github.com/saarangstudios/saarangstudios.github.io/images/arrow.png</image:loc>
-    </image:image>
     <image:image>
       <image:loc>https://github.com/saarangstudios/saarangstudios.github.io/images/visit-our-facebook-page.svg</image:loc>
     </image:image>

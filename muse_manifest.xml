@@ -1,8 +1,8 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://github.com/saarangstudios/saarangstudios.github.io" resolutions="1x" timestamp="1538652743624">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://github.com/saarangstudios/saarangstudios.github.io" resolutions="1x" timestamp="1538727821043">
   <folder name="css">
-    <file name="site_global.css" crc="11183953"/>
-    <file name="master_a-master.css" crc="475840722" ref="index:services:contact"/>
-    <file name="index.css" crc="95764388" ref="index"/>
+    <file name="site_global.css" crc="389828040"/>
+    <file name="master_a-master.css" crc="208129626" ref="index:services:contact"/>
+    <file name="index.css" crc="228206254" ref="index"/>
     <file name="services.css" crc="4175684123" ref="services"/>
     <file name="contact.css" crc="357973605" ref="contact"/>
     <file name="portfolio.css" crc="3966296967" ref="portfolio"/>
@@ -41,20 +41,20 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
-      <caption webpage="portfolio" alt=""/>
-      <caption webpage="services" alt=""/>
       <caption webpage="contact" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="portfolio" alt=""/>
     </file>
-    <file name="arrow.png" crc="201731658" ref="index:services:stills:motion:stories" seo="true">
+    <file name="arrow.png" crc="201731658" ref="index:services:stills:motion:stories">
       <caption webpage="index" alt=""/>
-      <caption webpage="stories" alt=""/>
-      <caption webpage="stories" alt=""/>
-      <caption webpage="stories" alt=""/>
-      <caption webpage="stories" alt=""/>
       <caption webpage="motion" alt=""/>
       <caption webpage="motion" alt=""/>
       <caption webpage="motion" alt=""/>
       <caption webpage="motion" alt=""/>
+      <caption webpage="stories" alt=""/>
+      <caption webpage="stories" alt=""/>
+      <caption webpage="stories" alt=""/>
+      <caption webpage="stories" alt=""/>
       <caption webpage="stills" alt=""/>
       <caption webpage="stills" alt=""/>
       <caption webpage="stills" alt=""/>
@@ -87,9 +87,7 @@
       <caption webpage="stills" alt=""/>
       <caption webpage="stills" alt=""/>
     </file>
-    <file name="2018-09-10.jpg" crc="4050105642" ref="index:phone>index:portfolio" seo="true">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
+    <file name="2018-09-10.jpg" crc="4050105642" ref="index:phone>index:portfolio">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -107,11 +105,11 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
-      <caption webpage="portfolio" alt=""/>
-      <caption webpage="services" alt=""/>
       <caption webpage="contact" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="portfolio" alt=""/>
     </file>
-    <file name="a-master-favicon.ico" crc="3918849811" ref="phone>index"/>
+    <file name="a-master-favicon.ico" crc="3918849811" ref="phone>index:index"/>
     <file name="icons-01-crop-u32424.png" crc="4182621488" seo="true" ref="phone>index:phone>services:phone>portfolio:phone>contact">
       <caption webpage="index" alt=""/>
       <caption webpage="portfolio" alt=""/>
@@ -123,12 +121,8 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
     </file>
     <file name="saarang studios-1379.jpg" crc="390565832" seo="true" ref="phone>index:index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -139,12 +133,8 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
     </file>
     <file name="saarang studios-1396.jpg" crc="4228244379" seo="true" ref="phone>index:index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -155,12 +145,8 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
     </file>
     <file name="img_1216.jpg" crc="177280808" seo="true" ref="phone>index:index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -171,20 +157,14 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
     </file>
     <file name="img_1248.jpg" crc="464140553" seo="true" ref="phone>index:index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
     </file>
     <file name="img_7158-2.jpg" crc="167946734" seo="true" ref="phone>index:index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -391,7 +371,7 @@
     <file name="portfolio.html" crc="3831929400" seo="true" mt="1538652704205" redirect="true"/>
     <file name="contact.html" crc="195866813" seo="true" mt="1538652704205" redirect="true"/>
   </folder>
-  <file name="index.html" crc="3928811855" seo="true" mt="1538652686838" redirect="true"/>
+  <file name="index.html" crc="3799649742" seo="true" mt="1538727808724" redirect="true"/>
   <file name="services.html" crc="4211608663" seo="true" mt="1538652686838" redirect="true"/>
   <file name="portfolio.html" crc="3897272149" seo="true" mt="1538652714405" redirect="true"/>
   <file name="contact.html" crc="3911823022" seo="true" mt="1538652686838" redirect="true"/>
