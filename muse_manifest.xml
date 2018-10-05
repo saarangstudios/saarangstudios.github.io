@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://github.com/saarangstudios/saarangstudios.github.io" resolutions="1x" timestamp="1538732277890">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://github.com/saarangstudios/saarangstudios.github.io" resolutions="1x" timestamp="1538732440868">
   <folder name="css">
     <file name="site_global.css" crc="389828040"/>
     <file name="master_a-master.css" crc="3816725591" ref="index:contact:services"/>
@@ -34,7 +34,7 @@
     <file name="require.js" crc="7928878" ref="phone>index:phone>services:phone>portfolio:phone>contact:index:services:contact:portfolio:about:stills:motion:stories"/>
   </folder>
   <folder name="images">
-    <file name="a-master-favicon.ico" crc="3918849811" ref="phone>index:index"/>
+    <file name="a-master-favicon.ico" crc="3918849811" ref="phone>index:index:phone>portfolio"/>
     <file name="blank.gif" crc="4208392903" ref="phone>index:phone>services:phone>portfolio:phone>contact:index:services:portfolio:stills:motion:stories"/>
     <file name="icons-01-crop-u32424.png" crc="4182621488" seo="true" ref="phone>index:phone>services:phone>portfolio:phone>contact">
       <caption webpage="index" alt=""/>
@@ -384,20 +384,20 @@
   </folder>
   <folder name="phone">
     <folder name="css">
-      <file name="master_a-master.css" crc="336769579" ref="phone>services:phone>index:phone>contact:phone>portfolio"/>
-      <file name="nomq_preview_master_a-master.css" crc="73166684" ref="phone>services:phone>index:phone>contact:phone>portfolio"/>
+      <file name="master_a-master.css" crc="4229331474" ref="phone>services:phone>index:phone>contact:phone>portfolio"/>
+      <file name="nomq_preview_master_a-master.css" crc="3951694187" ref="phone>services:phone>index:phone>contact:phone>portfolio"/>
       <file name="services.css" crc="414256696" ref="phone>services"/>
       <file name="nomq_services.css" crc="4174918966" ref="phone>services"/>
       <file name="index.css" crc="419573647" ref="phone>index"/>
       <file name="nomq_index.css" crc="3988679413" ref="phone>index"/>
       <file name="contact.css" crc="3882460030" ref="phone>contact"/>
       <file name="nomq_contact.css" crc="4219602894" ref="phone>contact"/>
-      <file name="portfolio.css" crc="414256696" ref="phone>portfolio"/>
-      <file name="nomq_portfolio.css" crc="4174918966" ref="phone>portfolio"/>
+      <file name="portfolio.css" crc="387881696" ref="phone>portfolio"/>
+      <file name="nomq_portfolio.css" crc="4294117136" ref="phone>portfolio"/>
     </folder>
     <file name="index.html" crc="3802341496" seo="true" mt="1538730067390" redirect="true"/>
     <file name="services.html" crc="3933927350" seo="true" mt="1538730067390" redirect="true"/>
-    <file name="portfolio.html" crc="3856078210" seo="true" mt="1538730067390" redirect="true"/>
+    <file name="portfolio.html" crc="513472181" seo="true" mt="1538732425985" redirect="true"/>
     <file name="contact.html" crc="30555067" seo="true" mt="1538730067390" redirect="true"/>
   </folder>
   <file name="index.html" crc="3996890432" seo="true" mt="1538732210530" redirect="true"/>
