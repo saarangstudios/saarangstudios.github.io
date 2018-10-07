@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://github.com/saarangstudios/saarangstudios.github.io/index.html</loc>
-    <lastmod>2018-10-05</lastmod>
+    <lastmod>2018-10-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="https://github.com/saarangstudios/saarangstudios.github.io/phone/index.html"/>
@@ -57,16 +57,10 @@
     <image:image>
       <image:loc>https://github.com/saarangstudios/saarangstudios.github.io/images/studio-light-png-1-crop-u360544.png</image:loc>
     </image:image>
-    <image:image>
-      <image:loc>https://github.com/saarangstudios/saarangstudios.github.io/images/studio-light-png-1-crop-u360545.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://github.com/saarangstudios/saarangstudios.github.io/images/studio-light-png-1-crop-u360546.png</image:loc>
-    </image:image>
   </url>
   <url>
     <loc>https://github.com/saarangstudios/saarangstudios.github.io/portfolio.html</loc>
-    <lastmod>2018-10-05</lastmod>
+    <lastmod>2018-10-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="https://github.com/saarangstudios/saarangstudios.github.io/phone/portfolio.html"/>
@@ -118,7 +112,7 @@
   </url>
   <url>
     <loc>https://github.com/saarangstudios/saarangstudios.github.io/services.html</loc>
-    <lastmod>2018-10-05</lastmod>
+    <lastmod>2018-10-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="https://github.com/saarangstudios/saarangstudios.github.io/phone/services.html"/>
@@ -131,7 +125,7 @@
   </url>
   <url>
     <loc>https://github.com/saarangstudios/saarangstudios.github.io/contact.html</loc>
-    <lastmod>2018-10-05</lastmod>
+    <lastmod>2018-10-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="https://github.com/saarangstudios/saarangstudios.github.io/phone/contact.html"/>
@@ -300,7 +294,7 @@
   </url>
   <url>
     <loc>https://github.com/saarangstudios/saarangstudios.github.io/motion.html</loc>
-    <lastmod>2018-10-05</lastmod>
+    <lastmod>2018-10-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
