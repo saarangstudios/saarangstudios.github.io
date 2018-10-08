@@ -1,18 +1,18 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://github.com/saarangstudios/saarangstudios.github.io" resolutions="1x" timestamp="1538995155795">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://github.com/saarangstudios/saarangstudios.github.io" resolutions="1x" timestamp="1538996576849">
   <folder name="css">
     <file name="site_global.css" crc="11183953"/>
-    <file name="master_a-master.css" crc="91989143" ref="contact:index:services"/>
+    <file name="master_a-master.css" crc="4061643224" ref="contact:index:services"/>
     <file name="nomq_preview_master_a-master.css" crc="416223306" ref="index:services:contact"/>
     <file name="master_picture-portofilio.css" crc="155115137" ref="motion:about:stills:stories:portfolio"/>
-    <file name="contact.css" crc="3831557384" ref="contact"/>
+    <file name="contact.css" crc="518718635" ref="contact"/>
     <file name="motion.css" crc="203419217" ref="motion"/>
     <file name="about.css" crc="4244991807" ref="about"/>
     <file name="stills.css" crc="428469587" ref="stills"/>
     <file name="stories.css" crc="440562959" ref="stories"/>
-    <file name="index.css" crc="313004994" ref="index"/>
-    <file name="nomq_index.css" crc="4048266203" ref="index"/>
+    <file name="index.css" crc="3872962467" ref="index"/>
+    <file name="nomq_index.css" crc="3995357430" ref="index"/>
     <file name="portfolio.css" crc="443933919" ref="portfolio"/>
-    <file name="services.css" crc="334617818" ref="services"/>
+    <file name="services.css" crc="3910790258" ref="services"/>
   </folder>
   <folder name="assets">
     <file name="saarang-loader.gif" crc="4285207634" seo="true" mt="1536837305000"/>
@@ -138,7 +138,7 @@
       <caption webpage="services" alt=""/>
       <caption webpage="contact" alt=""/>
     </file>
-    <file name="arrow.png" crc="201731658" ref="index:services:stills:motion:stories" seo="true">
+    <file name="arrow.png" crc="201731658" ref="index:services:stills:motion:stories">
       <caption webpage="index" alt=""/>
       <caption webpage="stories" alt=""/>
       <caption webpage="stories" alt=""/>
@@ -167,7 +167,7 @@
     <file name="studio-light-png-1-crop-u36054.png" crc="3798752467" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="asset 1.png" crc="449814951" seo="true" ref="index:services:contact">
+    <file name="asset 1.png" crc="27628882" seo="true" ref="index:services:contact">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -364,9 +364,9 @@
     <file name="portfolio.html" crc="411741158" seo="true" mt="1538990892074" redirect="true"/>
     <file name="contact.html" crc="298950104" seo="true" mt="1538975891055" redirect="true"/>
   </folder>
-  <file name="index.html" crc="4023416210" seo="true" mt="1538995040569" redirect="true"/>
-  <file name="services.html" crc="4270890622" seo="true" mt="1538995040569" redirect="true"/>
-  <file name="contact.html" crc="4092773387" seo="true" mt="1538995040569" redirect="true"/>
+  <file name="index.html" crc="3847715346" seo="true" mt="1538996561013" redirect="true"/>
+  <file name="services.html" crc="415956343" seo="true" mt="1538996561013" redirect="true"/>
+  <file name="contact.html" crc="16698919" seo="true" mt="1538996561013" redirect="true"/>
   <file name="portfolio.html" crc="3930547951" seo="true" mt="1538995133568" redirect="true"/>
   <file name="about.html" crc="223331845" seo="true" mt="1538995133568" redirect="true"/>
   <file name="stills.html" crc="7125206" seo="true" mt="1538995133568" redirect="true"/>
