@@ -34,10 +34,10 @@
       <image:loc>https://github.com/saarangstudios/saarangstudios.github.io/images/img_7158-2.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://github.com/saarangstudios/saarangstudios.github.io/images/saarang%20studios-2797.jpg</image:loc>
+      <image:loc>https://github.com/saarangstudios/saarangstudios.github.io/images/top.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://github.com/saarangstudios/saarangstudios.github.io/images/top.jpg</image:loc>
+      <image:loc>https://github.com/saarangstudios/saarangstudios.github.io/images/arrow.png</image:loc>
     </image:image>
     <image:image>
       <image:loc>https://github.com/saarangstudios/saarangstudios.github.io/images/studio-light-png-1-crop-u36054.png</image:loc>
@@ -107,6 +107,9 @@
     <priority>0.5</priority>
     <image:image>
       <image:loc>https://github.com/saarangstudios/saarangstudios.github.io/images/saarang%20studios-6528400368700182661.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://github.com/saarangstudios/saarangstudios.github.io/images/arrow.png</image:loc>
     </image:image>
     <image:image>
       <image:loc>https://github.com/saarangstudios/saarangstudios.github.io/images/saarang%20studios-2797-crop-u44058.jpg</image:loc>
@@ -259,6 +262,9 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
+      <image:loc>https://github.com/saarangstudios/saarangstudios.github.io/images/arrow.png</image:loc>
+    </image:image>
+    <image:image>
       <image:loc>https://github.com/saarangstudios/saarangstudios.github.io/images/visit-our-facebook-page.svg</image:loc>
     </image:image>
   </url>
@@ -267,6 +273,9 @@
     <lastmod>2018-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://github.com/saarangstudios/saarangstudios.github.io/images/arrow.png</image:loc>
+    </image:image>
     <image:image>
       <image:loc>https://github.com/saarangstudios/saarangstudios.github.io/images/visit-our-facebook-page.svg</image:loc>
     </image:image>
