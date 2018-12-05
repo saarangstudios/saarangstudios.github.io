@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://github.com/saarangstudios/saarangstudios.github.io" resolutions="1x" timestamp="1544010247662">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://github.com/saarangstudios/saarangstudios.github.io" resolutions="1x" timestamp="1544010429605">
   <folder name="css">
     <file name="site_global.css" crc="389828040"/>
     <file name="master_a-master.css" crc="340923821" ref="contact:index:services"/>
@@ -361,7 +361,7 @@
     <file name="portfolio.html" crc="3759596548" seo="true" mt="1539060726793" redirect="true"/>
     <file name="contact.html" crc="3954381356" seo="true" mt="1539060716930" redirect="true"/>
   </folder>
-  <file name="index.html" crc="4190888842" seo="true" mt="1544010212939" redirect="true"/>
+  <file name="index.html" crc="270473549" seo="true" mt="1544010405946" redirect="true"/>
   <file name="services.html" crc="207813455" seo="true" mt="1544007996444" redirect="true"/>
   <file name="contact.html" crc="4148781966" seo="true" mt="1544007996444" redirect="true"/>
   <file name="portfolio.html" crc="3991060597" seo="true" mt="1539061084808" redirect="true"/>
