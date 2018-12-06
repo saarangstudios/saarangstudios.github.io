@@ -1,7 +1,7 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://github.com/saarangstudios/saarangstudios.github.io" resolutions="1x" timestamp="1544010429605">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://github.com/saarangstudios/saarangstudios.github.io" resolutions="1x" timestamp="1544080035707">
   <folder name="css">
-    <file name="site_global.css" crc="389828040"/>
-    <file name="master_a-master.css" crc="340923821" ref="contact:index:services"/>
+    <file name="site_global.css" crc="11183953"/>
+    <file name="master_a-master.css" crc="477822846" ref="contact:index:services"/>
     <file name="nomq_preview_master_a-master.css" crc="416223306" ref="index:services:contact"/>
     <file name="master_picture-portofilio.css" crc="155115137" ref="motion:about:stills:stories:portfolio"/>
     <file name="contact.css" crc="529866975" ref="contact"/>
@@ -9,8 +9,8 @@
     <file name="about.css" crc="4244991807" ref="about"/>
     <file name="stills.css" crc="428469587" ref="stills"/>
     <file name="stories.css" crc="440562959" ref="stories"/>
-    <file name="index.css" crc="3816030172" ref="index"/>
-    <file name="nomq_index.css" crc="3994478955" ref="index"/>
+    <file name="index.css" crc="340805325" ref="index"/>
+    <file name="nomq_index.css" crc="3832672725" ref="index"/>
     <file name="portfolio.css" crc="215281497" ref="portfolio"/>
     <file name="services.css" crc="426167132" ref="services"/>
   </folder>
@@ -140,19 +140,19 @@
     </file>
     <file name="arrow.png" crc="201731658" ref="index:services:stills:motion:stories">
       <caption webpage="index" alt=""/>
+      <caption webpage="stories" alt=""/>
+      <caption webpage="stories" alt=""/>
+      <caption webpage="stories" alt=""/>
+      <caption webpage="stories" alt=""/>
+      <caption webpage="motion" alt=""/>
+      <caption webpage="motion" alt=""/>
+      <caption webpage="motion" alt=""/>
+      <caption webpage="motion" alt=""/>
+      <caption webpage="stills" alt=""/>
+      <caption webpage="stills" alt=""/>
+      <caption webpage="stills" alt=""/>
+      <caption webpage="stills" alt=""/>
       <caption webpage="contact" alt=""/>
-      <caption webpage="motion" alt=""/>
-      <caption webpage="motion" alt=""/>
-      <caption webpage="motion" alt=""/>
-      <caption webpage="motion" alt=""/>
-      <caption webpage="stories" alt=""/>
-      <caption webpage="stories" alt=""/>
-      <caption webpage="stories" alt=""/>
-      <caption webpage="stories" alt=""/>
-      <caption webpage="stills" alt=""/>
-      <caption webpage="stills" alt=""/>
-      <caption webpage="stills" alt=""/>
-      <caption webpage="stills" alt=""/>
     </file>
     <file name="arrow1.png" crc="30846836" ref="index:services:stills:motion:stories">
       <caption webpage="index" alt=""/>
@@ -164,7 +164,7 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="studio-light-png-1-crop-u36054.png" crc="3798752467" seo="true" ref="index">
+    <file name="studio-light-png-1-crop-u36054.png" crc="4164589836" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="asset 1.png" crc="27628882" seo="true" ref="index:services:contact">
@@ -361,7 +361,7 @@
     <file name="portfolio.html" crc="3759596548" seo="true" mt="1539060726793" redirect="true"/>
     <file name="contact.html" crc="3954381356" seo="true" mt="1539060716930" redirect="true"/>
   </folder>
-  <file name="index.html" crc="270473549" seo="true" mt="1544010405946" redirect="true"/>
+  <file name="index.html" crc="3856337403" seo="true" mt="1544080022065" redirect="true"/>
   <file name="services.html" crc="207813455" seo="true" mt="1544007996444" redirect="true"/>
   <file name="contact.html" crc="4148781966" seo="true" mt="1544007996444" redirect="true"/>
   <file name="portfolio.html" crc="3991060597" seo="true" mt="1539061084808" redirect="true"/>
