@@ -37,29 +37,7 @@
       <image:loc>https://github.com/saarangstudios/saarangstudios.github.io/images/top.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://github.com/saarangstudios/saarangstudios.github.io/images/studio-light-png-1-crop-u36054.png</image:loc>
-    </image:image>
-    <image:image>
       <image:loc>https://github.com/saarangstudios/saarangstudios.github.io/images/asset%201.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://github.com/saarangstudios/saarangstudios.github.io/images/studio-light-png-1-crop-u360542.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://github.com/saarangstudios/saarangstudios.github.io/images/studio-light-png-1-crop-u360543.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://github.com/saarangstudios/saarangstudios.github.io/images/studio-light-png-1-crop-u360544.png</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://github.com/saarangstudios/saarangstudios.github.io/portfolio.html</loc>
-    <lastmod>2018-10-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="https://github.com/saarangstudios/saarangstudios.github.io/phone/portfolio.html"/>
-    <image:image>
-      <image:loc>https://github.com/saarangstudios/saarangstudios.github.io/images/saarang%20studios--8.jpg</image:loc>
     </image:image>
   </url>
   <url>
@@ -93,6 +71,22 @@
     <image:image>
       <image:loc>https://github.com/saarangstudios/saarangstudios.github.io/images/phone-39-512.png</image:loc>
     </image:image>
+  </url>
+  <url>
+    <loc>https://github.com/saarangstudios/saarangstudios.github.io/portfolio.html</loc>
+    <lastmod>2018-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="https://github.com/saarangstudios/saarangstudios.github.io/phone/portfolio.html"/>
+    <image:image>
+      <image:loc>https://github.com/saarangstudios/saarangstudios.github.io/images/saarang%20studios--8.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://github.com/saarangstudios/saarangstudios.github.io/about.html</loc>
+    <lastmod>2018-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://github.com/saarangstudios/saarangstudios.github.io/stills.html</loc>
@@ -242,12 +236,6 @@
     </image:image>
   </url>
   <url>
-    <loc>https://github.com/saarangstudios/saarangstudios.github.io/about.html</loc>
-    <lastmod>2018-10-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://github.com/saarangstudios/saarangstudios.github.io/motion.html</loc>
     <lastmod>2018-10-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -264,11 +252,5 @@
     <image:image>
       <image:loc>https://github.com/saarangstudios/saarangstudios.github.io/images/visit-our-facebook-page.svg</image:loc>
     </image:image>
-  </url>
-  <url>
-    <loc>https://github.com/saarangstudios/saarangstudios.github.io/assets/saarang-loader.gif</loc>
-    <lastmod>2018-09-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
 </urlset>
