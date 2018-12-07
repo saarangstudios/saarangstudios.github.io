@@ -21,14 +21,14 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <title>SAARANG STUDIOS</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="../css/site_global.css?crc=11183953"/>
-  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?crc=390673188"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=85111827" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?crc=286399143"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=4111884410" id="pagesheet"/>
   <!-- Other scripts -->
   <script type="text/javascript">
    var __adobewebfontsappname__ = "muse";
 </script>
   <!-- JS includes -->
-  <script src="https://webfonts.creativecloud.com/cookie:n4:default;source-sans-pro:n7:default;asap:n4:default;muli:n4:default;quicksand:n7:default;basic:n4:default;lato:n4:default.js" type="text/javascript"></script>
+  <script src="https://webfonts.creativecloud.com/cookie:n4:default;muli:n4:default;quicksand:n7:default;asap:n4:default;basic:n4:default;lato:n4:default.js" type="text/javascript"></script>
     <!--custom head HTML-->
   <style>
 body {
@@ -65,6 +65,32 @@ body {
 </style>
   <!--HTML Widget code-->
   
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+<style>
+#main-nav { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: #000000; /* Force Hardware Acceleration in WebKit */
+-webkit-transform: translateZ(0); -webkit-backface-visibility: hidden; /* we move this element off the canvas */
+-webkit-transform: translateY(-100%); -moz-transform: translateY(-100%); -ms-transform: translateY(-100%); -o-transform: translateY(-100%); transform: translateY(-100%); -webkit-transition-property: -webkit-transform; -moz-transition-property: -moz-transform; transition-property: transform; -webkit-transition-duration: 0.5s; -moz-transition-duration: 0.5s; transition-duration: 0.5s; z-index: 3; }
+#main-nav ul { height: 100%; }
+#main-nav li { height: 20%; }
+#main-nav li a { position: relative; display: block; padding: 0 10%; height: 100%; border-bottom: 1px solid #F95E5E; color: #F4E8E8; font-size: 20px; font-size: 1.25rem; }
+#main-nav li a span { position: absolute; left: 50%; top: 50%; bottom: auto; right: auto; -webkit-transform: translateX(-50%) translateY(-50%); -moz-transform: translateX(-50%) translateY(-50%); -ms-transform: translateX(-50%) translateY(-50%); -o-transform: translateX(-50%) translateY(-50%); transform: translateX(-50%) translateY(-50%); }
+.no-touch #main-nav li a:hover { background-color: #000000; }
+#main-nav li:last-child a { border-bottom: none; }
+#main-nav .cd-close-menu { position: absolute; top: 0; right: 0; display: inline-block; width: 40px; height: 40px; background-color: #C41515; /* image replacement */
+overflow: hidden; text-indent: 100%; white-space: nowrap; }
+#main-nav .cd-close-menu::before, #main-nav .cd-close-menu::after { content: ''; display: inline-block; position: absolute; top: 18px; left: 10px; width: 20px; height: 3px; background-color: #FFF; -webkit-transition-property: -webkit-transform; -moz-transition-property: -moz-transform; transition-property: transform; -webkit-transition-duration: 0.3s; -moz-transition-duration: 0.3s; transition-duration: 0.3s; }
+#main-nav .cd-close-menu::before { -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -o-transform: rotate(45deg); transform: rotate(45deg); }
+#main-nav .cd-close-menu::after { -webkit-transform: rotate(135deg); -moz-transform: rotate(135deg); -ms-transform: rotate(135deg); -o-transform: rotate(135deg); transform: rotate(135deg); }
+.no-touch #main-nav .cd-close-menu:hover::before { -webkit-transform: rotate(225deg); -moz-transform: rotate(225deg); -ms-transform: rotate(225deg); -o-transform: rotate(225deg); transform: rotate(225deg); }
+.no-touch #main-nav .cd-close-menu:hover::after { -webkit-transform: rotate(315deg); -moz-transform: rotate(315deg); -ms-transform: rotate(315deg); -o-transform: rotate(315deg); transform: rotate(315deg); }
+#main-nav.is-visible { box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); -webkit-transform: translateY(0); -moz-transform: translateY(0); -ms-transform: translateY(0); -o-transform: translateY(0); transform: translateY(0); }
+.no-js #main-nav { position: static; -webkit-transform: translateY(0); -moz-transform: translateY(0); -ms-transform: translateY(0); -o-transform: translateY(0); transform: translateY(0); }
+.no-js #main-nav .cd-close-menu { display: none; }
+.cd-shadow-layer { position: fixed; top: 0; left: 0; height: 100%; width: 100%; background: rgba(0, 0, 0, 0.4); z-index: 2; opacity: 0; visibility: hidden; -webkit-transition: visibility 0s 0.5s, opacity 0.5s 0s; -moz-transition: visibility 0s 0.5s, opacity 0.5s 0s; transition: visibility 0s 0.5s, opacity 0.5s 0s; }
+.cd-shadow-layer.is-visible { opacity: 1; visibility: visible; -webkit-transition-delay: 0s; -moz-transition-delay: 0s; transition-delay: 0s; }
+
+</style>
+
 <style>
 .style1, .style2  {
        transition:all 0.3s ease;
@@ -104,102 +130,17 @@ body {
 				}
 				</style>
 			
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 <style>
-#main-nav { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: #000000; /* Force Hardware Acceleration in WebKit */
--webkit-transform: translateZ(0); -webkit-backface-visibility: hidden; /* we move this element off the canvas */
--webkit-transform: translateY(-100%); -moz-transform: translateY(-100%); -ms-transform: translateY(-100%); -o-transform: translateY(-100%); transform: translateY(-100%); -webkit-transition-property: -webkit-transform; -moz-transition-property: -moz-transform; transition-property: transform; -webkit-transition-duration: 0.5s; -moz-transition-duration: 0.5s; transition-duration: 0.5s; z-index: 3; }
-#main-nav ul { height: 100%; }
-#main-nav li { height: 20%; }
-#main-nav li a { position: relative; display: block; padding: 0 10%; height: 100%; border-bottom: 1px solid #F95E5E; color: #F4E8E8; font-size: 20px; font-size: 1.25rem; }
-#main-nav li a span { position: absolute; left: 50%; top: 50%; bottom: auto; right: auto; -webkit-transform: translateX(-50%) translateY(-50%); -moz-transform: translateX(-50%) translateY(-50%); -ms-transform: translateX(-50%) translateY(-50%); -o-transform: translateX(-50%) translateY(-50%); transform: translateX(-50%) translateY(-50%); }
-.no-touch #main-nav li a:hover { background-color: #000000; }
-#main-nav li:last-child a { border-bottom: none; }
-#main-nav .cd-close-menu { position: absolute; top: 0; right: 0; display: inline-block; width: 40px; height: 40px; background-color: #C41515; /* image replacement */
-overflow: hidden; text-indent: 100%; white-space: nowrap; }
-#main-nav .cd-close-menu::before, #main-nav .cd-close-menu::after { content: ''; display: inline-block; position: absolute; top: 18px; left: 10px; width: 20px; height: 3px; background-color: #FFF; -webkit-transition-property: -webkit-transform; -moz-transition-property: -moz-transform; transition-property: transform; -webkit-transition-duration: 0.3s; -moz-transition-duration: 0.3s; transition-duration: 0.3s; }
-#main-nav .cd-close-menu::before { -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -o-transform: rotate(45deg); transform: rotate(45deg); }
-#main-nav .cd-close-menu::after { -webkit-transform: rotate(135deg); -moz-transform: rotate(135deg); -ms-transform: rotate(135deg); -o-transform: rotate(135deg); transform: rotate(135deg); }
-.no-touch #main-nav .cd-close-menu:hover::before { -webkit-transform: rotate(225deg); -moz-transform: rotate(225deg); -ms-transform: rotate(225deg); -o-transform: rotate(225deg); transform: rotate(225deg); }
-.no-touch #main-nav .cd-close-menu:hover::after { -webkit-transform: rotate(315deg); -moz-transform: rotate(315deg); -ms-transform: rotate(315deg); -o-transform: rotate(315deg); transform: rotate(315deg); }
-#main-nav.is-visible { box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); -webkit-transform: translateY(0); -moz-transform: translateY(0); -ms-transform: translateY(0); -o-transform: translateY(0); transform: translateY(0); }
-.no-js #main-nav { position: static; -webkit-transform: translateY(0); -moz-transform: translateY(0); -ms-transform: translateY(0); -o-transform: translateY(0); transform: translateY(0); }
-.no-js #main-nav .cd-close-menu { display: none; }
-.cd-shadow-layer { position: fixed; top: 0; left: 0; height: 100%; width: 100%; background: rgba(0, 0, 0, 0.4); z-index: 2; opacity: 0; visibility: hidden; -webkit-transition: visibility 0s 0.5s, opacity 0.5s 0s; -moz-transition: visibility 0s 0.5s, opacity 0.5s 0s; transition: visibility 0s 0.5s, opacity 0.5s 0s; }
-.cd-shadow-layer.is-visible { opacity: 1; visibility: visible; -webkit-transition-delay: 0s; -moz-transition-delay: 0s; transition-delay: 0s; }
 
 </style>
+
 
  </head>
  <body>
 
   <div class="clearfix borderbox" id="page"><!-- group -->
-   <div class="clearfix grpelem" id="ppslideshowu6522"><!-- column -->
-    <div class="clearfix colelem" id="pslideshowu6522"><!-- group -->
-     <div class="SlideShowWidget clearfix HeroFillFrame grpelem" id="slideshowu6522" data-visibility="changed" style="visibility:hidden"><!-- none box -->
-      <div class="popup_anchor allow_click_through grpelem" data-col-pos="0" id="u6540popup">
-       <div class="SlideShowContentPanel clearfix" data-col-pos="0" id="u6540"><!-- stack box -->
-        <div class="SSSlide clip_frame grpelem" data-col-pos="0" id="u15327"><!-- image -->
-         <img class="ImageInclude" data-col-pos="0" id="u15327_img" data-src="../images/saarang%20studios-.jpg?crc=4040009401" src="../images/blank.gif?crc=4208392903" alt="" data-width="900" data-height="506"/>
-        </div>
-        <div class="SSSlide invi clip_frame grpelem" data-col-pos="1" id="u60346"><!-- image -->
-         <img class="ImageInclude" data-col-pos="1" id="u60346_img" data-src="../images/saarang%20studios-1393.jpg?crc=509658092" src="../images/blank.gif?crc=4208392903" alt="" data-width="759" data-height="506"/>
-        </div>
-        <div class="SSSlide invi clip_frame grpelem" data-col-pos="2" id="u60373"><!-- image -->
-         <img class="ImageInclude" data-col-pos="2" id="u60373_img" data-src="../images/saarang%20studios-1379.jpg?crc=4105206655" src="../images/blank.gif?crc=4208392903" alt="" data-width="759" data-height="506"/>
-        </div>
-        <div class="SSSlide invi clip_frame grpelem" data-col-pos="3" id="u60399"><!-- image -->
-         <img class="ImageInclude" data-col-pos="3" id="u60399_img" data-src="../images/saarang%20studios-1381.jpg?crc=4009152558" src="../images/blank.gif?crc=4208392903" alt="" data-width="759" data-height="506"/>
-        </div>
-        <div class="SSSlide invi clip_frame grpelem" data-col-pos="4" id="u60425"><!-- image -->
-         <img class="ImageInclude" data-col-pos="4" id="u60425_img" data-src="../images/saarang%20studios-1396.jpg?crc=3842969859" src="../images/blank.gif?crc=4208392903" alt="" data-width="759" data-height="506"/>
-        </div>
-        <div class="SSSlide invi clip_frame grpelem" data-col-pos="5" id="u60515"><!-- image -->
-         <img class="ImageInclude" data-col-pos="5" id="u60515_img" data-src="../images/saarang%20studios-2.jpg?crc=4099672300" src="../images/blank.gif?crc=4208392903" alt="" data-width="759" data-height="506"/>
-        </div>
-        <div class="SSSlide invi clip_frame grpelem" data-col-pos="6" id="u60542"><!-- image -->
-         <img class="ImageInclude" data-col-pos="6" id="u60542_img" data-src="../images/saarang%20studios-1216.jpg?crc=7787828" src="../images/blank.gif?crc=4208392903" alt="" data-width="759" data-height="506"/>
-        </div>
-        <div class="SSSlide invi clip_frame grpelem" data-col-pos="7" id="u60568"><!-- image -->
-         <img class="ImageInclude" data-col-pos="7" id="u60568_img" data-src="../images/saarang%20studios-1228.jpg?crc=3979694809" src="../images/blank.gif?crc=4208392903" alt="" data-width="759" data-height="506"/>
-        </div>
-        <div class="SSSlide invi clip_frame grpelem" data-col-pos="8" id="u60594"><!-- image -->
-         <img class="ImageInclude" data-col-pos="8" id="u60594_img" data-src="../images/saarang%20studios-1248.jpg?crc=4132446498" src="../images/blank.gif?crc=4208392903" alt="" data-width="759" data-height="506"/>
-        </div>
-        <div class="SSSlide invi clip_frame grpelem" data-col-pos="9" id="u60620"><!-- image -->
-         <img class="ImageInclude" data-col-pos="9" id="u60620_img" data-src="../images/img_7158-2.jpg?crc=167946734" src="../images/blank.gif?crc=4208392903" alt="" data-width="759" data-height="506"/>
-        </div>
-        <div class="SSSlide invi clip_frame grpelem" data-col-pos="10" id="u15509"><!-- image -->
-         <img class="ImageInclude" data-col-pos="10" id="u15509_img" data-src="../images/saarang%20studios-6528400368700182661.jpg?crc=4030122285" src="../images/blank.gif?crc=4208392903" alt="" data-width="759" data-height="506"/>
-        </div>
-        <div class="SSSlide invi clip_frame grpelem" data-col-pos="11" id="u15561"><!-- image -->
-         <img class="ImageInclude" data-col-pos="11" id="u15561_img" data-src="../images/saarang%20studios-2797.jpg?crc=98381176" src="../images/blank.gif?crc=4208392903" alt="" data-width="759" data-height="506"/>
-        </div>
-       </div>
-      </div>
-      <div class="popup_anchor allow_click_through grpelem" data-col-pos="7" id="u6532-3popup">
-       <div class="SSPreviousButton borderbox noselect clearfix" data-col-pos="7" id="u6532-3" data-sizePolicy="fluidWidth" data-pintopage="page_fixedLeft"><!-- content -->
-        <p>&nbsp;</p>
-       </div>
-      </div>
-      <div class="popup_anchor allow_click_through grpelem" data-col-pos="8" id="u6539-3popup">
-       <div class="SSNextButton borderbox noselect clearfix" data-col-pos="8" id="u6539-3" data-sizePolicy="fluidWidth" data-pintopage="page_fixedRight"><!-- content -->
-        <p>&nbsp;</p>
-       </div>
-      </div>
-     </div>
-     <div class="size_fixed grpelem" id="u6333" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- custom html -->
-      
-            
-     </div>
-     <div class="size_fixed grpelem" id="u5727" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- custom html -->
-      
-            
-     </div>
-     <div class="size_fixed grpelem" id="u67288" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- custom html -->
-      
-
-     </div>
+   <div class="clearfix grpelem" id="ppu21949"><!-- column -->
+    <div class="clearfix colelem" id="pu21949"><!-- group -->
      <div class="browser_width grpelem" id="u21949-bw">
       <div class="gradient" id="u21949"><!-- simple frame --></div>
      </div>
@@ -385,23 +326,133 @@ width:30%;
       </div>
      </div>
     </div>
-    <div class="browser_width colelem" id="buttonu103487-bw">
-     <div class="Button" id="buttonu103487"><!-- container box -->
-      <div class="clearfix" id="buttonu103487_align_to_page">
-       <div class="clip_frame grpelem" id="u107400"><!-- image -->
-        <img class="block" id="u107400_img" src="../images/iconfinder_whatsapp_2142581.png?crc=74454072" alt="" data-heightwidthratio="1" data-image-width="50" data-image-height="50"/>
+    <div class="clearfix colelem" id="pslideshowu6522"><!-- group -->
+     <div class="SlideShowWidget clearfix HeroFillFrame grpelem" id="slideshowu6522" data-visibility="changed" style="visibility:hidden"><!-- none box -->
+      <div class="popup_anchor allow_click_through grpelem" data-col-pos="0" id="u6540popup">
+       <div class="SlideShowContentPanel clearfix" data-col-pos="0" id="u6540"><!-- stack box -->
+        <div class="SSSlide clip_frame grpelem" data-col-pos="0" id="u15327"><!-- image -->
+         <img class="ImageInclude" data-col-pos="0" id="u15327_img" data-src="../images/saarang%20studios-.jpg?crc=4040009401" src="../images/blank.gif?crc=4208392903" alt="" data-width="900" data-height="506"/>
+        </div>
+        <div class="SSSlide invi clip_frame grpelem" data-col-pos="1" id="u60346"><!-- image -->
+         <img class="ImageInclude" data-col-pos="1" id="u60346_img" data-src="../images/saarang%20studios-1393.jpg?crc=509658092" src="../images/blank.gif?crc=4208392903" alt="" data-width="759" data-height="506"/>
+        </div>
+        <div class="SSSlide invi clip_frame grpelem" data-col-pos="2" id="u60373"><!-- image -->
+         <img class="ImageInclude" data-col-pos="2" id="u60373_img" data-src="../images/saarang%20studios-1379.jpg?crc=4105206655" src="../images/blank.gif?crc=4208392903" alt="" data-width="759" data-height="506"/>
+        </div>
+        <div class="SSSlide invi clip_frame grpelem" data-col-pos="3" id="u60399"><!-- image -->
+         <img class="ImageInclude" data-col-pos="3" id="u60399_img" data-src="../images/saarang%20studios-1381.jpg?crc=4009152558" src="../images/blank.gif?crc=4208392903" alt="" data-width="759" data-height="506"/>
+        </div>
+        <div class="SSSlide invi clip_frame grpelem" data-col-pos="4" id="u60425"><!-- image -->
+         <img class="ImageInclude" data-col-pos="4" id="u60425_img" data-src="../images/saarang%20studios-1396.jpg?crc=3842969859" src="../images/blank.gif?crc=4208392903" alt="" data-width="759" data-height="506"/>
+        </div>
+        <div class="SSSlide invi clip_frame grpelem" data-col-pos="5" id="u60515"><!-- image -->
+         <img class="ImageInclude" data-col-pos="5" id="u60515_img" data-src="../images/saarang%20studios-2.jpg?crc=4099672300" src="../images/blank.gif?crc=4208392903" alt="" data-width="759" data-height="506"/>
+        </div>
+        <div class="SSSlide invi clip_frame grpelem" data-col-pos="6" id="u60542"><!-- image -->
+         <img class="ImageInclude" data-col-pos="6" id="u60542_img" data-src="../images/saarang%20studios-1216.jpg?crc=7787828" src="../images/blank.gif?crc=4208392903" alt="" data-width="759" data-height="506"/>
+        </div>
+        <div class="SSSlide invi clip_frame grpelem" data-col-pos="7" id="u60568"><!-- image -->
+         <img class="ImageInclude" data-col-pos="7" id="u60568_img" data-src="../images/saarang%20studios-1228.jpg?crc=3979694809" src="../images/blank.gif?crc=4208392903" alt="" data-width="759" data-height="506"/>
+        </div>
+        <div class="SSSlide invi clip_frame grpelem" data-col-pos="8" id="u60594"><!-- image -->
+         <img class="ImageInclude" data-col-pos="8" id="u60594_img" data-src="../images/saarang%20studios-1248.jpg?crc=4132446498" src="../images/blank.gif?crc=4208392903" alt="" data-width="759" data-height="506"/>
+        </div>
+        <div class="SSSlide invi clip_frame grpelem" data-col-pos="9" id="u60620"><!-- image -->
+         <img class="ImageInclude" data-col-pos="9" id="u60620_img" data-src="../images/img_7158-2.jpg?crc=167946734" src="../images/blank.gif?crc=4208392903" alt="" data-width="759" data-height="506"/>
+        </div>
+        <div class="SSSlide invi clip_frame grpelem" data-col-pos="10" id="u15509"><!-- image -->
+         <img class="ImageInclude" data-col-pos="10" id="u15509_img" data-src="../images/saarang%20studios-6528400368700182661.jpg?crc=4030122285" src="../images/blank.gif?crc=4208392903" alt="" data-width="759" data-height="506"/>
+        </div>
+        <div class="SSSlide invi clip_frame grpelem" data-col-pos="11" id="u15561"><!-- image -->
+         <img class="ImageInclude" data-col-pos="11" id="u15561_img" data-src="../images/saarang%20studios-2797.jpg?crc=98381176" src="../images/blank.gif?crc=4208392903" alt="" data-width="759" data-height="506"/>
+        </div>
        </div>
-       <div class="clip_frame grpelem" id="u107379"><!-- image -->
-        <img class="block" id="u107379_img" src="../images/iconfinder_instagram_2142569.png?crc=3922973757" alt="" data-heightwidthratio="1" data-image-width="50" data-image-height="50"/>
+      </div>
+      <div class="popup_anchor allow_click_through grpelem" data-col-pos="7" id="u6532-3popup">
+       <div class="SSPreviousButton borderbox noselect clearfix" data-col-pos="7" id="u6532-3" data-sizePolicy="fluidWidth" data-pintopage="page_fixedLeft"><!-- content -->
+        <p>&nbsp;</p>
        </div>
-       <div class="clip_frame grpelem" id="u107386"><!-- image -->
-        <img class="block" id="u107386_img" src="../images/iconfinder_mail_2142571.png?crc=3887695119" alt="" data-heightwidthratio="1" data-image-width="50" data-image-height="50"/>
+      </div>
+      <div class="popup_anchor allow_click_through grpelem" data-col-pos="8" id="u6539-3popup">
+       <div class="SSNextButton borderbox noselect clearfix" data-col-pos="8" id="u6539-3" data-sizePolicy="fluidWidth" data-pintopage="page_fixedRight"><!-- content -->
+        <p>&nbsp;</p>
        </div>
-       <div class="clip_frame grpelem" id="u107371"><!-- image -->
-        <img class="block" id="u107371_img" src="../images/iconfinder_facebook_2142575.png?crc=439557741" alt="" data-heightwidthratio="1" data-image-width="50" data-image-height="50"/>
+      </div>
+     </div>
+     <div class="size_fixed grpelem" id="u6333" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- custom html -->
+      
+            
+     </div>
+     <div class="size_fixed grpelem" id="u5727" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- custom html -->
+      
+            
+     </div>
+     <div class="size_fixed grpelem" id="u67288" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- custom html -->
+      
+
+     </div>
+     <div class="size_fixed grpelem" id="u108556" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- custom html -->
+      
+			
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script>
+var showAlert = false;
+$(document).ready(function(){
+// this part disables the right click
+$('html').on('contextmenu', function(e) {
+    
+	if (showAlert) {
+        alert("Right Click has been Deactivated!");
+    }
+    showAlert = false;
+	
+return false;
+});
+
+//this part disables dragging of image
+$('img').on('dragstart', function(e) {
+return false;
+});
+
+});
+</script>
+
+
+     </div>
+    </div>
+    <div class="browser_width colelem" id="u108671-bw">
+     <div id="u108671"><!-- group -->
+      <div class="clearfix" id="u108671_align_to_page">
+       <div class="clearfix grpelem" id="u108668-4"><!-- content -->
+        <p>Reach our team</p>
        </div>
-       <div class="clip_frame grpelem" id="u107393"><!-- image -->
-        <img class="block" id="u107393_img" src="../images/iconfinder_twitter_2142582.png?crc=346050100" alt="" data-heightwidthratio="1" data-image-width="50" data-image-height="50"/>
+       <div class="PamphletWidget clearfix allow_click_through grpelem" id="pamphletu108215" data-visibility="changed" style="visibility:hidden" data-sizePolicy="fluidWidth" data-pintopage="page_fixedRight"><!-- none box -->
+        <div class="clearfix" id="pu108218"><!-- group -->
+         <div class="popup_anchor allow_click_through grpelem" data-col-pos="0" id="u108218popup">
+          <div class="ContainerGroup clearfix" data-col-pos="0" id="u108218"><!-- stack box -->
+           <div class="Container invi clearfix grpelem" data-col-pos="0" id="u108221"><!-- group -->
+            <div class="Button clearfix grpelem" id="buttonu103487" data-visibility="changed" style="visibility:hidden"><!-- container box -->
+             <a class="nonblock nontext clip_frame grpelem" id="u107400" href="wa-launchpad.html" target="_blank" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- image --><img class="block" id="u107400_img" src="../images/iconfinder_whatsapp_2142581.png?crc=510778864" alt="" width="50" height="50"/></a>
+             <div class="clip_frame grpelem" id="u107379" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- image -->
+              <img class="block" id="u107379_img" src="../images/iconfinder_instagram_2142569.png?crc=3883897784" alt="" width="50" height="50"/>
+             </div>
+             <div class="clip_frame grpelem" id="u107386" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- image -->
+              <img class="block" id="u107386_img" src="../images/iconfinder_mail_2142571.png?crc=4255266015" alt="" width="50" height="50"/>
+             </div>
+             <div class="clip_frame grpelem" id="u107371" data-sizePolicy="fixed" data-pintopage="page_fixedRight"><!-- image -->
+              <img class="block" id="u107371_img" src="../images/iconfinder_facebook_2142575.png?crc=314027065" alt="" width="50" height="50"/>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+        <div class="ThumbGroup clearfix grpelem" data-col-pos="1" id="u108224"><!-- none box -->
+         <div class="popup_anchor allow_click_through grpelem" data-col-pos="0" id="u108227popup">
+          <div class="Thumb popup_element borderbox" data-col-pos="0" id="u108227"><!-- simple frame --></div>
+         </div>
+        </div>
        </div>
       </div>
      </div>
@@ -520,31 +571,6 @@ width:30%;
         <p>Photography Service</p>
        </div>
        <div class="colelem" id="u27139"><!-- simple frame --></div>
-       <div class="clearfix colelem" id="u27425-5"><!-- content -->
-        <ul class="list0 nls-None" id="u27425-3">
-         <li>Birthday Photography</li>
-        </ul>
-       </div>
-       <div class="clearfix colelem" id="u27428-5"><!-- content -->
-        <ul class="list0 nls-None" id="u27428-3">
-         <li>New Born Photography</li>
-        </ul>
-       </div>
-       <div class="clearfix colelem" id="u27431-5"><!-- content -->
-        <ul class="list0 nls-None" id="u27431-3">
-         <li>Couple Photography</li>
-        </ul>
-       </div>
-       <div class="clearfix colelem" id="u27435-5"><!-- content -->
-        <ul class="list0 nls-None" id="u27435-3">
-         <li>Vacation Photography</li>
-        </ul>
-       </div>
-       <div class="clearfix colelem" id="u27434-5"><!-- content -->
-        <ul class="list0 nls-None" id="u27434-3">
-         <li>Date night photography</li>
-        </ul>
-       </div>
       </div>
      </div>
     </div>
@@ -597,19 +623,7 @@ width:30%;
      </div>
     </div>
     <div class="browser_width colelem" id="u30979-bw">
-     <div id="u30979"><!-- group -->
-      <div class="clearfix" id="u30979_align_to_page">
-       <div class="Button noselect gradient rounded-corners clearfix grpelem" id="buttonu30964" data-visibility="changed" style="visibility:hidden"><!-- container box -->
-        <div class="noselect grpelem" id="u30973"><!-- simple frame --></div>
-        <div class="noselect gradient rounded-corners clearfix grpelem" id="u30965-4"><!-- content -->
-         <p>Press here</p>
-        </div>
-        <div class="noselect clearfix grpelem" id="u30976-4"><!-- content -->
-         <p>Check out our mind blowing service because these matter</p>
-        </div>
-       </div>
-      </div>
-     </div>
+     <div id="u30979"><!-- simple frame --></div>
     </div>
    </div>
    <div class="verticalspacer" data-offset-top="4055" data-content-above-spacer="4055" data-content-below-spacer="176" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
@@ -637,6 +651,10 @@ width:30%;
     </div>
    </div>
   </div>
+  <div class="preload_images">
+   <img class="preload" src="../images/iconmonstr-close-27-240.png?crc=365509920" alt=""/>
+   <img class="preload" src="../images/iconmonstr-arrow-27-240.png?crc=282311182" alt=""/>
+  </div>
   <!-- JS includes -->
   <script type="text/javascript">
    if (document.location.protocol != 'https:') document.write('\x3Cscript src="http://musecdn2.businesscatalyst.com/scripts/4.0/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
@@ -659,11 +677,12 @@ var muse_init=function(){require.config({baseUrl:"../"});require(["jquery","muse
 window.Muse.assets.check($);/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.prepHyperlinks(true);/* body */
-Muse.Utils.resizeHeight('.popup_anchor.allow_click_through');/* resize height */
 Muse.Utils.resizeHeight('.browser_width');/* resize height */
 Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
+Muse.Utils.resizeHeight('.popup_anchor.allow_click_through');/* resize height */
 Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
 Muse.Utils.initWidget('#slideshowu6522', ['#bp_infinity'], function(elem) { var widget = new WebPro.Widget.ContentSlideShow(elem, {autoPlay:true,displayInterval:3500,slideLinkStopsSlideShow:false,transitionStyle:'fading',lightboxEnabled_runtime:false,shuffle:false,transitionDuration:300,enableSwipe:true,elastic:'fullWidth',resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:true}); $(elem).data('widget', widget); return widget; });/* #slideshowu6522 */
+Muse.Utils.initWidget('#pamphletu108215', ['#bp_infinity'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'click',deactivationEvent:'mouseout_click',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:true,triggersOnTop:true,shuffle:false,enableSwipe:false,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:true}); });/* #pamphletu108215 */
 Muse.Utils.fullPage('#page');/* 100% height page */
 Muse.Utils.showWidgetsWhenReady();/* body */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
@@ -675,12 +694,12 @@ Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
   
   <!--HTML Widget code-->
   
-	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NQWFQPR"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-	
 	 <script>
 jQuery(document).ready(function(e){e(".mf-menu").on("click",function(n){n.preventDefault(),e("#cd-main-content").addClass("move-out"),e("#main-nav").addClass("is-visible"),e(".cd-shadow-layer").addClass("is-visible")}),e(".cd-close-menu").on("click",function(n){n.preventDefault(),e("#cd-main-content").removeClass("move-out"),e("#main-nav").removeClass("is-visible"),e(".cd-shadow-layer").removeClass("is-visible")})});
         </script>
 				
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NQWFQPR"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	
    </body>
 </html>
