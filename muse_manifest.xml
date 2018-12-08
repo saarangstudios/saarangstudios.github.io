@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://github.com/saarangstudios/saarangstudios.github.io" resolutions="1x" timestamp="1544265389324">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://github.com/saarangstudios/saarangstudios.github.io" resolutions="1x" timestamp="1544267581825">
   <folder name="css">
     <file name="site_global.css" crc="11183953"/>
     <file name="master_a-master.css" crc="4003663263" ref="contact:index:services"/>
@@ -7,7 +7,7 @@
     <file name="contact.css" crc="494311352" ref="contact"/>
     <file name="motion.css" crc="47054420" ref="motion"/>
     <file name="about.css" crc="4244991807" ref="about"/>
-    <file name="stills.css" crc="4215232997" ref="stills"/>
+    <file name="stills.css" crc="3920196970" ref="stills"/>
     <file name="stories.css" crc="326087164" ref="stories"/>
     <file name="index.css" crc="3901843585" ref="index"/>
     <file name="nomq_index.css" crc="83150476" ref="index"/>
@@ -120,7 +120,7 @@
       <caption webpage="contact" alt=""/>
       <caption webpage="services" alt=""/>
     </file>
-    <file name="picture-portofilio-favicon.ico" crc="3918849811" ref="portfolio:stills"/>
+    <file name="picture-portofilio-favicon.ico" crc="3918849811" ref="portfolio"/>
     <file name="saarang studios--8.jpg" crc="529300533" seo="true" ref="portfolio">
       <caption webpage="portfolio" alt=""/>
     </file>
@@ -310,9 +310,9 @@
   <file name="index.html" crc="251217509" seo="true" mt="1544160355231" redirect="true"/>
   <file name="services.html" crc="207813455" seo="true" mt="1544007996444" redirect="true"/>
   <file name="contact.html" crc="392029581" seo="true" mt="1544087315324" redirect="true"/>
-  <file name="portfolio.html" crc="4110405130" seo="true" mt="1544262614402" redirect="true"/>
-  <file name="about.html" crc="15876368" seo="true" mt="1544262614402" redirect="true"/>
-  <file name="stills.html" crc="4266288504" seo="true" mt="1544265324430" redirect="true"/>
-  <file name="motion.html" crc="343958740" seo="true" mt="1544262614402" redirect="true"/>
-  <file name="stories.html" crc="4253041960" seo="true" mt="1544262614402" redirect="true"/>
+  <file name="portfolio.html" crc="195520994" seo="true" mt="1544265606470" redirect="true"/>
+  <file name="about.html" crc="4200951127" seo="true" mt="1544265606470" redirect="true"/>
+  <file name="stills.html" crc="4242358927" seo="true" mt="1544266813151" redirect="true"/>
+  <file name="motion.html" crc="123920000" seo="true" mt="1544265606470" redirect="true"/>
+  <file name="stories.html" crc="213566969" seo="true" mt="1544265606470" redirect="true"/>
 </manifest>
