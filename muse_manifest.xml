@@ -1,17 +1,17 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://github.com/saarangstudios/saarangstudios.github.io" resolutions="1x" timestamp="1544183542090">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://github.com/saarangstudios/saarangstudios.github.io" resolutions="1x" timestamp="1544265389324">
   <folder name="css">
-    <file name="site_global.css" crc="389828040"/>
+    <file name="site_global.css" crc="11183953"/>
     <file name="master_a-master.css" crc="4003663263" ref="contact:index:services"/>
     <file name="nomq_preview_master_a-master.css" crc="416223306" ref="index:services:contact"/>
     <file name="master_picture-portofilio.css" crc="155115137" ref="motion:about:stills:stories:portfolio"/>
     <file name="contact.css" crc="494311352" ref="contact"/>
-    <file name="motion.css" crc="203419217" ref="motion"/>
+    <file name="motion.css" crc="47054420" ref="motion"/>
     <file name="about.css" crc="4244991807" ref="about"/>
-    <file name="stills.css" crc="428469587" ref="stills"/>
-    <file name="stories.css" crc="440562959" ref="stories"/>
+    <file name="stills.css" crc="4215232997" ref="stills"/>
+    <file name="stories.css" crc="326087164" ref="stories"/>
     <file name="index.css" crc="3901843585" ref="index"/>
     <file name="nomq_index.css" crc="83150476" ref="index"/>
-    <file name="portfolio.css" crc="215281497" ref="portfolio"/>
+    <file name="portfolio.css" crc="3950265624" ref="portfolio"/>
     <file name="services.css" crc="426167132" ref="services"/>
   </folder>
   <folder name="scripts">
@@ -35,9 +35,9 @@
     <file name="blank.gif" crc="4208392903" ref="phone>index:phone>portfolio:index:services:portfolio:stills:motion:stories:contact"/>
     <file name="icons-01-crop-u32424.png" crc="4182621488" seo="true" ref="phone>index:phone>services:phone>contact:phone>policy">
       <caption webpage="index" alt=""/>
-      <caption webpage="services" alt=""/>
-      <caption webpage="contact" alt=""/>
       <caption webpage="policy" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="services" alt=""/>
     </file>
     <file name="saarang studios-.jpg" crc="4040009401" seo="true" ref="phone>index">
       <caption webpage="index" alt=""/>
@@ -75,7 +75,6 @@
       <caption webpage="index" alt=""/>
       <caption webpage="stills" alt=""/>
       <caption webpage="stills" alt=""/>
-      <caption webpage="stills" alt=""/>
       <caption webpage="portfolio" alt=""/>
     </file>
     <file name="saarang studios-2797.jpg" crc="98381176" ref="phone>index:index:phone>portfolio" seo="true">
@@ -92,13 +91,13 @@
       <caption webpage="contact" alt=""/>
       <caption webpage="services" alt=""/>
     </file>
-    <file name="arrow.png" crc="201731658" ref="index:services:stills:motion:stories:contact">
+    <file name="arrow.png" crc="201731658" ref="index:services:stills:motion:stories:contact" seo="true">
       <caption webpage="index" alt=""/>
+      <caption webpage="motion" alt=""/>
+      <caption webpage="motion" alt=""/>
+      <caption webpage="motion" alt=""/>
+      <caption webpage="motion" alt=""/>
       <caption webpage="contact" alt=""/>
-      <caption webpage="motion" alt=""/>
-      <caption webpage="motion" alt=""/>
-      <caption webpage="motion" alt=""/>
-      <caption webpage="motion" alt=""/>
       <caption webpage="stills" alt=""/>
       <caption webpage="stills" alt=""/>
       <caption webpage="stills" alt=""/>
@@ -111,6 +110,7 @@
     <file name="arrow1.png" crc="30846836" ref="index:services:stills:motion:stories:contact">
       <caption webpage="index" alt=""/>
       <caption webpage="contact" alt=""/>
+      <caption webpage="stills" alt=""/>
     </file>
     <file name="asset 1.png" crc="27628882" seo="true" ref="index:services:contact">
       <caption webpage="index" alt=""/>
@@ -120,14 +120,14 @@
       <caption webpage="contact" alt=""/>
       <caption webpage="services" alt=""/>
     </file>
-    <file name="picture-portofilio-favicon.ico" crc="3918849811" ref="portfolio"/>
+    <file name="picture-portofilio-favicon.ico" crc="3918849811" ref="portfolio:stills"/>
     <file name="saarang studios--8.jpg" crc="529300533" seo="true" ref="portfolio">
       <caption webpage="portfolio" alt=""/>
     </file>
     <file name="noise.png" crc="163761179" ref="stills:motion:stories">
-      <caption webpage="stories" alt=""/>
       <caption webpage="stills" alt=""/>
       <caption webpage="motion" alt=""/>
+      <caption webpage="stories" alt=""/>
     </file>
     <file name="saarang studios-2797-crop-u44058.jpg" crc="3850014732" seo="true" ref="stills">
       <caption webpage="stills" alt=""/>
@@ -141,7 +141,7 @@
     <file name="saarang studios--6-crop-u45326.jpg" crc="330979629" seo="true" ref="stills">
       <caption webpage="stills" alt=""/>
     </file>
-    <file name="saarang studios-6528400368700182661-crop-u45406.jpg" crc="3856059616" seo="true" ref="stills">
+    <file name="saarang studios-6528400368700182661-crop-u45406.jpg" crc="3955846979" seo="true" ref="stills">
       <caption webpage="stills" alt=""/>
     </file>
     <file name="4365471970084186223-crop-u45446.jpg" crc="367100424" seo="true" ref="stills">
@@ -150,7 +150,7 @@
     <file name="saarang studios--crop-u45226.jpg" crc="3861151496" seo="true" ref="stills">
       <caption webpage="stills" alt=""/>
     </file>
-    <file name="saarang studios--3-crop-u45266.jpg" crc="3838645593" seo="true" ref="stills">
+    <file name="saarang studios--3-crop-u45266.jpg" crc="4222278698" seo="true" ref="stills">
       <caption webpage="stills" alt=""/>
     </file>
     <file name="saarang studios--5-crop-u45306.jpg" crc="3995315594" seo="true" ref="stills">
@@ -205,7 +205,7 @@
     <file name="saarang studios--5-crop-u46718.jpg" crc="3995315594" seo="true" ref="stills">
       <caption webpage="stills" alt=""/>
     </file>
-    <file name="saarang studios--7-crop-u46726.jpg" crc="105175583" seo="true" ref="stills">
+    <file name="saarang studios--7-crop-u46726.jpg" crc="435554717" seo="true" ref="stills">
       <caption webpage="stills" alt=""/>
     </file>
     <file name="saarang studios--2-crop-u46706.jpg" crc="3775865921" seo="true" ref="stills">
@@ -214,7 +214,7 @@
     <file name="saarang studios--6-crop-u46716.jpg" crc="330979629" seo="true" ref="stills">
       <caption webpage="stills" alt=""/>
     </file>
-    <file name="saarang studios-6528400368700182661-crop-u46704.jpg" crc="3856059616" seo="true" ref="stills">
+    <file name="saarang studios-6528400368700182661-crop-u46704.jpg" crc="3955846979" seo="true" ref="stills">
       <caption webpage="stills" alt=""/>
     </file>
     <file name="saarang studios--crop-u46687.jpg" crc="189456053" seo="true" ref="stills">
@@ -232,33 +232,6 @@
     <file name="saarang studios--7-crop-u46683.jpg" crc="294072363" seo="true" ref="stills">
       <caption webpage="stills" alt=""/>
     </file>
-    <file name="saarang studios--crop-u50532.jpg" crc="3861151496" seo="true" ref="stills">
-      <caption webpage="stills" alt=""/>
-    </file>
-    <file name="saarang studios--5-crop-u50538.jpg" crc="3995315594" seo="true" ref="stills">
-      <caption webpage="stills" alt=""/>
-    </file>
-    <file name="saarang studios-6528400368700182661-crop-u50536.jpg" crc="3856059616" seo="true" ref="stills">
-      <caption webpage="stills" alt=""/>
-    </file>
-    <file name="saarang studios--2-crop-u50530.jpg" crc="3775865921" seo="true" ref="stills">
-      <caption webpage="stills" alt=""/>
-    </file>
-    <file name="saarang studios--6-crop-u50534.jpg" crc="330979629" seo="true" ref="stills">
-      <caption webpage="stills" alt=""/>
-    </file>
-    <file name="saarang studios--crop-u50545.jpg" crc="189456053" seo="true" ref="stills">
-      <caption webpage="stills" alt=""/>
-    </file>
-    <file name="saarang studios--2-crop-u50547.jpg" crc="317841349" seo="true" ref="stills">
-      <caption webpage="stills" alt=""/>
-    </file>
-    <file name="saarang studios--5-crop-u50549.jpg" crc="3804592524" seo="true" ref="stills">
-      <caption webpage="stills" alt=""/>
-    </file>
-    <file name="saarang studios--6-crop-u50553.jpg" crc="262978855" seo="true" ref="stills">
-      <caption webpage="stills" alt=""/>
-    </file>
     <file name="saarang studios--crop-u60466.jpg" crc="3861151496" seo="true" ref="stills">
       <caption webpage="stills" alt=""/>
     </file>
@@ -266,9 +239,9 @@
       <caption webpage="stills" alt=""/>
     </file>
     <file name="visit-our-facebook-page.svg" crc="217931728" seo="true" ref="stills:motion:stories">
-      <caption webpage="stories" alt=""/>
       <caption webpage="stills" alt=""/>
       <caption webpage="motion" alt=""/>
+      <caption webpage="stories" alt=""/>
     </file>
     <file name="visit our facebook page_poster_.png" crc="417291196" ref="stills"/>
     <file name="instagram-5-512.png" crc="303379228" seo="true" ref="contact">
@@ -280,9 +253,9 @@
     <file name="iconmonstr-home-6-240.png" crc="3912401154" seo="true" ref="phone>index:phone>services:phone>portfolio:phone>contact:phone>policy">
       <caption webpage="index" alt=""/>
       <caption webpage="portfolio" alt=""/>
+      <caption webpage="policy" alt=""/>
       <caption webpage="contact" alt=""/>
       <caption webpage="services" alt=""/>
-      <caption webpage="policy" alt=""/>
     </file>
     <file name="icons-01-crop-u106716.png" crc="4182621488" seo="true" ref="phone>portfolio">
       <caption webpage="portfolio" alt=""/>
@@ -313,34 +286,33 @@
   <folder name="phone">
     <folder name="css">
       <file name="master_b-master.css" crc="461469681" ref="phone>portfolio"/>
-      <file name="master_a-master.css" crc="269812944" ref="phone>index:phone>contact:phone>services:phone>policy"/>
-      <file name="index.css" crc="4060593501" ref="phone>index"/>
+      <file name="master_a-master.css" crc="405684688" ref="phone>index:phone>contact:phone>services:phone>policy"/>
+      <file name="index.css" crc="3814280476" ref="phone>index"/>
       <file name="portfolio.css" crc="4198888364" ref="phone>portfolio"/>
       <file name="contact.css" crc="3924398189" ref="phone>contact"/>
       <file name="services.css" crc="3924398189" ref="phone>services"/>
       <file name="wa-launchpad.css" crc="80146057" ref="phone>wa-launchpad"/>
-      <file name="nomq_wa-launchpad.css" crc="3824530138" ref="phone>wa-launchpad"/>
       <file name="mail-launchpad.css" crc="3889744770" ref="phone>mail-launchpad"/>
       <file name="policy.css" crc="3924398189" ref="phone>policy"/>
       <file name="facebook-launchpad.css" crc="117660168" ref="phone>facebook-launchpad"/>
       <file name="insta-launchpad.css" crc="4021110813" ref="phone>insta-launchpad"/>
     </folder>
-    <file name="index.html" crc="3953835212" seo="true" mt="1544183209402" redirect="true"/>
-    <file name="services.html" crc="3859196082" seo="true" mt="1544183209402" redirect="true"/>
+    <file name="index.html" crc="3832987328" seo="true" mt="1544247974313" redirect="true"/>
+    <file name="services.html" crc="4294181440" seo="true" mt="1544247974313" redirect="true"/>
     <file name="portfolio.html" crc="3922425854" seo="true" mt="1544183245549" redirect="true"/>
-    <file name="contact.html" crc="447384825" seo="true" mt="1544183209402" redirect="true"/>
-    <file name="wa-launchpad.html" crc="4052847277" seo="true" mt="1544163864024" redirect="true"/>
+    <file name="contact.html" crc="3813768276" seo="true" mt="1544247974313" redirect="true"/>
+    <file name="wa-launchpad.html" crc="4052847277" seo="true" mt="1544247803646" redirect="true"/>
     <file name="insta-launchpad.html" crc="349662990" seo="true" mt="1544181652010" redirect="true"/>
     <file name="mail-launchpad.html" crc="381797552" seo="true" mt="1544181659806" redirect="true"/>
     <file name="facebook-launchpad.html" crc="260481843" seo="true" mt="1544181663796" redirect="true"/>
-    <file name="policy.html" crc="117493109" seo="true" mt="1544183209404" redirect="true"/>
+    <file name="policy.html" crc="3995505994" seo="true" mt="1544247974313" redirect="true"/>
   </folder>
   <file name="index.html" crc="251217509" seo="true" mt="1544160355231" redirect="true"/>
   <file name="services.html" crc="207813455" seo="true" mt="1544007996444" redirect="true"/>
   <file name="contact.html" crc="392029581" seo="true" mt="1544087315324" redirect="true"/>
-  <file name="portfolio.html" crc="3991060597" seo="true" mt="1539061084808" redirect="true"/>
-  <file name="about.html" crc="4200951127" seo="true" mt="1539060707965" redirect="true"/>
-  <file name="stills.html" crc="106063225" seo="true" mt="1539060707965" redirect="true"/>
-  <file name="motion.html" crc="4052821358" seo="true" mt="1539060707965" redirect="true"/>
-  <file name="stories.html" crc="434052741" seo="true" mt="1539060707965" redirect="true"/>
+  <file name="portfolio.html" crc="4110405130" seo="true" mt="1544262614402" redirect="true"/>
+  <file name="about.html" crc="15876368" seo="true" mt="1544262614402" redirect="true"/>
+  <file name="stills.html" crc="4266288504" seo="true" mt="1544265324430" redirect="true"/>
+  <file name="motion.html" crc="343958740" seo="true" mt="1544262614402" redirect="true"/>
+  <file name="stories.html" crc="4253041960" seo="true" mt="1544262614402" redirect="true"/>
 </manifest>
