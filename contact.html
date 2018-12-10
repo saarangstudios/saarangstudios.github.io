@@ -19,19 +19,18 @@
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
 
 // Check that all required assets are uploaded and up-to-date
-if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.musemenu.js", "jquery.watch.js", "webpro.js", "require.js", "contact.css"], "outOfDate":[]};
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.musemenu.js", "jquery.watch.js", "require.js", "contact.css"], "outOfDate":[]};
 </script>
   
   <link media="only screen and (max-width: 370px)" rel="alternate" href="https://github.com/saarangstudios/saarangstudios.github.io/phone/contact.html"/>
   <link rel="shortcut icon" href="images/a-master-favicon.ico?crc=3918849811"/>
   <title>Contact</title>
   <!-- CSS -->
-  <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=389828040"/>
-  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?crc=3925274001"/>
-  <link rel="stylesheet" type="text/css" href="css/contact.css?crc=3943446177" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=11183953"/>
+  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?crc=144243277"/>
+  <link rel="stylesheet" type="text/css" href="css/contact.css?crc=3768880393" id="pagesheet"/>
   <!-- IE-only CSS -->
   <!--[if lt IE 9]>
-  <link rel="stylesheet" type="text/css" href="css/iefonts_contact.css?crc=291015396"/>
   <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_a-master.css?crc=416223306" id="nomq_pagesheet"/>
   <![endif]-->
   <!-- Other scripts -->
@@ -39,7 +38,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
    var __adobewebfontsappname__ = "muse";
 </script>
   <!-- JS includes -->
-  <script src="https://webfonts.creativecloud.com/cabin:n7:default;asap:n4,i4:default;muli:n4:default;lato:n4:default.js" type="text/javascript"></script>
+  <script src="https://webfonts.creativecloud.com/asap:n4:default;lato:n4:default;muli:n4:default;cabin:n7:default.js" type="text/javascript"></script>
   <!--[if lt IE 9]>
   <script src="scripts/html5shiv.js?crc=4241844378" type="text/javascript"></script>
   <![endif]-->
@@ -139,6 +138,66 @@ position:relative !important;
 }
 
 </style>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
+<a id="button"></a>
+<style>
+#button {
+  display: inline-block;
+  background-color: #FF9800;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  left: 30px;
+  transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+#button:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+#button:active {
+  background-color: #555;
+}
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}
+</style>
+
+<script>
+var btn = $('#button');
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 300) {
+    btn.addClass('show');
+  } else {
+    btn.removeClass('show');
+  }
+});
+
+btn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
+});
+
+</script>
   <!--HTML Widget code-->
   
 	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -167,6 +226,11 @@ position:relative !important;
 				</style>
 			
 <style>
+
+</style>
+
+
+<style>
 .style1, .style2  {
        transition:all 0.3s ease;
 	-webkit-transition: all 0.3s ease;
@@ -179,11 +243,6 @@ position:relative !important;
 ::selection      { color: #EFEFEF;  background: #0F0F0F; } 
 
 </style>
-
-<style>
-
-</style>
-
 
  </head>
  <body>
@@ -396,7 +455,7 @@ width:30%;
      </div>
     </div>
    </div>
-   <div class="verticalspacer" data-offset-top="875" data-content-above-spacer="875" data-content-below-spacer="1393" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+   <div class="verticalspacer" data-offset-top="875" data-content-above-spacer="875" data-content-below-spacer="1822" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
    <div class="clearfix grpelem" id="ppu113279-4"><!-- column -->
     <div class="clearfix colelem" id="pu113279-4"><!-- group -->
      <div class="browser_width grpelem" id="u113279-4-bw">
@@ -404,25 +463,24 @@ width:30%;
        <p>Ready to work with us</p>
       </div>
      </div>
+     <div class="browser_width grpelem" id="u113282-4-bw">
+      <div class="clearfix" id="u113282-4"><!-- content -->
+       <p>Share some info with us and we will get in touch with you</p>
+      </div>
+     </div>
      <div class="size_fixed grpelem" id="u10088" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- custom html -->
       
 
      </div>
     </div>
-    <div class="browser_width colelem" id="u113282-4-bw">
-     <div class="clearfix" id="u113282-4"><!-- content -->
-      <p>Share some info with us and we will get in touch with you</p>
-     </div>
-    </div>
-    <div class="clearfix colelem" id="ppu6328"><!-- group -->
-     <div class="clearfix grpelem" id="pu6328"><!-- column -->
-      <div class="size_fixed colelem" id="u6328" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- custom html -->
-       
-            
-      </div>
-      <div class="size_fixed colelem" id="u5722" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- custom html -->
-       
-            
+    <div class="clearfix colelem" id="pbuttonu116979"><!-- group -->
+     <div class="browser_width grpelem" id="buttonu116979-bw">
+      <div class="Button" id="buttonu116979"><!-- container box -->
+       <div class="clearfix" id="buttonu116979_align_to_page">
+        <div class="grpelem" id="u116793"><!-- custom html -->
+         <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd4u53TiLeirUmCrp-gWfRTA55FbuB1X3dhJJKJBV9WzsqKaA/viewform?embedded=true" width="640" height="999" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+        </div>
+       </div>
       </div>
      </div>
      <div class="size_fixed grpelem" id="u1059" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- custom html -->
@@ -454,91 +512,14 @@ return false;
 
 
      </div>
-     <form class="form-grp clearfix grpelem" id="widgetu113285" method="post" enctype="multipart/form-data" action="scripts/form-u113285.php" data-sizePolicy="fluidWidth" data-pintopage="page_fixedCenter"><!-- none box -->
-      <div class="position_content" id="widgetu113285_position_content">
-       <div class="fld-grp clearfix colelem" id="widgetu113307" data-required="true" data-sizePolicy="fluidWidth" data-pintopage="page_fluidx"><!-- none box -->
-        <div class="clearfix colelem" id="pu113309-4"><!-- group -->
-         <label class="fld-label actAsDiv clearfix grpelem" id="u113309-4" for="widgetu113307_input"><!-- content --><span class="actAsPara">Name:</span></label>
-         <div class="fld-message clearfix grpelem" id="u113310-4"><!-- content -->
-          <p>Required</p>
-         </div>
-        </div>
-        <span class="fld-input NoWrap actAsDiv clearfix colelem" id="u113308-4"><!-- content --><div id="u113308-3"><input class="wrapped-input" type="text" spellcheck="false" id="widgetu113307_input" name="custom_U113307" tabindex="1"/><label class="wrapped-input fld-prompt" id="widgetu113307_prompt" for="widgetu113307_input"><span class="actAsPara">Enter Full Name</span></label></div></span>
-       </div>
-       <div class="fld-grp clearfix colelem" id="widgetu113295" data-required="true" data-type="email" data-sizePolicy="fluidWidth" data-pintopage="page_fluidx"><!-- none box -->
-        <div class="clearfix colelem" id="pu113297-4"><!-- group -->
-         <label class="fld-label actAsDiv clearfix grpelem" id="u113297-4" for="widgetu113295_input"><!-- content --><span class="actAsPara">Email:</span></label>
-         <div class="fld-message clearfix grpelem" id="u113298-4"><!-- content -->
-          <p>Required</p>
-         </div>
-        </div>
-        <span class="fld-input NoWrap actAsDiv clearfix colelem" id="u113296-4"><!-- content --><div id="u113296-3"><input class="wrapped-input" type="email" spellcheck="false" id="widgetu113295_input" name="Email" tabindex="2"/><label class="wrapped-input fld-prompt" id="widgetu113295_prompt" for="widgetu113295_input"><span class="actAsPara">Enter Email</span></label></div></span>
-       </div>
-       <div class="fld-grp clearfix colelem" id="widgetu113477" data-required="true" data-type="checkboxgroup" data-sizePolicy="fluidWidth" data-pintopage="page_fluidx"><!-- none box -->
-        <div class="clearfix colelem" id="pu113478-4"><!-- group -->
-         <label class="fld-label actAsDiv clearfix grpelem" id="u113478-4"><!-- content --><span class="actAsPara">How did you get to know about Saarang Studios:</span></label>
-         <div class="fld-message clearfix grpelem" id="u113480-4"><!-- content -->
-          <p>Required</p>
-         </div>
-        </div>
-        <div class="fld-grp clearfix colelem" id="widgetu113488" data-required="false" data-type="checkbox" data-sizePolicy="fluidWidth" data-pintopage="page_fluidx"><!-- none box -->
-         <div class="fld-checkbox grpelem" id="u113494"><!-- simple frame -->
-          <input class="wrapped-input" type="checkbox" value="Word of mouth" id="widgetu113488_input" name="custom_U113477[]" tabindex="3"/>
-          <label for="widgetu113488_input"></label>
-         </div>
-         <label class="fld-label actAsDiv clearfix grpelem" id="u113489-4" for="widgetu113488_input" data-sizePolicy="fluidWidth" data-pintopage="page_fixedLeft"><!-- content --><span class="actAsPara">Word of mouth</span></label>
-        </div>
-        <div class="fld-grp clearfix colelem" id="widgetu113529" data-required="false" data-type="checkbox" data-sizePolicy="fluidWidth" data-pintopage="page_fluidx"><!-- none box -->
-         <div class="fld-checkbox grpelem" id="u113530"><!-- simple frame -->
-          <input class="wrapped-input" type="checkbox" value="Facebook/Instagram" id="widgetu113529_input" name="custom_U113477[]" tabindex="3"/>
-          <label for="widgetu113529_input"></label>
-         </div>
-         <label class="fld-label actAsDiv clearfix grpelem" id="u113531-4" for="widgetu113529_input" data-sizePolicy="fluidWidth" data-pintopage="page_fixedLeft"><!-- content --><span class="actAsPara">Facebook/Instagram</span></label>
-        </div>
-        <div class="fld-grp clearfix colelem" id="widgetu114192" data-required="false" data-type="checkbox" data-sizePolicy="fluidWidth" data-pintopage="page_fluidx"><!-- none box -->
-         <div class="fld-checkbox grpelem" id="u114194"><!-- simple frame -->
-          <input class="wrapped-input" type="checkbox" value="Search/Google" id="widgetu114192_input" name="custom_U113477[]" tabindex="3"/>
-          <label for="widgetu114192_input"></label>
-         </div>
-         <label class="fld-label actAsDiv clearfix grpelem" id="u114193-4" for="widgetu114192_input" data-sizePolicy="fluidWidth" data-pintopage="page_fixedLeft"><!-- content --><span class="actAsPara">Search/Google</span></label>
-        </div>
-       </div>
-       <div class="fld-grp clearfix colelem" id="widgetu113568" data-required="true" data-sizePolicy="fluidWidth" data-pintopage="page_fluidx"><!-- none box -->
-        <div class="clearfix colelem" id="pu113569-4"><!-- group -->
-         <label class="fld-label actAsDiv clearfix grpelem" id="u113569-4" for="widgetu113568_input"><!-- content --><span class="actAsPara">Work Phone:</span></label>
-         <div class="fld-message clearfix grpelem" id="u113571-4"><!-- content -->
-          <p>Required</p>
-         </div>
-        </div>
-        <span class="fld-input NoWrap actAsDiv clearfix colelem" id="u113570-4"><!-- content --><div id="u113570-3"><input class="wrapped-input" type="tel" spellcheck="false" id="widgetu113568_input" name="custom_U113568" tabindex="4"/><label class="wrapped-input fld-prompt" id="widgetu113568_prompt" for="widgetu113568_input"><span class="actAsPara">Enter Phone Number</span></label></div></span>
-       </div>
-       <div class="fld-grp clearfix colelem" id="widgetu113303" data-required="true" data-sizePolicy="fluidWidth" data-pintopage="page_fluidx"><!-- none box -->
-        <div class="clearfix colelem" id="pu113304-4"><!-- group -->
-         <label class="fld-label actAsDiv clearfix grpelem" id="u113304-4" for="widgetu113303_input"><!-- content --><span class="actAsPara">Message:</span></label>
-         <div class="fld-message clearfix grpelem" id="u113305-4"><!-- content -->
-          <p>Required</p>
-         </div>
-        </div>
-        <span class="fld-textarea actAsDiv clearfix colelem" id="u113306-4"><!-- content --><div id="u113306-3"><textarea class="wrapped-input" id="widgetu113303_input" name="custom_U113303" tabindex="5"></textarea><label class="wrapped-input fld-prompt" id="widgetu113303_prompt" for="widgetu113303_input"><span class="actAsPara">Enter Your Message</span></label></div></span>
-       </div>
-       <button class="submit-btn NoWrap clearfix colelem" id="u113323-4" type="submit" value="Submit" tabindex="6"><!-- content -->
-        <div style="margin-top:-11px;height:11px;">
-         <p>Submit</p>
-        </div>
-       </button>
-       <div class="clearfix colelem" id="pu113325-4"><!-- group -->
-        <div class="clearfix grpelem" id="u113325-4"><!-- content -->
-         <p>Submitting Form...</p>
-        </div>
-        <div class="clearfix grpelem" id="u113324-4"><!-- content -->
-         <p>The server encountered an error.</p>
-        </div>
-        <div class="clearfix grpelem" id="u113286-4"><!-- content -->
-         <p>Form received.</p>
-        </div>
-       </div>
-      </div>
-     </form>
+     <div class="size_fixed grpelem" id="u6328" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- custom html -->
+      
+            
+     </div>
+     <div class="size_fixed grpelem" id="u5722" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- custom html -->
+      
+            
+     </div>
     </div>
     <div class="browser_width colelem" id="u5332-bw">
      <div id="u5332"><!-- column -->
@@ -631,7 +612,7 @@ var suppressMissingFileError = false
 k[1]:null,k=k&&k[2]?k[2]:null;switch(k.toLowerCase()){case "css":i=i.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");g.className+=" "+i;i=a(d(g,"color"));k=a(d(g,"backgroundColor"));i!=0||k!=0?(Muse.assets.required.splice(j,1),"undefined"!=typeof b[l]&&(i!=b[l]>>>24||k!=(b[l]&16777215))&&Muse.assets.outOfDate.push(l)):j++;g.className="version";break;case "js":j++;break;default:throw Error("Unsupported file type: "+k);}}c?c().jquery!="1.8.3"&&Muse.assets.outOfDate.push("jquery-1.8.3.min.js"):Muse.assets.required.push("jquery-1.8.3.min.js");
 g.parentNode.removeChild(g);if(Muse.assets.outOfDate.length||Muse.assets.required.length)g="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",f&&Muse.assets.outOfDate.length&&(g+="\nOut of date: "+Muse.assets.outOfDate.join(",")),f&&Muse.assets.required.length&&(g+="\nMissing: "+Muse.assets.required.join(",")),suppressMissingFileError?(g+="\nUse SuppressMissingFileError key in AppPrefs.xml to show missing file error pop up.",console.log(g)):alert(g)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?
 setTimeout(function(){f(!0)},5E3):f()}};
-var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.musemenu","jquery.watch","webpro"],function(c){var $ = c;$(document).ready(function(){try{
+var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.musemenu","jquery.watch"],function(c){var $ = c;$(document).ready(function(){try{
 window.Muse.assets.check($);/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.prepHyperlinks(true);/* body */
@@ -639,7 +620,6 @@ Muse.Utils.resizeHeight('.browser_width');/* resize height */
 Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
 Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
 Muse.Utils.initWidget('.MenuBar', ['#bp_infinity'], function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
-Muse.Utils.initWidget('#widgetu113285', ['#bp_infinity'], function(elem) { return new WebPro.Widget.Form(elem, {validationEvent:'submit',errorStateSensitivity:'high',fieldWrapperClass:'fld-grp',formSubmittedClass:'frm-sub-st',formErrorClass:'frm-subm-err-st',formDeliveredClass:'frm-subm-ok-st',notEmptyClass:'non-empty-st',focusClass:'focus-st',invalidClass:'fld-err-st',requiredClass:'fld-err-st',ajaxSubmit:true}); });/* #widgetu113285 */
 Muse.Utils.fullPage('#page');/* 100% height page */
 Muse.Utils.showWidgetsWhenReady();/* body */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
