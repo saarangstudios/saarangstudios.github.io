@@ -10,25 +10,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   
   <script type="text/javascript">
-   // Update the 'nojs'/'js' class on the html node
+   // Redirect to phone/tablet as necessary
+(function(c,b,d){var a=function(){if(navigator.maxTouchPoints>1)return!0;if(window.matchMedia&&window.matchMedia("(-moz-touch-enabled)").matches)return!0;for(var a=["Webkit","Moz","O","ms","Khtml"],b=0,c=a.length;b<c;b++){var d=a[b]+"MaxTouchPoints";if(d in navigator&&navigator[d])return!0}try{return document.createEvent("TouchEvent"),!0}catch(f){}return!1}(),f=function(a){a+="=";for(var b=document.cookie.split(";"),c=0;c<b.length;c++){for(var d=b[c];d.charAt(0)==" ";)d=d.substring(1,d.length);if(d.indexOf(a)==
+0)return d.substring(a.length,d.length)}return null};if(f("inbrowserediting")!="true"){var h,f=f("devicelock");f=="phone"&&d?h=d:f=="tablet"&&b&&(h=b);if(f!=c&&!h)if(window.matchMedia)window.matchMedia("(max-device-width: 415px)").matches&&d?h=d:window.matchMedia("(max-device-width: 960px)").matches&&b&&a&&(h=b);else{var c=Math.min(screen.width,screen.height)/(window.devicePixelRatio||1),f=window.screen.systemXDPI||0,g=window.screen.systemYDPI||0,f=f>0&&g>0?Math.min(screen.width/f,screen.height/g):
+0;(c<=370||f!=0&&f<=3)&&d?h=d:c<=960&&b&&a&&(h=b)}if(h)document.location=h+(document.location.search||"")+(document.location.hash||""),document.write('<style type="text/css">body {visibility:hidden}</style>')}})("desktop","","phone/stills.html");
+
+// Update the 'nojs'/'js' class on the html node
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
 
 // Check that all required assets are uploaded and up-to-date
-if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.musepolyfill.bgsize.js", "jquery.musemenu.js", "jquery.watch.js", "webpro.js", "musewpslideshow.js", "jquery.museoverlay.js", "touchswipe.js", "require.js", "stills.css"], "outOfDate":[]};
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "webpro.js", "musewpslideshow.js", "jquery.museoverlay.js", "touchswipe.js", "require.js", "jquery.musepolyfill.bgsize.js", "jquery.musemenu.js", "stills.css"], "outOfDate":[]};
 </script>
   
+  <link media="only screen and (max-width: 370px)" rel="alternate" href="https://github.com/saarangstudios/saarangstudios.github.io/phone/stills.html"/>
   <link rel="shortcut icon" href="images/picture-portofilio-favicon.ico?crc=3918849811"/>
   <title>STILLS</title>
   <!-- CSS -->
-  <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=11183953"/>
-  <link rel="stylesheet" type="text/css" href="css/master_picture-portofilio.css?crc=155115137"/>
-  <link rel="stylesheet" type="text/css" href="css/stills.css?crc=3896796979" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=389828040"/>
+  <link rel="stylesheet" type="text/css" href="css/master_picture-portofilio.css?crc=3971344782"/>
+  <link rel="stylesheet" type="text/css" href="css/stills.css?crc=346541455" id="pagesheet"/>
   <!-- Other scripts -->
   <script type="text/javascript">
    var __adobewebfontsappname__ = "muse";
 </script>
   <!-- JS includes -->
-  <script src="https://webfonts.creativecloud.com/cabin:n4:default;comfortaa:n7:default;muli:n4:default;raleway:n5:default;lato:n7:default;istok-web:n4:default.js" type="text/javascript"></script>
+  <script src="https://webfonts.creativecloud.com/raleway:n5:default;cabin:n4:default;istok-web:n4:default;lato:n7:default;muli:n4:default;comfortaa:n7:default.js" type="text/javascript"></script>
   <!--[if lt IE 9]>
   <script src="scripts/html5shiv.js?crc=4241844378" type="text/javascript"></script>
   <![endif]-->
@@ -57,6 +63,14 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
 .noselect::selection {
     color: grey; 
     
+.fuller
+{
+height:100%;
+width:100%;
+left:0px;
+top:0px;
+
+}
 }
 </style>
 <style>
@@ -577,8 +591,8 @@ to use and available for download at: http://adobemuseexpert.com/
     </nav>
     <a class="nonblock nontext transition clearfix" id="u50163-4" href="index.html"><!-- content --><p>SAARANG STUDIOS</p></a>
    </div>
-   <div class="clearfix grpelem" id="ppamphletu117546"><!-- group -->
-    <div class="PamphletWidget clearfix allow_click_through grpelem" id="pamphletu117546" data-visibility="changed" style="visibility:hidden"><!-- none box -->
+   <div class="clearfix grpelem" id="ppamphletu117546"><!-- column -->
+    <div class="PamphletWidget clearfix allow_click_through colelem" id="pamphletu117546" data-visibility="changed" style="visibility:hidden"><!-- none box -->
      <div class="ThumbGroup clearfix grpelem" data-col-pos="0" id="u117547" data-sizePolicy="fluidWidth" data-pintopage="page_fixedLeft"><!-- none box -->
       <div class="popup_anchor allow_click_through" data-col-pos="0" id="u117549popup">
        <div class="Thumb popup_element rounded-corners clearfix" data-col-pos="0" id="u117549"><!-- group -->
@@ -588,10 +602,10 @@ to use and available for download at: http://adobemuseexpert.com/
        </div>
       </div>
      </div>
-     <div class="clearfix grpelem" id="pu117553"><!-- group -->
+     <div class="clearfix" id="pu117553"><!-- group -->
       <div class="popup_anchor allow_click_through grpelem" data-col-pos="1" id="u117553popup">
        <div class="ContainerGroup clearfix" data-col-pos="1" id="u117553"><!-- stack box -->
-        <div class="Container invi rgba-background rounded-corners clearfix grpelem" data-col-pos="0" id="u117556"><!-- group -->
+        <div class="Container invi rgba-background rounded-corners fuller clearfix grpelem" data-col-pos="0" id="u117556"><!-- group -->
          <div class="grpelem" id="u117620"><!-- custom html -->
           <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd4u53TiLeirUmCrp-gWfRTA55FbuB1X3dhJJKJBV9WzsqKaA/viewform?embedded=true" width="640" height="999" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
          </div>
@@ -600,14 +614,14 @@ to use and available for download at: http://adobemuseexpert.com/
       </div>
       <div class="popup_anchor allow_click_through grpelem" data-col-pos="4" id="u117559popup">
        <div class="PamphletCloseButton PamphletLightboxPart popup_element clearfix" data-col-pos="4" id="u117559"><!-- group -->
-        <div class="clearfix grpelem" id="u117560-4"><!-- content -->
+        <div class="rounded-corners clearfix grpelem" id="u117560-4" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- content -->
          <p>x</p>
         </div>
        </div>
       </div>
      </div>
     </div>
-    <div class="size_fixed grpelem" id="u79320" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- custom html -->
+    <div class="size_fixed colelem" id="u79320" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- custom html -->
      
 
     </div>
@@ -655,7 +669,7 @@ return false;
 
 
    </div>
-   <div class="verticalspacer" data-offset-top="1131" data-content-above-spacer="1132" data-content-below-spacer="42" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+   <div class="verticalspacer" data-offset-top="812" data-content-above-spacer="964" data-content-below-spacer="42" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
    <div class="browser_width grpelem" id="u81111-bw">
     <div class="size_browser_width" id="u81111"><!-- custom html -->
      

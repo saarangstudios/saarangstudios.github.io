@@ -1,26 +1,26 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://github.com/saarangstudios/saarangstudios.github.io" resolutions="1x" timestamp="1544438908154">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://github.com/saarangstudios/saarangstudios.github.io" resolutions="1x" timestamp="1544520121394">
   <folder name="css">
-    <file name="site_global.css" crc="11183953"/>
+    <file name="site_global.css" crc="389828040"/>
     <file name="master_a-master.css" crc="144243277" ref="contact:index:services:privacy-policy"/>
     <file name="nomq_preview_master_a-master.css" crc="416223306" ref="index:services:contact:privacy-policy"/>
-    <file name="master_picture-portofilio.css" crc="155115137" ref="motion:about:stills:portfolio:beforeafter"/>
+    <file name="master_picture-portofilio.css" crc="3971344782" ref="motion:about:stills:portfolio:beforeafter"/>
     <file name="contact.css" crc="3768880393" ref="contact"/>
-    <file name="motion.css" crc="4148418567" ref="motion"/>
+    <file name="motion.css" crc="4007486475" ref="motion"/>
     <file name="about.css" crc="4244991807" ref="about"/>
-    <file name="stills.css" crc="3896796979" ref="stills"/>
-    <file name="index.css" crc="424434096" ref="index"/>
+    <file name="stills.css" crc="346541455" ref="stills"/>
+    <file name="index.css" crc="529326555" ref="index"/>
     <file name="nomq_index.css" crc="3832259303" ref="index"/>
-    <file name="portfolio.css" crc="4042770333" ref="portfolio"/>
+    <file name="portfolio.css" crc="4095527883" ref="portfolio"/>
     <file name="services.css" crc="507980446" ref="services"/>
-    <file name="beforeafter.css" crc="4044079040" ref="beforeafter"/>
+    <file name="beforeafter.css" crc="4004475665" ref="beforeafter"/>
     <file name="privacy-policy.css" crc="3767730648" ref="privacy-policy"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="phone>index:phone>services:phone>portfolio:phone>contact:index:services:contact:portfolio:about:stills:motion:phone>wa-launchpad:phone>insta-launchpad:phone>mail-launchpad:phone>facebook-launchpad:phone>policy:beforeafter:privacy-policy"/>
-    <file name="museutils.js" crc="340535759" ref="phone>index:phone>services:phone>portfolio:phone>contact:index:services:contact:portfolio:about:stills:motion:phone>wa-launchpad:phone>insta-launchpad:phone>mail-launchpad:phone>facebook-launchpad:phone>policy:beforeafter:privacy-policy"/>
-    <file name="whatinput.js" crc="86476730" ref="phone>index:phone>services:phone>portfolio:phone>contact:index:services:contact:portfolio:about:stills:motion:phone>wa-launchpad:phone>insta-launchpad:phone>mail-launchpad:phone>facebook-launchpad:phone>policy:beforeafter:privacy-policy"/>
-    <file name="museconfig.js" crc="310584261" ref="phone>index:phone>services:phone>portfolio:phone>contact:index:services:contact:portfolio:about:stills:motion:phone>wa-launchpad:phone>insta-launchpad:phone>mail-launchpad:phone>facebook-launchpad:phone>policy:beforeafter:privacy-policy"/>
-    <file name="jquery.watch.js" crc="51536988" ref="phone>index:phone>services:phone>portfolio:phone>contact:index:services:contact:portfolio:about:stills:motion:phone>wa-launchpad:phone>insta-launchpad:phone>mail-launchpad:phone>facebook-launchpad:phone>policy:beforeafter:privacy-policy"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="phone>index:phone>services:phone>portfolio:phone>contact:index:services:contact:portfolio:about:stills:motion:phone>wa-launchpad:phone>insta-launchpad:phone>mail-launchpad:phone>facebook-launchpad:phone>policy:beforeafter:privacy-policy:phone>beforeafter:phone>stills"/>
+    <file name="museutils.js" crc="340535759" ref="phone>index:phone>services:phone>portfolio:phone>contact:index:services:contact:portfolio:about:stills:motion:phone>wa-launchpad:phone>insta-launchpad:phone>mail-launchpad:phone>facebook-launchpad:phone>policy:beforeafter:privacy-policy:phone>beforeafter:phone>stills"/>
+    <file name="whatinput.js" crc="86476730" ref="phone>index:phone>services:phone>portfolio:phone>contact:index:services:contact:portfolio:about:stills:motion:phone>wa-launchpad:phone>insta-launchpad:phone>mail-launchpad:phone>facebook-launchpad:phone>policy:beforeafter:privacy-policy:phone>beforeafter:phone>stills"/>
+    <file name="museconfig.js" crc="310584261" ref="phone>index:phone>services:phone>portfolio:phone>contact:index:services:contact:portfolio:about:stills:motion:phone>wa-launchpad:phone>insta-launchpad:phone>mail-launchpad:phone>facebook-launchpad:phone>policy:beforeafter:privacy-policy:phone>beforeafter:phone>stills"/>
+    <file name="jquery.watch.js" crc="51536988" ref="phone>index:phone>services:phone>portfolio:phone>contact:index:services:contact:portfolio:about:stills:motion:phone>wa-launchpad:phone>insta-launchpad:phone>mail-launchpad:phone>facebook-launchpad:phone>policy:beforeafter:privacy-policy:phone>beforeafter:phone>stills"/>
     <file name="webpro.js" crc="4059564322" ref="phone>index:phone>portfolio:index:portfolio:stills:motion:beforeafter"/>
     <file name="musewpslideshow.js" crc="3862962738" ref="phone>index:phone>portfolio:index:portfolio:stills:motion:beforeafter"/>
     <file name="jquery.museoverlay.js" crc="4147669564" ref="phone>index:phone>portfolio:index:portfolio:stills:motion:beforeafter"/>
@@ -29,21 +29,22 @@
     <file name="jquery.musemenu.js" crc="510910590" ref="index:services:contact:portfolio:stills:motion:beforeafter:privacy-policy"/>
     <file name="html5shiv.js" crc="4241844378" ref="index:services:contact:portfolio:about:stills:motion:beforeafter:privacy-policy"/>
     <file name="jquery.museresponsive.js" crc="527716135" ref="index"/>
-    <file name="require.js" crc="7928878" ref="phone>index:phone>services:phone>portfolio:phone>contact:index:services:contact:portfolio:about:stills:motion:phone>wa-launchpad:phone>insta-launchpad:phone>mail-launchpad:phone>facebook-launchpad:phone>policy:beforeafter:privacy-policy"/>
+    <file name="require.js" crc="7928878" ref="phone>index:phone>services:phone>portfolio:phone>contact:index:services:contact:portfolio:about:stills:motion:phone>wa-launchpad:phone>insta-launchpad:phone>mail-launchpad:phone>facebook-launchpad:phone>policy:beforeafter:privacy-policy:phone>beforeafter:phone>stills"/>
   </folder>
   <folder name="images">
-    <file name="a-master-favicon.ico" crc="3918849811" ref="phone>index:index"/>
+    <file name="a-master-favicon.ico" crc="3918849811" ref="phone>index"/>
     <file name="blank.gif" crc="4208392903" ref="phone>index:phone>portfolio:index:services:portfolio:stills:motion:beforeafter"/>
     <file name="icons-01-crop-u32424.png" crc="4182621488" seo="true" ref="phone>index:phone>services:phone>contact:phone>policy">
       <caption webpage="index" alt=""/>
       <caption webpage="policy" alt=""/>
-      <caption webpage="contact" alt=""/>
       <caption webpage="services" alt=""/>
+      <caption webpage="contact" alt=""/>
     </file>
     <file name="saarang studios-.jpg" crc="4040009401" seo="true" ref="phone>index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="saarang studios-1393.jpg" crc="509658092" seo="true" ref="phone>index:index:phone>portfolio">
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -55,14 +56,17 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
     <file name="saarang studios-1381.jpg" crc="4009152558" seo="true" ref="phone>index:index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
     <file name="saarang studios-1396.jpg" crc="3842969859" seo="true" ref="phone>index:index:phone>portfolio">
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -74,8 +78,10 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
     <file name="saarang studios-1216.jpg" crc="7787828" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -86,14 +92,17 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
     <file name="saarang studios-1248.jpg" crc="4132446498" seo="true" ref="phone>index:index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
     <file name="img_7158-2.jpg" crc="167946734" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -110,53 +119,54 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
       <caption webpage="portfolio" alt=""/>
     </file>
     <file name="loading.gif" crc="3815509949" ref="phone>index:index:portfolio:stills:phone>portfolio"/>
     <file name="b-master-favicon.ico" crc="3918849811" ref="phone>portfolio"/>
-    <file name="arrow.png" crc="201731658" ref="index:services:stills:motion:beforeafter">
+    <file name="arrow.png" crc="201731658" ref="index:services:stills:motion:beforeafter" seo="true">
       <caption webpage="index" alt=""/>
+      <caption webpage="beforeafter" alt=""/>
+      <caption webpage="beforeafter" alt=""/>
+      <caption webpage="beforeafter" alt=""/>
+      <caption webpage="beforeafter" alt=""/>
+      <caption webpage="stills" alt=""/>
+      <caption webpage="stills" alt=""/>
+      <caption webpage="stills" alt=""/>
+      <caption webpage="stills" alt=""/>
       <caption webpage="stories" alt=""/>
       <caption webpage="stories" alt=""/>
       <caption webpage="stories" alt=""/>
       <caption webpage="stories" alt=""/>
+      <caption webpage="motion" alt=""/>
+      <caption webpage="motion" alt=""/>
+      <caption webpage="motion" alt=""/>
+      <caption webpage="motion" alt=""/>
       <caption webpage="contact" alt=""/>
-      <caption webpage="motion" alt=""/>
-      <caption webpage="motion" alt=""/>
-      <caption webpage="motion" alt=""/>
-      <caption webpage="motion" alt=""/>
-      <caption webpage="beforeafter" alt=""/>
-      <caption webpage="beforeafter" alt=""/>
-      <caption webpage="beforeafter" alt=""/>
-      <caption webpage="beforeafter" alt=""/>
-      <caption webpage="stills" alt=""/>
-      <caption webpage="stills" alt=""/>
-      <caption webpage="stills" alt=""/>
-      <caption webpage="stills" alt=""/>
     </file>
     <file name="arrow1.png" crc="30846836" ref="index:services:stills:motion:beforeafter">
       <caption webpage="index" alt=""/>
-      <caption webpage="contact" alt=""/>
       <caption webpage="stills" alt=""/>
+      <caption webpage="contact" alt=""/>
     </file>
     <file name="asset 1.png" crc="27628882" seo="true" ref="index:services:contact:privacy-policy">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
-      <caption webpage="contact" alt=""/>
-      <caption webpage="services" alt=""/>
       <caption webpage="privacy-policy" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="contact" alt=""/>
     </file>
-    <file name="picture-portofilio-favicon.ico" crc="3918849811" ref="portfolio:stills"/>
+    <file name="picture-portofilio-favicon.ico" crc="3918849811" ref="portfolio"/>
     <file name="saarang studios--8.jpg" crc="529300533" seo="true" ref="portfolio">
       <caption webpage="portfolio" alt=""/>
     </file>
     <file name="noise.png" crc="163761179" ref="stills:motion:beforeafter">
-      <caption webpage="stories" alt=""/>
+      <caption webpage="stills" alt=""/>
       <caption webpage="beforeafter" alt=""/>
       <caption webpage="motion" alt=""/>
-      <caption webpage="stills" alt=""/>
+      <caption webpage="stories" alt=""/>
     </file>
     <file name="saarang studios-2797-crop-u44058.jpg" crc="3850014732" seo="true" ref="stills">
       <caption webpage="stills" alt=""/>
@@ -268,10 +278,10 @@
       <caption webpage="stills" alt=""/>
     </file>
     <file name="visit-our-facebook-page.svg" crc="217931728" seo="true" ref="stills:motion:beforeafter">
-      <caption webpage="stories" alt=""/>
+      <caption webpage="stills" alt=""/>
       <caption webpage="beforeafter" alt=""/>
       <caption webpage="motion" alt=""/>
-      <caption webpage="stills" alt=""/>
+      <caption webpage="stories" alt=""/>
     </file>
     <file name="visit our facebook page_poster_.png" crc="417291196" ref="stills"/>
     <file name="instagram-5-512.png" crc="303379228" seo="true" ref="contact">
@@ -280,15 +290,19 @@
     <file name="phone-39-512.png" crc="488389301" seo="true" ref="contact">
       <caption webpage="contact" alt=""/>
     </file>
-    <file name="iconmonstr-home-6-240.png" crc="3912401154" seo="true" ref="phone>index:phone>services:phone>portfolio:phone>contact:phone>policy">
-      <caption webpage="index" alt=""/>
+    <file name="iconmonstr-home-6-240.png" crc="3912401154" seo="true" ref="phone>index:phone>services:phone>portfolio:phone>contact:phone>policy:phone>beforeafter:phone>stills">
       <caption webpage="portfolio" alt=""/>
+      <caption webpage="stills" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="beforeafter" alt=""/>
       <caption webpage="policy" alt=""/>
       <caption webpage="contact" alt=""/>
-      <caption webpage="services" alt=""/>
     </file>
-    <file name="icons-01-crop-u106716.png" crc="4182621488" seo="true" ref="phone>portfolio">
+    <file name="icons-01-crop-u106716.png" crc="4182621488" seo="true" ref="phone>portfolio:phone>beforeafter:phone>stills">
       <caption webpage="portfolio" alt=""/>
+      <caption webpage="stills" alt=""/>
+      <caption webpage="beforeafter" alt=""/>
     </file>
     <file name="iconfinder_whatsapp_2142581.png" crc="510778864" seo="true" ref="phone>index">
       <caption webpage="index" alt=""/>
@@ -315,35 +329,43 @@
   </folder>
   <folder name="phone">
     <folder name="css">
-      <file name="master_b-master.css" crc="461469681" ref="phone>portfolio"/>
-      <file name="master_a-master.css" crc="405684688" ref="phone>index:phone>contact:phone>services:phone>policy"/>
-      <file name="index.css" crc="3814280476" ref="phone>index"/>
+      <file name="master_b-master.css" crc="297492705" ref="phone>portfolio:phone>stills:phone>beforeafter"/>
+      <file name="master_a-master.css" crc="9661341" ref="phone>index:phone>contact:phone>services:phone>policy"/>
+      <file name="index.css" crc="3901617649" ref="phone>index"/>
       <file name="portfolio.css" crc="4198888364" ref="phone>portfolio"/>
-      <file name="contact.css" crc="3924398189" ref="phone>contact"/>
-      <file name="services.css" crc="3924398189" ref="phone>services"/>
+      <file name="contact.css" crc="318277828" ref="phone>contact"/>
+      <file name="services.css" crc="318277828" ref="phone>services"/>
       <file name="wa-launchpad.css" crc="80146057" ref="phone>wa-launchpad"/>
       <file name="mail-launchpad.css" crc="3889744770" ref="phone>mail-launchpad"/>
-      <file name="policy.css" crc="3924398189" ref="phone>policy"/>
+      <file name="policy.css" crc="318277828" ref="phone>policy"/>
       <file name="facebook-launchpad.css" crc="117660168" ref="phone>facebook-launchpad"/>
       <file name="insta-launchpad.css" crc="4021110813" ref="phone>insta-launchpad"/>
+      <file name="nomq_preview_master_a-master.css" crc="3824530138" ref="phone>contact:phone>policy:phone>index:phone>services"/>
+      <file name="nomq_preview_master_b-master.css" crc="3824530138" ref="phone>portfolio:phone>stills:phone>beforeafter"/>
+      <file name="nomq_policy.css" crc="3824530138" ref="phone>policy"/>
+      <file name="stills.css" crc="4249170554" ref="phone>stills"/>
+      <file name="nomq_stills.css" crc="3824530138" ref="phone>stills"/>
+      <file name="beforeafter.css" crc="4249170554" ref="phone>beforeafter"/>
     </folder>
-    <file name="index.html" crc="3832987328" seo="true" mt="1544247974313" redirect="true"/>
-    <file name="services.html" crc="4294181440" seo="true" mt="1544247974313" redirect="true"/>
-    <file name="portfolio.html" crc="3922425854" seo="true" mt="1544183245549" redirect="true"/>
-    <file name="contact.html" crc="3813768276" seo="true" mt="1544247974313" redirect="true"/>
+    <file name="index.html" crc="4207162345" seo="true" mt="1544506416119" redirect="true"/>
+    <file name="services.html" crc="140417344" seo="true" mt="1544506416119" redirect="true"/>
+    <file name="portfolio.html" crc="295924593" seo="true" mt="1544516904833" redirect="true"/>
+    <file name="contact.html" crc="3892168733" seo="true" mt="1544506416119" redirect="true"/>
     <file name="wa-launchpad.html" crc="4052847277" seo="true" mt="1544247803646" redirect="true"/>
     <file name="insta-launchpad.html" crc="349662990" seo="true" mt="1544181652010" redirect="true"/>
     <file name="mail-launchpad.html" crc="381797552" seo="true" mt="1544181659806" redirect="true"/>
     <file name="facebook-launchpad.html" crc="260481843" seo="true" mt="1544181663796" redirect="true"/>
-    <file name="policy.html" crc="3995505994" seo="true" mt="1544247974313" redirect="true"/>
+    <file name="policy.html" crc="66900424" seo="true" mt="1544506416119" redirect="true"/>
+    <file name="beforeafter.html" crc="209896012" seo="true" mt="1544516938374" redirect="true"/>
+    <file name="stills.html" crc="319922532" seo="true" mt="1544516956171" redirect="true"/>
   </folder>
-  <file name="index.html" crc="3967184293" seo="true" mt="1544438879456" redirect="true"/>
-  <file name="services.html" crc="334779420" seo="true" mt="1544438879456" redirect="true"/>
-  <file name="contact.html" crc="4251717338" seo="true" mt="1544438879456" redirect="true"/>
-  <file name="portfolio.html" crc="81748094" seo="true" mt="1544428028998" redirect="true"/>
-  <file name="about.html" crc="4200951127" seo="true" mt="1544265606470" redirect="true"/>
-  <file name="stills.html" crc="354953195" seo="true" mt="1544438528701" redirect="true"/>
-  <file name="motion.html" crc="183877886" seo="true" mt="1544428324187" redirect="true"/>
-  <file name="beforeafter.html" crc="4077328754" seo="true" mt="1544428324057" redirect="true"/>
-  <file name="privacy-policy.html" crc="4211063042" seo="true" mt="1544438879456" redirect="true"/>
+  <file name="index.html" crc="3833983173" seo="true" mt="1544519887129" redirect="true"/>
+  <file name="services.html" crc="3878217739" seo="true" mt="1544518507284" redirect="true"/>
+  <file name="contact.html" crc="342210292" seo="true" mt="1544518507284" redirect="true"/>
+  <file name="portfolio.html" crc="4117850209" seo="true" mt="1544518287812" redirect="true"/>
+  <file name="about.html" crc="18844504" seo="true" mt="1544517270828" redirect="true"/>
+  <file name="stills.html" crc="4051721863" seo="true" mt="1544518315576" redirect="true"/>
+  <file name="motion.html" crc="467465449" seo="true" mt="1544518331989" redirect="true"/>
+  <file name="beforeafter.html" crc="4113834223" seo="true" mt="1544518351835" redirect="true"/>
+  <file name="privacy-policy.html" crc="3927532734" seo="true" mt="1544518507284" redirect="true"/>
 </manifest>
