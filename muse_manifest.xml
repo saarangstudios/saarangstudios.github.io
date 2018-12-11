@@ -1,16 +1,16 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://github.com/saarangstudios/saarangstudios.github.io" resolutions="1x" timestamp="1544520121394">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://github.com/saarangstudios/saarangstudios.github.io" resolutions="1x" timestamp="1544524214520">
   <folder name="css">
     <file name="site_global.css" crc="389828040"/>
     <file name="master_a-master.css" crc="144243277" ref="contact:index:services:privacy-policy"/>
     <file name="nomq_preview_master_a-master.css" crc="416223306" ref="index:services:contact:privacy-policy"/>
-    <file name="master_picture-portofilio.css" crc="3971344782" ref="motion:about:stills:portfolio:beforeafter"/>
+    <file name="master_picture-portofilio.css" crc="155115137" ref="motion:about:stills:portfolio:beforeafter"/>
     <file name="contact.css" crc="3768880393" ref="contact"/>
     <file name="motion.css" crc="4007486475" ref="motion"/>
     <file name="about.css" crc="4244991807" ref="about"/>
-    <file name="stills.css" crc="346541455" ref="stills"/>
+    <file name="stills.css" crc="4127382232" ref="stills"/>
     <file name="index.css" crc="529326555" ref="index"/>
     <file name="nomq_index.css" crc="3832259303" ref="index"/>
-    <file name="portfolio.css" crc="4095527883" ref="portfolio"/>
+    <file name="portfolio.css" crc="307935224" ref="portfolio"/>
     <file name="services.css" crc="507980446" ref="services"/>
     <file name="beforeafter.css" crc="4004475665" ref="beforeafter"/>
     <file name="privacy-policy.css" crc="3767730648" ref="privacy-policy"/>
@@ -126,22 +126,22 @@
     <file name="b-master-favicon.ico" crc="3918849811" ref="phone>portfolio"/>
     <file name="arrow.png" crc="201731658" ref="index:services:stills:motion:beforeafter" seo="true">
       <caption webpage="index" alt=""/>
-      <caption webpage="beforeafter" alt=""/>
-      <caption webpage="beforeafter" alt=""/>
-      <caption webpage="beforeafter" alt=""/>
-      <caption webpage="beforeafter" alt=""/>
       <caption webpage="stills" alt=""/>
       <caption webpage="stills" alt=""/>
       <caption webpage="stills" alt=""/>
       <caption webpage="stills" alt=""/>
-      <caption webpage="stories" alt=""/>
-      <caption webpage="stories" alt=""/>
-      <caption webpage="stories" alt=""/>
-      <caption webpage="stories" alt=""/>
+      <caption webpage="beforeafter" alt=""/>
+      <caption webpage="beforeafter" alt=""/>
+      <caption webpage="beforeafter" alt=""/>
+      <caption webpage="beforeafter" alt=""/>
       <caption webpage="motion" alt=""/>
       <caption webpage="motion" alt=""/>
       <caption webpage="motion" alt=""/>
       <caption webpage="motion" alt=""/>
+      <caption webpage="stories" alt=""/>
+      <caption webpage="stories" alt=""/>
+      <caption webpage="stories" alt=""/>
+      <caption webpage="stories" alt=""/>
       <caption webpage="contact" alt=""/>
     </file>
     <file name="arrow1.png" crc="30846836" ref="index:services:stills:motion:beforeafter">
@@ -164,8 +164,8 @@
     </file>
     <file name="noise.png" crc="163761179" ref="stills:motion:beforeafter">
       <caption webpage="stills" alt=""/>
-      <caption webpage="beforeafter" alt=""/>
       <caption webpage="motion" alt=""/>
+      <caption webpage="beforeafter" alt=""/>
       <caption webpage="stories" alt=""/>
     </file>
     <file name="saarang studios-2797-crop-u44058.jpg" crc="3850014732" seo="true" ref="stills">
@@ -271,16 +271,10 @@
     <file name="saarang studios--7-crop-u46683.jpg" crc="294072363" seo="true" ref="stills">
       <caption webpage="stills" alt=""/>
     </file>
-    <file name="saarang studios--crop-u60466.jpg" crc="3861151496" seo="true" ref="stills">
-      <caption webpage="stills" alt=""/>
-    </file>
-    <file name="saarang studios--crop-u60460.jpg" crc="189456053" seo="true" ref="stills">
-      <caption webpage="stills" alt=""/>
-    </file>
     <file name="visit-our-facebook-page.svg" crc="217931728" seo="true" ref="stills:motion:beforeafter">
       <caption webpage="stills" alt=""/>
-      <caption webpage="beforeafter" alt=""/>
       <caption webpage="motion" alt=""/>
+      <caption webpage="beforeafter" alt=""/>
       <caption webpage="stories" alt=""/>
     </file>
     <file name="visit our facebook page_poster_.png" crc="417291196" ref="stills"/>
@@ -362,9 +356,9 @@
   <file name="index.html" crc="3833983173" seo="true" mt="1544519887129" redirect="true"/>
   <file name="services.html" crc="3878217739" seo="true" mt="1544518507284" redirect="true"/>
   <file name="contact.html" crc="342210292" seo="true" mt="1544518507284" redirect="true"/>
-  <file name="portfolio.html" crc="4117850209" seo="true" mt="1544518287812" redirect="true"/>
+  <file name="portfolio.html" crc="467798647" seo="true" mt="1544520292037" redirect="true"/>
   <file name="about.html" crc="18844504" seo="true" mt="1544517270828" redirect="true"/>
-  <file name="stills.html" crc="4051721863" seo="true" mt="1544518315576" redirect="true"/>
+  <file name="stills.html" crc="3825825530" seo="true" mt="1544524202688" redirect="true"/>
   <file name="motion.html" crc="467465449" seo="true" mt="1544518331989" redirect="true"/>
   <file name="beforeafter.html" crc="4113834223" seo="true" mt="1544518351835" redirect="true"/>
   <file name="privacy-policy.html" crc="3927532734" seo="true" mt="1544518507284" redirect="true"/>
