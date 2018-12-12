@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--Bootstrap SCripts-->
+        <link rel="stylesheet" href="http://saarangstudios.com/Gallery/Bootstrap/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="http://saarangstudios.com/Gallery/Bootstrap/js/bootstrap.min.js"></script>        
+        <link rel="stylesheet" href="http://saarangstudios.com/Gallery/ekko-lightbox.css">
+        <script src="http://saarangstudios.com/Gallery/ekko-lightbox.min.js"></script>
+        <script>
+          $(this).ekkoLightbox({
+                alwaysShowClose: true,
+                onShown: function() {
+                    console.log('Checking our the events huh?');
+                },
+                onNavigate: function(direction, itemIndex)
+                    console.log('Navigating '+direction+'. Current item: '+itemIndex);
+                }
+                ...
+            });    
+        </script>
+      
+        <!--Right click disablers -->
+        
+        <script type="text/javascript">
+            $(document).ready(function () {
+                //Disable cut copy paste
+                $('body').bind('cut copy paste', function (e) {
+                    e.preventDefault();
+                });
+
+
+            });
+        </script>
+        <script>
+        $(document).ready(function(){
+           $(document).bind("contextmenu",function(e){
+              return false;
+           });
+        });
+           
+        </script>
+        <style>
+            body{
+                
+                 -webkit-touch-callout: none !important; /* iOS Safari */
+                -webkit-user-select: none !important; /* Safari */
+                 -khtml-user-select: none !important; /* Konqueror HTML */
+                   -moz-user-select: none !important; /* Firefox */
+                    -ms-user-select: none !important; /* Internet Explorer/Edge */
+                        user-select: none !important; /* Non-prefixed version, currently
+                                              supported by Chrome and Opera */
+            }
+           #img-fluid{
+               -webkit-user-drag: none;
+                        }
+        </style>
+        
+        <!--Section of right clicks turns off -->
+    </head>
+    
+    <body>
+    <div class="row justify-content-center">
+    <div class="col-md-8">
+        <div class="row">
+            <a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid">
+            </a>
+            <a href="https://unsplash.it/1200/768.jpg?image=252" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                <img src="https://unsplash.it/600.jpg?image=252" class="img-fluid">
+            </a>
+            <a href="https://unsplash.it/1200/768.jpg?image=253" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                <img src="https://unsplash.it/600.jpg?image=253" class="img-fluid">
+            </a>
+        </div>
+        <div class="row">
+            <a href="https://unsplash.it/1200/768.jpg?image=254" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                <img src="https://unsplash.it/600.jpg?image=254" class="img-fluid">
+            </a>
+            <a href="https://unsplash.it/1200/768.jpg?image=255" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                <img src="https://unsplash.it/600.jpg?image=255" class="img-fluid">
+            </a>
+            <a href="https://unsplash.it/1200/768.jpg?image=256" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                <img src="https://unsplash.it/600.jpg?image=256" class="img-fluid">
+            </a>
+        </div>
+        </div>
+    </div>
+    <script>
+        $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+                event.preventDefault();
+                $(this).ekkoLightbox();
+            });
+        
+    </script>    
+        
+    </body>
+</html>
