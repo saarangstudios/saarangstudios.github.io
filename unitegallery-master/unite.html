@@ -10,30 +10,39 @@
 
 		<link rel='stylesheet' href='http://saarangstudios.com/unitegallery-master/dist/css/unite-gallery.css' type='text/css' />
 		<script type='text/javascript' src='http://saarangstudios.com/unitegallery-master/dist/themes/tiles/ug-theme-tiles.js'></script>
-		<link rel='stylesheet' href='http://saarangstudios.com/unitegallery-master/dist/themes/default/ug-theme-default.css ' type='text/css' />
+
+
+    <script type="text/javascript">
+    jQuery("#gallery").unitegallery({
+				tiles_type:"justified"
+			});
+    </script>
 
 
     </head>
     <body>
+      <div id="gallery" style="display:none;">
 
-      <div id="gallery" style="">
 
-			<img alt="Image 1 Title" src="thumbs/image1.jpg"
-				data-image="images/image1.jpg"
-				data-description="Image 1 Description">
 
-			<img alt="Image 2 Title" src="thumbs/image2.jpg"
-				data-image="images/image02.jpg"
-				data-description="Image 2 Description">
-
+        <img alt="Lemon Slice"
+             src="saarangstudios.github.io/unitegallery-master/package/images/thumbs/tile1.jpg"
+             data-image="http://saarangstudios.com/unitegallery-master/package/images/big/tile1.jpg"
+             data-description="This is a Lemon Slice"
+             style="display:none">
 		</div>
-      <script type="text/javascript">
-			var api;
-			jQuery(document).ready(function(){
-				api = jQuery("#gallery").unitegallery();
-			});
+    <script type="text/javascript">
 
-		</script>
+  		jQuery(document).ready(function(){
+
+  			jQuery("#gallery").unitegallery({
+  				tiles_type:"justified"
+  			});
+
+  		});
+
+  	</script>
+
 
     </body>
 </html>
