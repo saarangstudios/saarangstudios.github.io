@@ -3,11 +3,14 @@
     <head>
     <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--Google fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Asap|Muli" rel="stylesheet">
+        
+        
 <!-- ... [OTHER INCLUDES] ... -->
 
 		<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
 		<script type='text/javascript' src='http://saarangstudios.com/unitegallery-master/dist/js/unitegallery.min.js'></script>
-
 		<link rel='stylesheet' href='http://saarangstudios.com/unitegallery-master/dist/css/unite-gallery.css' type='text/css' />
 		<script type='text/javascript' src='http://saarangstudios.com/unitegallery-master/dist/themes/tiles/ug-theme-tiles.js'></script>
 
@@ -55,17 +58,323 @@
         </style>
         
         <!--Section of right clicks turns off -->
+        
+        <!--CSS Navbar -->
+            <style>
+            body {
+            background-color: #ffffff;
+                margin: 0px !important;
+            }
+            nav {
+              float: right;
+              font:Muli;
+            }
+            nav ul {
+              list-style: none;
+              margin: 0;
+              padding: 0;
+            }
+            nav ul li {
+              float: left;
+              position: relative;
+            }
+            nav ul li a {
+              display: block;
+              padding: 0 20px;
+              line-height: 53px;
+              background: #000000;
+              color: #ffffff;
+              text-decoration: none;
+              font-size:14px;
+              font-family: Muli;
+              /*
+              The full path of this code is nav ul li a:not(:only-child):after. This means that the code will apply to any a tag in our nav list that is NOT an only child, aka any dropdown. The :after means it comes after the output of the tag. I’ve decided that to specify any nav item as a dropdown, it will be followed by a unicode arrow – ▾ (#9662).
+              */
+            }
+            nav ul li a:hover {
+              background: #000;
+              color: #00FFFF;
+            }
+            nav ul li a:not(:only-child):after {
+              padding-left: 4px;
+              content: ' ▾';
+            }
+            nav ul li ul li {
+              min-width: 190px;
+            }
+            nav ul li ul li a {
+              padding: 15px;
+              line-height: 20px;
+            }
+
+            .nav-dropdown {
+              position: absolute;
+              z-index: 1 !important;
+              /* Guarantees that the dropdown will display on top of any content. */
+              box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+              display: none;
+            }
+
+            .nav-mobile {
+              display: none;
+              position: absolute;
+              top: 0;
+              right: 0;
+              background: #000;
+              height: 53px;
+              width: 53px;
+            }
+
+            @media only screen and (max-width: 800px) {
+              .nav-mobile {
+                display: block;
+              }
+
+              nav {
+                width: 100%;
+                padding: 53px 0 15px;
+              }
+              nav ul {
+                display: none;
+              }
+              nav ul li {
+                float: none;
+              }
+              nav ul li a {
+                padding: 15px;
+                line-height: 20px;
+              }
+              nav ul li ul li a {
+                padding-left: 30px;
+              }
+            }
+            #nav-toggle {
+              position: absolute;
+              left: 18px;
+              top: 22px;
+              cursor: pointer;
+              padding: 2px 35px 16px 0px;
+            }
+            #nav-toggle span,
+            #nav-toggle span:before,
+            #nav-toggle span:after {
+              cursor: pointer;
+              border-radius: 1px;
+              height: 5px;
+              width: 25px;
+              background: #463f3f;
+              position: absolute;
+              display: block;
+              content: '';
+              transition: all 300ms ease-in-out;
+            }
+            #nav-toggle span:before {
+              top: -10px;
+            }
+            #nav-toggle span:after {
+              bottom: -10px;
+            }
+            #nav-toggle.active span {
+              background-color: transparent;
+            }
+            #nav-toggle.active span:before, #nav-toggle.active span:after {
+              top: 0;
+            }
+            #nav-toggle.active span:before {
+              transform: rotate(45deg);
+            }
+            #nav-toggle.active span:after {
+              transform: rotate(-45deg);
+            }
+
+            @media screen and (min-width: 800px) {
+              .nav-list {
+                display: block !important;
+              }
+            }
+            /* 
+            .navigation – the outer wrapper for the navbar. Specifies the height and color, and will stretch the full width of the viewport.
+            */
+            .navigation {
+              height: 53px;
+              background: #000;
+            }
+
+            /*
+            .nav-container – the inner wrapper for the navbar. Defines how far the actual content should stretch.
+            */
+            .nav-container {
+              max-width: 1000px;
+              margin: 0 auto;
+            }
+
+            .brand {
+              position: absolute;
+              padding-left: 20px;
+              float: left;
+              line-height: 53px;
+              text-transform: uppercase;
+              font-size: 20px;
+              font-family:Muli;
+              letter-spacing:5px;
+            }
+            .brand a,
+            .brand a:visited {
+              color: #fff;
+              text-decoration: none;
+            }
+            .brand a:hover {
+              Color:#C4C4C4;
+            }
+            </style>
+                        <script>
+                        (function($) { // Begin jQuery
+                  $(function() { // DOM ready
+                    // If a link has a dropdown, add sub menu toggle.
+                    $('nav ul li a:not(:only-child)').click(function(e) {
+                      $(this).siblings('.nav-dropdown').toggle();
+                      // Close one dropdown when selecting another
+                      $('.nav-dropdown').not($(this).siblings()).hide();
+                      e.stopPropagation();
+                    });
+                    // Clicking away from dropdown will remove the dropdown class
+                    $('html').click(function() {
+                      $('.nav-dropdown').hide();
+                    });
+                    // Toggle open and close nav styles on click
+                      var n=0;
+                    $('#nav-toggle').click(function() {
+                      $('nav ul').slideToggle();
+                        if(n%2==0)
+                            {
+                                $("#gallery").animate({top: "200px"});
+                                n++;
+                        
+                            }
+                        else{
+                            
+                            $("#gallery").animate({top: "0px"});
+                            n++;
+                        }
+                        
+                    });
+                    // Hamburger to X toggle
+                    $('#nav-toggle').on('click', function() {
+                      this.classList.toggle('active');
+                    });
+                  }); // end DOM ready
+                })(jQuery); // end jQuery
+                        </script>
+        
     </head>
+    
+    
     <body>
+        
+        <section class="navigation">
+  <div class="nav-container">
+    <div class="brand">
+      <a href="http://saarangstudios.com/">SAARANG STUDIOS</a>
+    </div>
+    <nav>
+      <div class="nav-mobile">
+        <a id="nav-toggle" href="#!"><span></span></a>
+      </div>
+      <ul class="nav-list">
+        <!-- Setting the links to #! will ensure that no action takes place on click. -->
+        <li><a href="http://saarangstudios.com/index.html">HOME</a></li>
+        <li><a href="http://saarangstudios.com/services.html">SERVICES</a></li>
+        <li><a href="http://saarangstudios.com/portfolio.html">PORTFOLIO</a></li>
+        <li><a href="http://saarangstudios.com/contact.html">CONTACT</a></li>
+      </ul>
+    </nav>
+  </div>
+</section>
+        
+        <!--Gallery Section -->
+        
+        
       <div id="gallery" style="display:none;">
 
 
-
+          <a>
         <img alt="Lemon Slice"
-             src="saarangstudios.github.io/unitegallery-master/package/images/thumbs/tile1.jpg"
+             src="http://saarangstudios.github.io/unitegallery-master/package/images/thumbs/tile1.jpg"
              data-image="http://saarangstudios.com/unitegallery-master/package/images/big/tile1.jpg"
              data-description="This is a Lemon Slice"
              style="display:none">
+          </a>
+          <a>
+        <img alt="Lemon Slice"
+             src="http://saarangstudios.github.io/unitegallery-master/package/images/thumbs/tile1.jpg"
+             data-image="http://saarangstudios.com/unitegallery-master/package/images/big/tile1.jpg"
+             data-description="This is a Lemon Slice"
+             style="display:none">
+          </a>
+          <a>
+        <img alt="Lemon Slice"
+             src="http://saarangstudios.github.io/unitegallery-master/package/images/thumbs/tile1.jpg"
+             data-image="http://saarangstudios.com/unitegallery-master/package/images/big/tile1.jpg"
+             data-description="This is a Lemon Slice"
+             style="display:none">
+          </a>
+          <a>
+        <img alt="Lemon Slice"
+             src="http://saarangstudios.github.io/unitegallery-master/package/images/thumbs/tile1.jpg"
+             data-image="http://saarangstudios.com/unitegallery-master/package/images/big/tile1.jpg"
+             data-description="This is a Lemon Slice"
+             style="display:none">
+          </a>
+          <a>
+        <img alt="Lemon Slice"
+             src="http://saarangstudios.github.io/unitegallery-master/package/images/thumbs/tile1.jpg"
+             data-image="http://saarangstudios.com/unitegallery-master/package/images/big/tile1.jpg"
+             data-description="This is a Lemon Slice"
+             style="display:none">
+          </a>
+          <a>
+        <img alt="Lemon Slice"
+             src="http://saarangstudios.github.io/unitegallery-master/package/images/thumbs/tile1.jpg"
+             data-image="http://saarangstudios.com/unitegallery-master/package/images/big/tile1.jpg"
+             data-description="This is a Lemon Slice"
+             style="display:none">
+          </a>
+          <a>
+        <img alt="Lemon Slice"
+             src="http://saarangstudios.github.io/unitegallery-master/package/images/thumbs/tile1.jpg"
+             data-image="http://saarangstudios.com/unitegallery-master/package/images/big/tile1.jpg"
+             data-description="This is a Lemon Slice"
+             style="display:none">
+          </a>
+          <a>
+        <img alt="Lemon Slice"
+             src="http://saarangstudios.github.io/unitegallery-master/package/images/thumbs/tile1.jpg"
+             data-image="http://saarangstudios.com/unitegallery-master/package/images/big/tile1.jpg"
+             data-description="This is a Lemon Slice"
+             style="display:none">
+          </a>
+          <a>
+        <img alt="Lemon Slice"
+             src="http://saarangstudios.github.io/unitegallery-master/package/images/thumbs/tile1.jpg"
+             data-image="http://saarangstudios.com/unitegallery-master/package/images/big/tile1.jpg"
+             data-description="This is a Lemon Slice"
+             style="display:none">
+          </a>
+          <a>
+        <img alt="Lemon Slice"
+             src="http://saarangstudios.github.io/unitegallery-master/package/images/thumbs/tile1.jpg"
+             data-image="http://saarangstudios.com/unitegallery-master/package/images/big/tile1.jpg"
+             data-description="This is a Lemon Slice"
+             style="display:none">
+          </a>
+          <a>
+        <img alt="Lemon Slice"
+             src="http://saarangstudios.github.io/unitegallery-master/package/images/thumbs/tile1.jpg"
+             data-image="http://saarangstudios.com/unitegallery-master/package/images/big/tile1.jpg"
+             data-description="This is a Lemon Slice"
+             style="display:none">
+          </a>
+        
 		</div>
     <script type="text/javascript">
 
