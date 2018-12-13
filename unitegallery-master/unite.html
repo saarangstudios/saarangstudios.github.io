@@ -5,6 +5,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 <!--Google fonts -->
         <link href="https://fonts.googleapis.com/css?family=Asap|Muli" rel="stylesheet">
+<!--Google Verification -->        
+        <meta name="theme-color" content="#111111" />
+        <meta name="google-site-verification" content="h_uveFnZ28YIIqBcl7LPQGrc4HaWGcLudiyQeA8zjaI" />
+
         
         
 <!-- ... [OTHER INCLUDES] ... -->
@@ -191,6 +195,10 @@
               .nav-list {
                 display: block !important;
               }
+                .brand {
+                    
+                    font-size: 20px !important;
+                }
             }
             /* 
             .navigation – the outer wrapper for the navbar. Specifies the height and color, and will stretch the full width of the viewport.
@@ -214,7 +222,7 @@
               float: left;
               line-height: 53px;
               text-transform: uppercase;
-              font-size: 20px;
+              font-size: 16px;
               font-family:Muli;
               letter-spacing:5px;
             }
@@ -227,7 +235,8 @@
               Color:#C4C4C4;
             }
             </style>
-                        <script>
+        <!--Nav bar script --> 
+        <script>
                         (function($) { // Begin jQuery
                   $(function() { // DOM ready
                     // If a link has a dropdown, add sub menu toggle.
@@ -265,7 +274,79 @@
                   }); // end DOM ready
                 })(jQuery); // end jQuery
                         </script>
-        
+        <!--Footer styling and script-->
+       <style>
+        .phone {
+                  position: absolute;
+                  right: 0;
+                  bottom: -1;
+                  left: 0;
+                  
+                  background-color: #efefef;
+                  text-align: center;
+            
+                   
+                }
+            table.blueTable {
+                              border: 0px solid #A4A4A4;
+                              width: 100%;
+                              text-align: center;
+                                margin-bottom: 20px;
+                                margin-top: 20px;
+                            }
+            table.blueTable td, table.blueTable th {
+                              border: 0px solid #AAAAAA;
+                              padding: 6px 2px;
+                            }
+           table.blueTable a{
+               text-decoration: none;
+           }
+           
+           @media only screen and (max-width: 800px) {
+              .phone {
+                display: block;
+               }
+           }
+
+            @media screen and (min-width: 800px) {
+              .phone {
+                display: none !important;
+                }
+           }
+           table.last {
+                      border-left: 20px solid black;
+                        border-right:20px solid black;
+                      width: 300px;
+                      text-align: left;
+                      border-collapse: collapse;
+                    }
+                    table.last td, table.last th {
+                      border: 0px solid #AAAAAA;
+                      padding: 10px 7px;
+                    }
+                    table.last tbody td {
+                      font-size: 14px;
+                    }
+                   table.last thead {
+                      }
+                    table.last thead th {
+                      font-size: 16px;
+                      font-weight: normal;
+                    }
+           
+           a#lower:link, a#lower:visited {
+ 
+                                          color: white;                     
+                                          text-decoration: none;
+
+                                        }
+
+            a#lower:hover, a#lower:active {
+                
+              color: #7EC4B7;                     
+              text-decoration: none;
+            }
+        </style>
     </head>
     
     
@@ -281,7 +362,8 @@
         <a id="nav-toggle" href="#!"><span></span></a>
       </div>
       <ul class="nav-list">
-        <!-- Setting the links to #! will ensure that no action takes place on click. -->
+          
+<!-- Setting the links to #! will ensure that no action takes place on click. -->
         <li><a href="http://saarangstudios.com/index.html">HOME</a></li>
         <li><a href="http://saarangstudios.com/services.html">SERVICES</a></li>
         <li><a href="http://saarangstudios.com/portfolio.html">PORTFOLIO</a></li>
@@ -291,7 +373,7 @@
   </div>
 </section>
         
-        <!--Gallery Section -->
+<!--Gallery Section -->
         
         
       <div id="gallery" style="display:none;">
@@ -390,4 +472,52 @@
 
 
     </body>
+    
+    <footer class="phone">
+        <table class="blueTable">
+        <tbody>
+        <tr>
+        <td><a href="https://www.instagram.com/rohanjoshirj/?hl=en" style="color:black;font-family: Asap;font-size: 13px">INSTA</a></td>
+        <td><a href="tel:9897111096" style="color:black;font-family: Asap;font-size: 13px">CALL </a></td>
+        <td><a href="mailto:navanshu.rastogi@gmail.com?Subject=Hello" style="color:black;font-family: Asap;font-size: 13px">MAIL</a></td>
+        </tr>
+        </tbody>
+        </table>
+        
+        <div style="background-color: black;padding-left: 20px;padding-right: 20px;;width: 100%;font-family: Muli;font-size: 14px;color: white" >
+            <div style="height: 30px"></div>
+            <table class="last">
+                    <tbody>
+                    <thead>
+                    <tr>
+                    <th>MENU</th>
+                        <th><a href="htttp://www.saarangstudios.com" id="lower">GET IN TOUCH</a></th>
+                    </tr>
+                    </thead>
+                    <tr>
+                    <td><a href="htttp://www.saarangstudios.com" id="lower">Home</a></td>
+                    <td><a href="htttp://www.saarangstudios.com" id="lower">Facebook</a></td>
+                    </tr>
+                    <tr>
+                    <td><a href="htttp://www.saarangstudios.com" id="lower">Services</a></td>
+                    <td><a href="htttp://www.saarangstudios.com" id="lower">Instagram</a></td>
+                    </tr>
+                    <tr>
+                    <td><a href="htttp://www.saarangstudios.com" id="lower">Contact</a></td>
+                    <td><a href="htttp://www.saarangstudios.com" id="lower">WhatsApp</a></td>
+                    </tr>
+                    <tr>
+                    <td><a href="htttp://www.saarangstudios.com" id="lower">Portfolio</a></td>
+                    <td><a href="htttp://www.saarangstudios.com" id="lower">E-mail</a></td>
+                    </tr>
+                    <tr>
+                    <td><a href="htttp://www.saarangstudios.com" id="lower">Before/After</a></td>
+                    <td></td>
+                    </tr>
+                    </tbody>
+                    </table>
+            <div style="height: 30px"></div>
+        </div>
+        
+    </footer>
 </html>
