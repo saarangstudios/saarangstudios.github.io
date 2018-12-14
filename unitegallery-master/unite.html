@@ -24,19 +24,23 @@
 				tiles_type:"justified"
     
 			});
-        jQuery(document).ready(function(){
+        
+    jQuery(document).ready(function(){
 		
-				jQuery("#gallery").unitegallery(
+        jQuery("#gallery").unitegallery(
                 {
                     slider_zoom_max_ratio: 1.5,                                                
                     theme_text_padding_left: 0,			//left padding of the text in the textpanel
 					theme_text_padding_right: 0,			//right paddin of the text in the textpanel
 					theme_text_align: "center",				//left, center, right - the align of the text in the textpanel
 					theme_text_type: "title",
-                }                           
-                                                )
-                                        }
-                              )
+                    
+                    
+                })
+        })
+        
+        
+        
 					
     </script>
 
@@ -231,7 +235,7 @@
             .nav-container – the inner wrapper for the navbar. Defines how far the actual content should stretch.
             */
             .nav-container {
-              max-width: 1000px;
+              max-width: 3000px;
               margin: 0 auto;
             }
 
@@ -293,6 +297,49 @@
                   }); // end DOM ready
                 })(jQuery); // end jQuery
                         </script>
+      
+        <!--Gallery styling  -->
+        
+        <style>
+            .contain{
+                margin-top: 0px;
+                margin-right: auto;
+                margin-left: auto;
+            }
+            @media only screen and (max-width: 800px) {
+            .contain{
+                padding-left: 0px;
+                padding-right: 0px;
+                }}
+            @media screen and (min-width: 992px) {
+                .contain{
+                    width: 970px;
+                }
+            }
+            @media screen and (min-width: 1200px) {
+                .contain{
+                    width: 1170px;
+                }
+            }
+         /*  @media (min-width: 992px)
+            .contain{
+                width: 970px;
+            }
+            @media (min-width: 768px)
+            .contain{
+                width: 750px;
+            }
+            
+        </style>
+        
+        
+        
+        
+        
+        
+        
+        
+        
         <!--Footer styling and script-->
        <style>
         .phone {
@@ -306,6 +353,14 @@
             
                    
                 }
+           .bigdisplay{
+               position: absolute;
+               right: 0;
+               bottom: 0;
+               left: 0;
+               float: none;
+               clear: both;
+           }
             table.blueTable {
                               border: 0px solid #A4A4A4;
                               width: 100%;
@@ -325,12 +380,20 @@
               .phone {
                 display: block;
                }
+                .bigdisplay{
+                    display: none !important;
+               }
+               
            }
 
             @media screen and (min-width: 800px) {
               .phone {
                 display: none !important;
                 }
+                 .bigdisplay{
+                     display: block;
+                }
+                
            }
            table.last {
                       border-left: 20px solid black;
@@ -353,6 +416,27 @@
                       font-weight: normal;
                     }
            
+               table.biglast {
+                      border-left: 20px solid black;
+                        border-right:20px solid black;
+                      width: 600px;
+                      text-align: left;
+                      border-collapse: collapse;
+                    }
+                    table.biglast td, table.biglast th {
+                      border: 0px solid #AAAAAA;
+                      padding: 15px 7px;
+                    }
+                    table.biglast tbody td {
+                      font-size: 14px;
+                    }
+                   table.biglast thead {
+                      }
+                    table.biglast thead th {
+                      font-size: 20px;
+                      font-weight: normal;
+                    }
+           
            a#lower:link, a#lower:visited {
  
                                           color: white;                     
@@ -365,6 +449,7 @@
               color: #7EC4B7;                     
               text-decoration: none;
             }
+           
         </style>
     </head>
     
@@ -394,7 +479,7 @@
         
 <!--Gallery Section -->
         
-        
+        <div class="contain">
       <div id="gallery" style="display:none;">
 
 
@@ -477,6 +562,7 @@
           </a>
         
 		</div>
+            </div>
     <script type="text/javascript">
 
   		jQuery(document).ready(function(){
@@ -514,28 +600,65 @@
                     </tr>
                     </thead>
                     <tr>
-                    <td><a href="htttp://www.saarangstudios.com" id="lower">Home</a></td>
-                    <td><a href="htttp://www.saarangstudios.com" id="lower">Facebook</a></td>
+                    <td><a href="http://saarangstudios.com/phone/index.html" id="lower">Home</a></td>
+                    <td><a href="http://saarangstudios.com/phone/facebook-launchpad.html" id="lower">Facebook</a></td>
                     </tr>
                     <tr>
-                    <td><a href="htttp://www.saarangstudios.com" id="lower">Services</a></td>
-                    <td><a href="htttp://www.saarangstudios.com" id="lower">Instagram</a></td>
+                    <td><a href="http://saarangstudios.com/phone/services.html" id="lower">Services</a></td>
+                    <td><a href="http://saarangstudios.com/phone/insta-launchpad.html" id="lower">Instagram</a></td>
                     </tr>
                     <tr>
-                    <td><a href="htttp://www.saarangstudios.com" id="lower">Contact</a></td>
-                    <td><a href="htttp://www.saarangstudios.com" id="lower">WhatsApp</a></td>
+                    <td><a href="http://saarangstudios.com/phone/contact.html" id="lower">Contact</a></td>
+                    <td><a href="http://saarangstudios.com/phone/wa-launchpad.html" id="lower">WhatsApp</a></td>
                     </tr>
                     <tr>
-                    <td><a href="htttp://www.saarangstudios.com" id="lower">Portfolio</a></td>
-                    <td><a href="htttp://www.saarangstudios.com" id="lower">E-mail</a></td>
+                    <td><a href="http://saarangstudios.com/phone/portfolio.html" id="lower">Portfolio</a></td>
+                    <td><a href="http://saarangstudios.com/phone/mail-launchpad.html" id="lower">E-mail</a></td>
                     </tr>
                     <tr>
-                    <td><a href="htttp://www.saarangstudios.com" id="lower">Before/After</a></td>
+                    <td><a href="#!" id="lower">Before/After</a></td>
                     <td></td>
                     </tr>
                     </tbody>
                     </table>
             <div style="height: 30px"></div>
+        </div>
+        
+    </footer>
+    <footer class="bigdisplay">
+     <div style="background-color: black;padding-left: 20px;padding-right: 20px;;width: 100%;font-family: Muli;font-size: 14px;color: white" >
+            <div style="height: 50px"></div>
+            <table class="biglast"  style="margin-left: 200px">
+                    <tbody>
+                    <thead>
+                    <tr>
+                    <th>MENU</th>
+                        <th><a href="htttp://www.saarangstudios.com" id="lower">GET IN TOUCH</a></th>
+                    </tr>
+                    </thead>
+                    <tr>
+                    <td><a href="http://saarangstudios.com/phone/index.html" id="lower">Home</a></td>
+                    <td><a href="http://saarangstudios.com/phone/facebook-launchpad.html" id="lower">Facebook</a></td>
+                    </tr>
+                    <tr>
+                    <td><a href="http://saarangstudios.com/phone/services.html" id="lower">Services</a></td>
+                    <td><a href="http://saarangstudios.com/phone/insta-launchpad.html" id="lower">Instagram</a></td>
+                    </tr>
+                    <tr>
+                    <td><a href="http://saarangstudios.com/phone/contact.html" id="lower">Contact</a></td>
+                    <td><a href="http://saarangstudios.com/phone/wa-launchpad.html" id="lower">WhatsApp</a></td>
+                    </tr>
+                    <tr>
+                    <td><a href="http://saarangstudios.com/phone/portfolio.html" id="lower">Portfolio</a></td>
+                    <td><a href="http://saarangstudios.com/phone/mail-launchpad.html" id="lower">E-mail</a></td>
+                    </tr>
+                    <tr>
+                    <td><a href="#!" id="lower">Before/After</a></td>
+                    <td></td>
+                    </tr>
+                    </tbody>
+                    </table>
+            <div style="height: 100px"></div>
         </div>
         
     </footer>
