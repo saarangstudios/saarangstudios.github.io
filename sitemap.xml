@@ -44,8 +44,8 @@
     </image:image>
   </url>
   <url>
-    <loc>https://github.com/saarangstudios/saarangstudios.github.io/phone/insta-launchpad.html</loc>
-    <lastmod>2018-12-07</lastmod>
+    <loc>https://github.com/saarangstudios/saarangstudios.github.io/phone/wa-launchpad.html</loc>
+    <lastmod>2018-12-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -68,6 +68,22 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://github.com/saarangstudios/saarangstudios.github.io/phone/insta-launchpad.html</loc>
+    <lastmod>2018-12-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://github.com/saarangstudios/saarangstudios.github.io/services.html</loc>
+    <lastmod>2018-12-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="https://github.com/saarangstudios/saarangstudios.github.io/phone/services.html"/>
+    <image:image>
+      <image:loc>https://github.com/saarangstudios/saarangstudios.github.io/images/asset%201.png</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://github.com/saarangstudios/saarangstudios.github.io/contact.html</loc>
     <lastmod>2018-12-11</lastmod>
     <changefreq>weekly</changefreq>
@@ -84,22 +100,6 @@
     </image:image>
   </url>
   <url>
-    <loc>https://github.com/saarangstudios/saarangstudios.github.io/services.html</loc>
-    <lastmod>2018-12-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="https://github.com/saarangstudios/saarangstudios.github.io/phone/services.html"/>
-    <image:image>
-      <image:loc>https://github.com/saarangstudios/saarangstudios.github.io/images/asset%201.png</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://github.com/saarangstudios/saarangstudios.github.io/phone/wa-launchpad.html</loc>
-    <lastmod>2018-12-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://github.com/saarangstudios/saarangstudios.github.io/portfolio.html</loc>
     <lastmod>2018-12-12</lastmod>
     <changefreq>weekly</changefreq>
@@ -108,34 +108,6 @@
     <image:image>
       <image:loc>https://github.com/saarangstudios/saarangstudios.github.io/images/saarang%20studios--8.jpg</image:loc>
     </image:image>
-  </url>
-  <url>
-    <loc>https://github.com/saarangstudios/saarangstudios.github.io/about.html</loc>
-    <lastmod>2018-12-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="https://github.com/saarangstudios/saarangstudios.github.io/phone/about.html"/>
-  </url>
-  <url>
-    <loc>https://github.com/saarangstudios/saarangstudios.github.io/stills.html</loc>
-    <lastmod>2018-12-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="https://github.com/saarangstudios/saarangstudios.github.io/phone/stills.html"/>
-  </url>
-  <url>
-    <loc>https://github.com/saarangstudios/saarangstudios.github.io/motion.html</loc>
-    <lastmod>2018-12-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="https://github.com/saarangstudios/saarangstudios.github.io/phone/motion.html"/>
-  </url>
-  <url>
-    <loc>https://github.com/saarangstudios/saarangstudios.github.io/beforeafter.html</loc>
-    <lastmod>2018-12-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="https://github.com/saarangstudios/saarangstudios.github.io/phone/beforeafter.html"/>
   </url>
   <url>
     <loc>https://github.com/saarangstudios/saarangstudios.github.io/privacy-policy.html</loc>
