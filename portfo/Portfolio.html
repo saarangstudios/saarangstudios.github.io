@@ -12,8 +12,8 @@
     <meta name="google-site-verification" content="h_uveFnZ28YIIqBcl7LPQGrc4HaWGcLudiyQeA8zjaI" />
     <!--Bootstrap-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-    <link rel="shortcut icon" type="image/png" href="http://saarangstudios.com/images/a-master-favicon.ico"/>
-    <link rel="shortcut icon" type="image/png" href="http://saarangstudios.com/images/a-master-favicon.ico"/>
+    <link rel="shortcut icon" type="image/png" href="http://saarangstudios.com/images/a-master-favicon.ico" />
+    <link rel="shortcut icon" type="image/png" href="http://saarangstudios.com/images/a-master-favicon.ico" />
 
     <!--Right click disablers -->
 
@@ -26,6 +26,7 @@
 
 
         });
+
     </script>
     <script>
         $(document).ready(function() {
@@ -33,6 +34,7 @@
                 return false;
             });
         });
+
     </script>
     <style>
         body {
@@ -54,6 +56,7 @@
         #img-fluid {
             -webkit-user-drag: none;
         }
+
     </style>
 
     <!--Section of right clicks turns off -->
@@ -115,6 +118,8 @@
 
         }
 
+        
+        
         table.blueTable td,
         table.blueTable th {
             border: 0px solid #ffffff;
@@ -150,6 +155,24 @@
             right: 0px;
         }
 
+        table.phone {
+            border: 0px solid #1C6EA4;
+            width: 100vw;
+            text-align: center !important;
+            margin-top: 12vh;
+            margin-left: auto;
+            margin-right: auto;
+                    }
+
+        table.phone td,
+        table.phone th {
+            border: 0px solid #AAAAAA;
+            padding: 4px 0px;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
         @media only screen and (max-width: 800px) {
 
             span {
@@ -157,14 +180,23 @@
                 letter-spacing: .2em;
             }
 
-            table.blueTable tbody td {
+            table.blueTablephone tbody td {
                 font-size: 0.9em;
                 width: 7vw;
                 height: 4vh;
+                
+
             }
 
             #copyright {
                 font-size: 0.7em;
+            }
+
+            .blueTable{
+                display: none;
+            }
+            .phone{
+                display: block;
             }
 
         }
@@ -186,12 +218,19 @@
             #copyright {
                 font-size: 0.7em;
             }
+            .blueTable{
+                display: block;
+            }
+            .phone{
+                display: none;
+            }
         }
+
     </style>
 
 </head>
 
-<body>
+<body data-gr-c-s-loaded="true">
 
     <div class="ct">
 
@@ -216,6 +255,28 @@
                 </tbody>
             </table>
 
+            <table class="phone">
+                <tbody>
+                    <tr>
+                        <td><a href="!#">ABOUT</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="!#">STILLS</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="!#">MOTION</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="!#">STORIES</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="http://saarangstudios.com/contact.html">CONTACT</a></td>
+                    </tr>
+                </tbody>
+                </tr>
+            </table>
+
+
         </div>
 
         <span id="copyright">
@@ -236,6 +297,7 @@
 
 
         );
+
     </script>
 </body>
 
