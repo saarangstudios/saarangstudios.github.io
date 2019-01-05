@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, shrink-to-fit=no">
+    <!--Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Asap|Muli" rel="stylesheet">
+    <!--Google Verification -->
+    <meta name="theme-color" content="#111111" />
+    <meta name="google-site-verification" content="h_uveFnZ28YIIqBcl7LPQGrc4HaWGcLudiyQeA8zjaI" />
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+    <!--Right click disablers -->
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            //Disable cut copy paste
+            $('body').bind('cut copy paste', function(e) {
+                e.preventDefault();
+            });
+
+
+        });
+    </script>
+    <script>
+        $(document).ready(function() {
+            $(document).bind("contextmenu", function(e) {
+                return false;
+            });
+        });
+    </script>
+    <style>
+        body {
+
+            -webkit-touch-callout: none !important;
+            /* iOS Safari */
+            -webkit-user-select: none !important;
+            /* Safari */
+            -khtml-user-select: none !important;
+            /* Konqueror HTML */
+            -moz-user-select: none !important;
+            /* Firefox */
+            -ms-user-select: none !important;
+            /* Internet Explorer/Edge */
+            user-select: none !important;
+            /* Non-prefixed version, currently supported by Chrome and Opera */
+        }
+
+        #img-fluid {
+            -webkit-user-drag: none;
+        }
+    </style>
+
+    <!--Section of right clicks turns off -->
+
+    <!--CSS STYLING -->
+    <style>
+        body {
+
+            border: 0vh solid white;
+            color: white;
+            height: 100vh;
+            width: 100vw;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        body::-moz-selection {
+            /* Code for Firefox */
+            color: white;
+            background: black;
+        }
+
+        body::selection {
+            color: white;
+            background: black;
+        }
+
+
+
+
+        .ct {
+            height: 100vh;
+            display: flex;
+            align-items: baseline;
+            flex-wrap: wrap;
+            width: 100vw;
+        }
+
+        #heading {
+            font-family: 'Muli';
+            margin-top: 10vh;
+            text-align: center;
+            font-weight: normal;
+            font-kerning: auto;
+            text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.22);
+            margin-left: auto;
+            margin-right: auto;
+            width: 100vw;
+
+        }
+
+        table.blueTable {
+            border: 0px solid #ffffff;
+
+            margin-top: 12vh;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+
+        }
+
+        table.blueTable td,
+        table.blueTable th {
+            border: 0px solid #ffffff;
+            padding: 0px 4px;
+        }
+
+        table.blueTable tbody td {
+            font-family: 'Asap';
+            text-shadow: 0px 0px 20px rgba(28, 22, 22, 0.5);
+
+        }
+
+        table.blueTable tbody td:hover {
+            background-color: darkgrey;
+            transition: 0.5s;
+            cursor: pointer;
+        }
+
+        a {
+            text-decoration: none !important;
+            color: white;
+        }
+
+        a:hover {
+            color: white;
+        }
+
+        #copyright {
+            font-family: 'Asap';
+            letter-spacing: normal;
+            bottom: 0px;
+            position: fixed;
+            right: 0px;
+        }
+
+        @media only screen and (max-width: 800px) {
+
+            span {
+                font-size: 1.3em;
+                letter-spacing: .2em;
+            }
+
+            table.blueTable tbody td {
+                font-size: 0.9em;
+                width: 7vw;
+                height: 4vh;
+            }
+
+            #copyright {
+                font-size: 0.7em;
+            }
+
+        }
+
+
+        @media screen and (min-width: 800px) {
+
+            span {
+                font-size: 2.3em;
+                letter-spacing: .2em;
+            }
+
+            table.blueTable tbody td {
+                font-size: 0.9em;
+                width: 7vw;
+                height: 4vh;
+            }
+
+            #copyright {
+                font-size: 0.7em;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="ct">
+
+        <div class="row">
+
+            <span id="heading"><a href="http://saarangstudios.com/index.html">SAARANG STUDIOS</a></span>
+            <br>
+            <table class="blueTable">
+                <tbody>
+                    <tr>
+                        <td><a href="!#">ABOUT</a></td>
+
+                        <td><a href="!#">STILLS</a></td>
+
+                        <td><a href="!#">MOTION</a></td>
+
+                        <td><a href="!#">STORIES</a></td>
+
+                        <td><a href="http://saarangstudios.com/contact.html">CONTACT</a></td>
+
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+
+        <span id="copyright">
+            Under Copyright Act © 2018-2019 All rights reserved with SAARANG STUDIOS
+        </span>
+    </div>
+
+    <script src="easy_background.js"></script>
+
+    <script>
+        easy_background("body",
+
+            {
+                slide: ["img/1.jpg", "img/2.jpg", "img/3.jpg", "img/4.jpg", "img/5.jpg"],
+
+                delay: [5000, 5000, 5000, 5000, 5000]
+            }
+
+
+        );
+    </script>
+</body>
+
+<footer>
+
+</footer>
+
+</html>

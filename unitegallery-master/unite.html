@@ -2,72 +2,65 @@
 <html lang="en">
     <head>
     <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<!--Google fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Asap|Muli" rel="stylesheet">
-<!--Google Verification -->        
-        <meta name="theme-color" content="#111111" />
-        <meta name="google-site-verification" content="h_uveFnZ28YIIqBcl7LPQGrc4HaWGcLudiyQeA8zjaI" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!--Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Asap|Muli" rel="stylesheet">
+    <!--Google Verification -->
+    <meta name="theme-color" content="#111111" />
+    <meta name="google-site-verification" content="h_uveFnZ28YIIqBcl7LPQGrc4HaWGcLudiyQeA8zjaI" />
 
-        
-        
-<!-- ... [OTHER INCLUDES] ... -->
 
-		<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
-		<script type='text/javascript' src='http://saarangstudios.com/unitegallery-master/dist/js/unitegallery.min.js'></script>
-		<link rel='stylesheet' href='http://saarangstudios.com/unitegallery-master/dist/css/unite-gallery.css' type='text/css' />
-		<script type='text/javascript' src='http://saarangstudios.com/unitegallery-master/dist/themes/tiles/ug-theme-tiles.js'></script>
+    <!-- ... [OTHER INCLUDES] ... -->
+
+    <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+    <script type='text/javascript' src='http://saarangstudios.com/unitegallery-master/dist/js/unitegallery.min.js'></script>
+    <link rel='stylesheet' href='http://saarangstudios.com/unitegallery-master/dist/css/unite-gallery.css' type='text/css' />
+    <script type='text/javascript' src='http://saarangstudios.com/unitegallery-master/dist/themes/tiles/ug-theme-tiles.js'></script>
 
 
     <script type="text/javascript">
-    jQuery("#gallery").unitegallery({
-				tiles_type:"justified"
-    
-			});
-        
-    jQuery(document).ready(function(){
-		
-        jQuery("#gallery").unitegallery(
-                {
-                    slider_zoom_max_ratio: 1.5,                                                
-                    theme_text_padding_left: 0,			//left padding of the text in the textpanel
-					theme_text_padding_right: 0,			//right paddin of the text in the textpanel
-					theme_text_align: "center",				//left, center, right - the align of the text in the textpanel
-					theme_text_type: "title",
-                    thumb_fixed_size:false,
-                    strip_space_between_thumbs:5,
-                    
-                    
-                })
+        jQuery("#gallery").unitegallery({
+            tiles_type: "justified"
+
+        });
+
+        jQuery(document).ready(function() {
+
+            jQuery("#gallery").unitegallery({
+                slider_zoom_max_ratio: 1.5,
+                theme_text_padding_left: 0, //left padding of the text in the textpanel
+                theme_text_padding_right: 0, //right paddin of the text in the textpanel
+                theme_text_align: "center", //left, center, right - the align of the text in the textpanel
+                theme_text_type: "title",
+                thumb_fixed_size: false,
+                strip_space_between_thumbs: 5,
+
+
+            })
         })
-        
-        
-        
-					
     </script>
 
-  <!--Right click disablers -->
-        
-        <script type="text/javascript">
-            $(document).ready(function () {
-                //Disable cut copy paste
-                $('body').bind('cut copy paste', function (e) {
-                    e.preventDefault();
-                });
+    <!--Right click disablers -->
 
-
+    <script type="text/javascript">
+        $(document).ready(function() {
+            //Disable cut copy paste
+            $('body').bind('cut copy paste', function(e) {
+                e.preventDefault();
             });
-        </script>
-        <script>
-        $(document).ready(function(){
-           $(document).bind("contextmenu",function(e){
-              return false;
-           });
+
+
         });
-           
-        </script>
-        <style>
-            body{
+    </script>
+    <script>
+        $(document).ready(function() {
+            $(document).bind("contextmenu", function(e) {
+                return false;
+            });
+        });
+    </script>
+    <style>
+        body{
                 
                  -webkit-touch-callout: none !important; /* iOS Safari */
                 -webkit-user-select: none !important; /* Safari */
@@ -81,12 +74,12 @@
                -webkit-user-drag: none;
                         }
         </style>
-        
-        <!--Section of right clicks turns off -->
-        
-        <!--CSS Navbar -->
-            <style>
-            body {
+
+    <!--Section of right clicks turns off -->
+
+    <!--CSS Navbar -->
+    <style>
+        body {
             background-color: #ffffff;
                 margin: 0px !important;
             }
@@ -271,50 +264,53 @@
               Color:#C4C4C4;
             }
             </style>
-        <!--Nav bar script --> 
-        <script>
-                        (function($) { // Begin jQuery
-                  $(function() { // DOM ready
-                    // If a link has a dropdown, add sub menu toggle.
-                    $('nav ul li a:not(:only-child)').click(function(e) {
-                      $(this).siblings('.nav-dropdown').toggle();
-                      // Close one dropdown when selecting another
-                      $('.nav-dropdown').not($(this).siblings()).hide();
-                      e.stopPropagation();
-                    });
-                    // Clicking away from dropdown will remove the dropdown class
-                    $('html').click(function() {
-                      $('.nav-dropdown').hide();
-                    });
-                    // Toggle open and close nav styles on click
-                      var n=0;
-                    $('#nav-toggle').click(function() {
-                      $('nav ul').slideToggle();
-                        if(n%2==0)
-                            {
-                                $("#gallery").animate({top: "200px"});
-                                n++;
-                        
-                            }
-                        else{
-                            
-                            $("#gallery").animate({top: "0px"});
-                            n++;
-                        }
-                        
-                    });
-                    // Hamburger to X toggle
-                    $('#nav-toggle').on('click', function() {
-                      this.classList.toggle('active');
-                    });
-                  }); // end DOM ready
-                })(jQuery); // end jQuery
-                        </script>
-      
-        <!--Gallery styling  -->
-        
-        <style>
-            .contain{
+
+    <!--Nav bar script -->
+    <script>
+        (function($) { // Begin jQuery
+            $(function() { // DOM ready
+                // If a link has a dropdown, add sub menu toggle.
+                $('nav ul li a:not(:only-child)').click(function(e) {
+                    $(this).siblings('.nav-dropdown').toggle();
+                    // Close one dropdown when selecting another
+                    $('.nav-dropdown').not($(this).siblings()).hide();
+                    e.stopPropagation();
+                });
+                // Clicking away from dropdown will remove the dropdown class
+                $('html').click(function() {
+                    $('.nav-dropdown').hide();
+                });
+                // Toggle open and close nav styles on click
+                var n = 0;
+                $('#nav-toggle').click(function() {
+                    $('nav ul').slideToggle();
+                    if (n % 2 == 0) {
+                        $("#gallery").animate({
+                            top: "200px"
+                        });
+                        n++;
+
+                    } else {
+
+                        $("#gallery").animate({
+                            top: "0px"
+                        });
+                        n++;
+                    }
+
+                });
+                // Hamburger to X toggle
+                $('#nav-toggle').on('click', function() {
+                    this.classList.toggle('active');
+                });
+            }); // end DOM ready
+        })(jQuery); // end jQuery
+    </script>
+
+    <!--Gallery styling  -->
+
+    <style>
+        .contain{
                 margin-top: 0px;
                 margin-right: auto;
                 margin-left: auto;
@@ -340,17 +336,17 @@
             }
          
         </style>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <!--Footer styling and script-->
-       <style>
+
+
+
+
+
+
+
+
+
+    <!--Footer styling and script-->
+    <style>
         .phone {
                   position: absolute;
                   right: 0;
@@ -460,284 +456,198 @@
             }
            
         </style>
-    </head>
-    
-    
-    <body>
-        
-        <section class="navigation">
-  <div class="nav-container">
-    <div class="brand">
-      <a href="http://saarangstudios.com/">SAARANG STUDIOS</a>
-    </div>
-    <nav>
-      <div class="nav-mobile">
-        <a id="nav-toggle" href="#!"><span></span></a>
-      </div>
-      <ul class="nav-list">
-          
-<!-- Setting the links to #! will ensure that no action takes place on click. -->
-        <li><a href="http://saarangstudios.com/index.html">HOME</a></li>
-        <li><a href="http://saarangstudios.com/services.html">SERVICES</a></li>
-        <li><a href="http://saarangstudios.com/portfolio.html" style="color: aqua">PORTFOLIO</a></li>
-        <li><a href="http://saarangstudios.com/contact.html">CONTACT</a></li>
-      </ul>
-    </nav>
-  </div>
-</section>
-        
-<!--Gallery Section -->
-        
-        <div class="contain">
-      <div id="gallery" style="display:none;">
+</head>
 
 
-          <a>
-        <img alt="Lemon Slice"
-             src="http://saarangstudios.github.io/unitegallery-master/package/images/thumbs/tile1.jpg"
-             data-image="http://saarangstudios.com/unitegallery-master/package/images/big/tile1.jpg"
-             data-description="This is a Lemon Slice"
-             style="display:none">
-          </a>
-          <a>
-        <img alt="Lemon Slice"
-             src="http://saarangstudios.github.io/unitegallery-master/package/images/thumbs/tile1.jpg"
-             data-image="http://saarangstudios.com/unitegallery-master/package/images/big/tile1.jpg"
-             data-description="This is a Lemon Slice"
-             style="display:none">
-          </a>
-          <a>
-        <img alt="Lemon Slice"
-             src="http://saarangstudios.github.io/unitegallery-master/package/images/thumbs/tile1.jpg"
-             data-image="http://saarangstudios.com/unitegallery-master/package/images/big/tile1.jpg"
-             data-description="This is a Lemon Slice"
-             style="display:none">
-          </a>
-          <a>
-        <img alt="Lemon Slice"
-             src="http://saarangstudios.github.io/unitegallery-master/package/images/thumbs/tile1.jpg"
-             data-image="http://saarangstudios.com/unitegallery-master/package/images/big/tile1.jpg"
-             data-description="This is a Lemon Slice"
-             style="display:none">
-          </a>
-          <a>
-        <img alt="Lemon Slice"
-             src="http://saarangstudios.github.io/unitegallery-master/package/images/thumbs/tile1.jpg"
-             data-image="http://saarangstudios.com/unitegallery-master/package/images/big/tile1.jpg"
-             data-description="This is a Lemon Slice"
-             style="display:none">
-          </a>
-          <a>
-        <img alt="Lemon Slice"
-             src="http://saarangstudios.github.io/unitegallery-master/package/images/thumbs/tile1.jpg"
-             data-image="http://saarangstudios.com/unitegallery-master/package/images/big/tile1.jpg"
-             data-description="This is a Lemon Slice"
-             style="display:none">
-          </a>
-          <a>
-        <img alt="Lemon Slice"
-             src="http://saarangstudios.github.io/unitegallery-master/package/images/thumbs/tile1.jpg"
-             data-image="http://saarangstudios.com/unitegallery-master/package/images/big/tile1.jpg"
-             data-description="This is a Lemon Slice"
-             style="display:none">
-          </a>
-          <a>
-        <img alt="Lemon Slice"
-             src="http://saarangstudios.github.io/unitegallery-master/package/images/thumbs/tile1.jpg"
-             data-image="http://saarangstudios.com/unitegallery-master/package/images/big/tile1.jpg"
-             data-description="This is a Lemon Slice"
-             style="display:none">
-          </a>
-          <a>
-        <img alt="Lemon Slice"
-             src="http://saarangstudios.github.io/unitegallery-master/package/images/thumbs/tile1.jpg"
-             data-image="http://saarangstudios.com/unitegallery-master/package/images/big/tile1.jpg"
-             data-description="This is a Lemon Slice"
-             style="display:none">
-          </a>
-          <a>
-        <img alt="Lemon Slice"
-             src="http://saarangstudios.github.io/unitegallery-master/package/images/thumbs/tile1.jpg"
-             data-image="http://saarangstudios.com/unitegallery-master/package/images/big/tile1.jpg"
-             data-description="This is a Lemon Slice"
-             style="display:none">
-          </a>
-          <a>
-        <img alt="Lemon Slice"
-             src="http://saarangstudios.github.io/unitegallery-master/package/images/thumbs/tile1.jpg"
-             data-image="http://saarangstudios.com/unitegallery-master/package/images/big/tile1.jpg"
-             data-description="This is a Lemon Slice"
-             style="display:none">
-          </a>
-         <a>
-        <img alt="Lemon Slice"
-             src="http://saarangstudios.github.io/unitegallery-master/package/images/thumbs/tile1.jpg"
-             data-image="http://saarangstudios.com/unitegallery-master/package/images/big/tile1.jpg"
-             data-description="This is a Lemon Slice"
-             style="display:none">
-          </a>
-           <a>
-        <img alt="Lemon Slice"
-             src="http://saarangstudios.github.io/unitegallery-master/package/images/thumbs/tile1.jpg"
-             data-image="http://saarangstudios.com/unitegallery-master/package/images/big/tile1.jpg"
-             data-description="This is a Lemon Slice"
-             style="display:none">
-          </a>
-           <a>
-        <img alt="Lemon Slice"
-             src="http://saarangstudios.github.io/unitegallery-master/package/images/thumbs/tile1.jpg"
-             data-image="http://saarangstudios.com/unitegallery-master/package/images/big/tile1.jpg"
-             data-description="This is a Lemon Slice"
-             style="display:none">
-          </a>
-           <a>
-        <img alt="Lemon Slice"
-             src="http://saarangstudios.github.io/unitegallery-master/package/images/thumbs/tile1.jpg"
-             data-image="http://saarangstudios.com/unitegallery-master/package/images/big/tile1.jpg"
-             data-description="This is a Lemon Slice"
-             style="display:none">
-          </a>
-           <a>
-        <img alt="Lemon Slice"
-             src="http://saarangstudios.github.io/unitegallery-master/package/images/thumbs/tile1.jpg"
-             data-image="http://saarangstudios.com/unitegallery-master/package/images/big/tile1.jpg"
-             data-description="This is a Lemon Slice"
-             style="display:none">
-          </a>
-           <a>
-        <img alt="Lemon Slice"
-             src="http://saarangstudios.github.io/unitegallery-master/package/images/thumbs/tile1.jpg"
-             data-image="http://saarangstudios.com/unitegallery-master/package/images/big/tile1.jpg"
-             data-description="This is a Lemon Slice"
-             style="display:none">
-          </a>
-           <a>
-        <img alt="Lemon Slice"
-             src="http://saarangstudios.github.io/unitegallery-master/package/images/thumbs/tile1.jpg"
-             data-image="http://saarangstudios.com/unitegallery-master/package/images/big/tile1.jpg"
-             data-description="This is a Lemon Slice"
-             style="display:none">
-          </a>
-           <a>
-        <img alt="Lemon Slice"
-             src="http://saarangstudios.github.io/unitegallery-master/package/images/thumbs/tile1.jpg"
-             data-image="http://saarangstudios.com/unitegallery-master/package/images/big/tile1.jpg"
-             data-description="This is a Lemon Slice"
-             style="display:none">
-          </a>
-           <a>
-        <img alt="Lemon Slice"
-             src="http://saarangstudios.github.io/unitegallery-master/package/images/thumbs/tile1.jpg"
-             data-image="http://saarangstudios.com/unitegallery-master/package/images/big/tile1.jpg"
-             data-description="This is a Lemon Slice"
-             style="display:none">
-          </a>
-           <a>
-        <img alt="Lemon Slice"
-             src="http://saarangstudios.github.io/unitegallery-master/package/images/thumbs/tile1.jpg"
-             data-image="http://saarangstudios.com/unitegallery-master/package/images/big/tile1.jpg"
-             data-description="This is a Lemon Slice"
-             style="display:none">
-          </a>
-		</div>
+<body>
+
+    <section class="navigation">
+        <div class="nav-container">
+            <div class="brand">
+                <a href="http://saarangstudios.com/">SAARANG STUDIOS</a>
             </div>
+            <nav>
+                <div class="nav-mobile">
+                    <a id="nav-toggle" href="#!"><span></span></a>
+                </div>
+                <ul class="nav-list">
+
+                    <!-- Setting the links to #! will ensure that no action takes place on click. -->
+                    <li><a href="http://saarangstudios.com/index.html">HOME</a></li>
+                    <li><a href="http://saarangstudios.com/services.html">SERVICES</a></li>
+                    <li><a href="http://saarangstudios.com/portfolio.html" style="color: aqua">PORTFOLIO</a></li>
+                    <li><a href="http://saarangstudios.com/contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+
+    <!--Gallery Section -->
+
+    <div class="contain">
+        <div id="gallery" style="display:none;">
+
+
+            <a>
+                <img alt="Lemon Slice" src="http://saarangstudios.github.io/unitegallery-master/package/images/thumbs/tile1.jpg" data-image="http://saarangstudios.com/unitegallery-master/package/images/big/tile1.jpg" data-description="This is a Lemon Slice" style="display:none">
+            </a>
+            <a>
+                <img alt="Lemon Slice" src="http://saarangstudios.github.io/unitegallery-master/package/images/thumbs/tile1.jpg" data-image="http://saarangstudios.com/unitegallery-master/package/images/big/tile1.jpg" data-description="This is a Lemon Slice" style="display:none">
+            </a>
+            <a>
+                <img alt="Lemon Slice" src="http://saarangstudios.github.io/unitegallery-master/package/images/thumbs/tile1.jpg" data-image="http://saarangstudios.com/unitegallery-master/package/images/big/tile1.jpg" data-description="This is a Lemon Slice" style="display:none">
+            </a>
+            <a>
+                <img alt="Lemon Slice" src="http://saarangstudios.github.io/unitegallery-master/package/images/thumbs/tile1.jpg" data-image="http://saarangstudios.com/unitegallery-master/package/images/big/tile1.jpg" data-description="This is a Lemon Slice" style="display:none">
+            </a>
+            <a>
+                <img alt="Lemon Slice" src="http://saarangstudios.github.io/unitegallery-master/package/images/thumbs/tile1.jpg" data-image="http://saarangstudios.com/unitegallery-master/package/images/big/tile1.jpg" data-description="This is a Lemon Slice" style="display:none">
+            </a>
+            <a>
+                <img alt="Lemon Slice" src="http://saarangstudios.github.io/unitegallery-master/package/images/thumbs/tile1.jpg" data-image="http://saarangstudios.com/unitegallery-master/package/images/big/tile1.jpg" data-description="This is a Lemon Slice" style="display:none">
+            </a>
+            <a>
+                <img alt="Lemon Slice" src="http://saarangstudios.github.io/unitegallery-master/package/images/thumbs/tile1.jpg" data-image="http://saarangstudios.com/unitegallery-master/package/images/big/tile1.jpg" data-description="This is a Lemon Slice" style="display:none">
+            </a>
+            <a>
+                <img alt="Lemon Slice" src="http://saarangstudios.github.io/unitegallery-master/package/images/thumbs/tile1.jpg" data-image="http://saarangstudios.com/unitegallery-master/package/images/big/tile1.jpg" data-description="This is a Lemon Slice" style="display:none">
+            </a>
+            <a>
+                <img alt="Lemon Slice" src="http://saarangstudios.github.io/unitegallery-master/package/images/thumbs/tile1.jpg" data-image="http://saarangstudios.com/unitegallery-master/package/images/big/tile1.jpg" data-description="This is a Lemon Slice" style="display:none">
+            </a>
+            <a>
+                <img alt="Lemon Slice" src="http://saarangstudios.github.io/unitegallery-master/package/images/thumbs/tile1.jpg" data-image="http://saarangstudios.com/unitegallery-master/package/images/big/tile1.jpg" data-description="This is a Lemon Slice" style="display:none">
+            </a>
+            <a>
+                <img alt="Lemon Slice" src="http://saarangstudios.github.io/unitegallery-master/package/images/thumbs/tile1.jpg" data-image="http://saarangstudios.com/unitegallery-master/package/images/big/tile1.jpg" data-description="This is a Lemon Slice" style="display:none">
+            </a>
+            <a>
+                <img alt="Lemon Slice" src="http://saarangstudios.github.io/unitegallery-master/package/images/thumbs/tile1.jpg" data-image="http://saarangstudios.com/unitegallery-master/package/images/big/tile1.jpg" data-description="This is a Lemon Slice" style="display:none">
+            </a>
+            <a>
+                <img alt="Lemon Slice" src="http://saarangstudios.github.io/unitegallery-master/package/images/thumbs/tile1.jpg" data-image="http://saarangstudios.com/unitegallery-master/package/images/big/tile1.jpg" data-description="This is a Lemon Slice" style="display:none">
+            </a>
+            <a>
+                <img alt="Lemon Slice" src="http://saarangstudios.github.io/unitegallery-master/package/images/thumbs/tile1.jpg" data-image="http://saarangstudios.com/unitegallery-master/package/images/big/tile1.jpg" data-description="This is a Lemon Slice" style="display:none">
+            </a>
+            <a>
+                <img alt="Lemon Slice" src="http://saarangstudios.github.io/unitegallery-master/package/images/thumbs/tile1.jpg" data-image="http://saarangstudios.com/unitegallery-master/package/images/big/tile1.jpg" data-description="This is a Lemon Slice" style="display:none">
+            </a>
+            <a>
+                <img alt="Lemon Slice" src="http://saarangstudios.github.io/unitegallery-master/package/images/thumbs/tile1.jpg" data-image="http://saarangstudios.com/unitegallery-master/package/images/big/tile1.jpg" data-description="This is a Lemon Slice" style="display:none">
+            </a>
+            <a>
+                <img alt="Lemon Slice" src="http://saarangstudios.github.io/unitegallery-master/package/images/thumbs/tile1.jpg" data-image="http://saarangstudios.com/unitegallery-master/package/images/big/tile1.jpg" data-description="This is a Lemon Slice" style="display:none">
+            </a>
+            <a>
+                <img alt="Lemon Slice" src="http://saarangstudios.github.io/unitegallery-master/package/images/thumbs/tile1.jpg" data-image="http://saarangstudios.com/unitegallery-master/package/images/big/tile1.jpg" data-description="This is a Lemon Slice" style="display:none">
+            </a>
+            <a>
+                <img alt="Lemon Slice" src="http://saarangstudios.github.io/unitegallery-master/package/images/thumbs/tile1.jpg" data-image="http://saarangstudios.com/unitegallery-master/package/images/big/tile1.jpg" data-description="This is a Lemon Slice" style="display:none">
+            </a>
+            <a>
+                <img alt="Lemon Slice" src="http://saarangstudios.github.io/unitegallery-master/package/images/thumbs/tile1.jpg" data-image="http://saarangstudios.com/unitegallery-master/package/images/big/tile1.jpg" data-description="This is a Lemon Slice" style="display:none">
+            </a>
+            <a>
+                <img alt="Lemon Slice" src="http://saarangstudios.github.io/unitegallery-master/package/images/thumbs/tile1.jpg" data-image="http://saarangstudios.com/unitegallery-master/package/images/big/tile1.jpg" data-description="This is a Lemon Slice" style="display:none">
+            </a>
+        </div>
+    </div>
     <script type="text/javascript">
+        jQuery(document).ready(function() {
 
-  		jQuery(document).ready(function(){
+            jQuery("#gallery").unitegallery({
+                tiles_type: "justified"
+            });
 
-  			jQuery("#gallery").unitegallery({
-  				tiles_type:"justified"
-  			});
-
-  		});
-
-  	</script>
+        });
+    </script>
 
 
-    </body>
-    
-    <footer class="phone">
-        <table class="blueTable">
+</body>
+
+<footer class="phone">
+    <table class="blueTable">
         <tbody>
-        <tr>
-        <td><a href="https://www.instagram.com/rohanjoshirj/?hl=en" style="color:black;font-family: Asap;font-size: 13px">INSTA</a></td>
-        <td><a href="tel:9897111096" style="color:black;font-family: Asap;font-size: 13px">CALL </a></td>
-        <td><a href="mailto:navanshu.rastogi@gmail.com?Subject=Hello" style="color:black;font-family: Asap;font-size: 13px">MAIL</a></td>
-        </tr>
+            <tr>
+                <td><a href="https://www.instagram.com/rohanjoshirj/?hl=en" style="color:black;font-family: Asap;font-size: 13px">INSTA</a></td>
+                <td><a href="tel:9897111096" style="color:black;font-family: Asap;font-size: 13px">CALL </a></td>
+                <td><a href="mailto:navanshu.rastogi@gmail.com?Subject=Hello" style="color:black;font-family: Asap;font-size: 13px">MAIL</a></td>
+            </tr>
         </tbody>
+    </table>
+
+    <div style="background-color: black;padding-left: 20px;padding-right: 20px;;width: 100%;font-family: Muli;font-size: 14px;color: white">
+        <div style="height: 30px"></div>
+        <table class="last">
+            <tbody>
+                <thead>
+                    <tr>
+                        <th>MENU</th>
+                        <th><a href="htttp://www.saarangstudios.com" id="lower">GET IN TOUCH</a></th>
+                    </tr>
+                </thead>
+                <tr>
+                    <td><a href="http://saarangstudios.com/phone/index.html" id="lower">Home</a></td>
+                    <td><a href="http://saarangstudios.com/phone/facebook-launchpad.html" id="lower">Facebook</a></td>
+                </tr>
+                <tr>
+                    <td><a href="http://saarangstudios.com/phone/services.html" id="lower">Services</a></td>
+                    <td><a href="http://saarangstudios.com/phone/insta-launchpad.html" id="lower">Instagram</a></td>
+                </tr>
+                <tr>
+                    <td><a href="http://saarangstudios.com/phone/contact.html" id="lower">Contact</a></td>
+                    <td><a href="http://saarangstudios.com/phone/wa-launchpad.html" id="lower">WhatsApp</a></td>
+                </tr>
+                <tr>
+                    <td><a href="http://saarangstudios.com/phone/portfolio.html" id="lower">Portfolio</a></td>
+                    <td><a href="http://saarangstudios.com/phone/mail-launchpad.html" id="lower">E-mail</a></td>
+                </tr>
+                <tr>
+                    <td><a href="#!" id="lower">Before/After</a></td>
+                    <td></td>
+                </tr>
+            </tbody>
         </table>
-        
-        <div style="background-color: black;padding-left: 20px;padding-right: 20px;;width: 100%;font-family: Muli;font-size: 14px;color: white" >
-            <div style="height: 30px"></div>
-            <table class="last">
-                    <tbody>
-                    <thead>
+        <div style="height: 30px"></div>
+    </div>
+
+</footer>
+<footer class="bigdisplay">
+    <div style="background-color: black;padding-left: 20px;padding-right: 20px;;width: 100%;font-family: Muli;font-size: 14px;color: white">
+        <div style="height: 50px"></div>
+        <table class="biglast" style="margin-left: 200px">
+            <tbody>
+                <thead>
                     <tr>
-                    <th>MENU</th>
+                        <th>MENU</th>
                         <th><a href="htttp://www.saarangstudios.com" id="lower">GET IN TOUCH</a></th>
                     </tr>
-                    </thead>
-                    <tr>
-                    <td><a href="http://saarangstudios.com/phone/index.html" id="lower">Home</a></td>
-                    <td><a href="http://saarangstudios.com/phone/facebook-launchpad.html" id="lower">Facebook</a></td>
-                    </tr>
-                    <tr>
-                    <td><a href="http://saarangstudios.com/phone/services.html" id="lower">Services</a></td>
-                    <td><a href="http://saarangstudios.com/phone/insta-launchpad.html" id="lower">Instagram</a></td>
-                    </tr>
-                    <tr>
-                    <td><a href="http://saarangstudios.com/phone/contact.html" id="lower">Contact</a></td>
-                    <td><a href="http://saarangstudios.com/phone/wa-launchpad.html" id="lower">WhatsApp</a></td>
-                    </tr>
-                    <tr>
-                    <td><a href="http://saarangstudios.com/phone/portfolio.html" id="lower">Portfolio</a></td>
-                    <td><a href="http://saarangstudios.com/phone/mail-launchpad.html" id="lower">E-mail</a></td>
-                    </tr>
-                    <tr>
+                </thead>
+                <tr>
+                    <td><a href="http://saarangstudios.com" id="lower">Home</a></td>
+                    <td><a href="http://saarangstudios.com/facebook.html" id="lower">Facebook</a></td>
+                </tr>
+                <tr>
+                    <td><a href="http://saarangstudios.com/services.html" id="lower">Services</a></td>
+                    <td><a href="http://saarangstudios.com/insta.html" id="lower">Instagram</a></td>
+                </tr>
+                <tr>
+                    <td><a href="http://saarangstudios.com/contact.html" id="lower">Contact</a></td>
+                    <td><a href="http://saarangstudios.com/wa.html" id="lower">WhatsApp</a></td>
+                </tr>
+                <tr>
+                    <td><a href="http://saarangstudios.com/portfolio.html" id="lower">Portfolio</a></td>
+                    <td><a href="http://saarangstudios.com/mail.html" id="lower">E-mail</a></td>
+                </tr>
+                <tr>
                     <td><a href="#!" id="lower">Before/After</a></td>
                     <td></td>
-                    </tr>
-                    </tbody>
-                    </table>
-            <div style="height: 30px"></div>
-        </div>
-        
-    </footer>
-    <footer class="bigdisplay">
-     <div style="background-color: black;padding-left: 20px;padding-right: 20px;;width: 100%;font-family: Muli;font-size: 14px;color: white" >
-            <div style="height: 50px"></div>
-            <table class="biglast"  style="margin-left: 200px">
-                    <tbody>
-                    <thead>
-                    <tr>
-                    <th>MENU</th>
-                        <th><a href="htttp://www.saarangstudios.com" id="lower">GET IN TOUCH</a></th>
-                    </tr>
-                    </thead>
-                    <tr>
-                    <td><a href="http://saarangstudios.com/phone/index.html" id="lower">Home</a></td>
-                    <td><a href="http://saarangstudios.com/phone/facebook-launchpad.html" id="lower">Facebook</a></td>
-                    </tr>
-                    <tr>
-                    <td><a href="http://saarangstudios.com/phone/services.html" id="lower">Services</a></td>
-                    <td><a href="http://saarangstudios.com/phone/insta-launchpad.html" id="lower">Instagram</a></td>
-                    </tr>
-                    <tr>
-                    <td><a href="http://saarangstudios.com/phone/contact.html" id="lower">Contact</a></td>
-                    <td><a href="http://saarangstudios.com/phone/wa-launchpad.html" id="lower">WhatsApp</a></td>
-                    </tr>
-                    <tr>
-                    <td><a href="http://saarangstudios.com/phone/portfolio.html" id="lower">Portfolio</a></td>
-                    <td><a href="http://saarangstudios.com/phone/mail-launchpad.html" id="lower">E-mail</a></td>
-                    </tr>
-                    <tr>
-                    <td><a href="#!" id="lower">Before/After</a></td>
-                    <td></td>
-                    </tr>
-                    </tbody>
-                    </table>
-            <div style="height: 100px"></div>
-        </div>
-        
-    </footer>
+                </tr>
+            </tbody>
+        </table>
+        <div style="height: 100px"></div>
+    </div>
+
+</footer>
 </html>
