@@ -12,14 +12,8 @@
     <meta name="google-site-verification" content="h_uveFnZ28YIIqBcl7LPQGrc4HaWGcLudiyQeA8zjaI" />
     <!--Bootstrap-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-    <!--favicon-->
     <link rel="shortcut icon" type="image/png" href="http://saarangstudios.com/images/a-master-favicon.ico" />
     <link rel="shortcut icon" type="image/png" href="http://saarangstudios.com/images/a-master-favicon.ico" />
-    <!--Slideshow library-->
-    <script src="http://zeptojs.com/zepto.min.js"></script>
-    <script src="http://code.jquery.com/jquery.min.js"></script>
-    <link rel="stylesheet" href="vegas.min.css">
-    <script src="vegas.min.js"></script>
 
     <!--Right click disablers -->
 
@@ -32,6 +26,7 @@
 
 
         });
+
     </script>
     <script>
         $(document).ready(function() {
@@ -39,6 +34,7 @@
                 return false;
             });
         });
+
     </script>
     <style>
         body {
@@ -60,6 +56,7 @@
         #img-fluid {
             -webkit-user-drag: none;
         }
+
     </style>
 
     <!--Section of right clicks turns off -->
@@ -121,8 +118,8 @@
 
         }
 
-
-
+        
+        
         table.blueTable td,
         table.blueTable th {
             border: 0px solid #ffffff;
@@ -165,7 +162,7 @@
             margin-top: 12vh;
             margin-left: auto;
             margin-right: auto;
-        }
+                    }
 
         table.phone td,
         table.phone th {
@@ -187,7 +184,7 @@
                 font-size: 0.9em;
                 width: 7vw;
                 height: 4vh;
-
+                
 
             }
 
@@ -195,11 +192,10 @@
                 font-size: 0.7em;
             }
 
-            .blueTable {
+            .blueTable{
                 display: none;
             }
-
-            .phone {
+            .phone{
                 display: block;
             }
 
@@ -222,31 +218,15 @@
             #copyright {
                 font-size: 0.7em;
             }
-
-            .blueTable {
+            .blueTable{
                 display: block;
             }
-
-            .phone {
+            .phone{
                 display: none;
             }
         }
-    </style>
-    <!--Custom vegas animation-->
-    <script>
-        $("#vegas, body").vegas-animation-myAnimation {
-            animation: myAnimation;
-        }
 
-        @keyframes myAnimation {
-            0 % {
-                transform: scale(1.0);
-            }
-            100 % {
-                transform: scale(2);
-            }
-        }
-    </script>
+    </style>
 
 </head>
 
@@ -304,37 +284,20 @@
         </span>
     </div>
 
-
+    <script src="easy_background.js"></script>
 
     <script>
-        $("#vegas, body").vegas({
-            delay: 7000,
-            timer: false,
-            shuffle: true,
+        easy_background("body",
 
-            slides: [{
-                    src: "img/1.jpg"
-                },
-                {
-                    src: "img/2.jpg"
-                },
-                {
-                    src: "img/3.jpg"
-                },
-                {
-                    src: "img/4.jpg"
-                }
-            ],
-            animation: 'myAnimation',
-            transition: 'blur',
-            animationDuration: '10000',
-            overlay: 'overlays/01.png'
-        });
+            {
+                slide: ["img/1.jpg", "img/2.jpg", "img/3.jpg", "img/4.jpg", "img/5.jpg"],
+
+                delay: [5000, 5000, 5000, 5000, 5000]
+            }
+
+
+        );
+
     </script>
 </body>
-
-<footer>
-
-</footer>
-
 </html>
