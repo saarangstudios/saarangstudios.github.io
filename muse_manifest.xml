@@ -1,0 +1,267 @@
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://github.com/saarangstudios/saarangstudios.github.io" resolutions="1x" timestamp="1546949874606">
+  <folder name="css">
+    <file name="site_global.css" crc="389828040"/>
+    <file name="master_a-master.css" crc="4061273714" ref="contact:index:services:privacy-policy"/>
+    <file name="nomq_preview_master_a-master.css" crc="416223306" ref="index:services:contact:privacy-policy"/>
+    <file name="master_picture-portofilio.css" crc="155115137" ref="portfolio"/>
+    <file name="contact.css" crc="325481559" ref="contact"/>
+    <file name="index.css" crc="257816896" ref="index"/>
+    <file name="nomq_index.css" crc="451110082" ref="index"/>
+    <file name="portfolio.css" crc="163197635" ref="portfolio"/>
+    <file name="services.css" crc="4234454671" ref="services"/>
+    <file name="privacy-policy.css" crc="3834409988" ref="privacy-policy"/>
+    <file name="insta.css" crc="46148292" ref="insta"/>
+    <file name="mail.css" crc="447266047" ref="mail"/>
+    <file name="wa.css" crc="3793121482" ref="wa"/>
+    <file name="facebook.css" crc="3810207273" ref="facebook"/>
+    <file name="iefonts_privacy-policy.css" crc="3838940791" ref="privacy-policy"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="phone>index:phone>services:phone>portfolio:phone>contact:index:services:contact:portfolio:phone>wa-launchpad:phone>insta-launchpad:phone>mail-launchpad:phone>facebook-launchpad:privacy-policy:wa:insta:mail:facebook:phone>privacy-policy"/>
+    <file name="museutils.js" crc="340535759" ref="phone>index:phone>services:phone>portfolio:phone>contact:index:services:contact:portfolio:phone>wa-launchpad:phone>insta-launchpad:phone>mail-launchpad:phone>facebook-launchpad:privacy-policy:wa:insta:mail:facebook:phone>privacy-policy"/>
+    <file name="whatinput.js" crc="86476730" ref="phone>index:phone>services:phone>portfolio:phone>contact:index:services:contact:portfolio:phone>wa-launchpad:phone>insta-launchpad:phone>mail-launchpad:phone>facebook-launchpad:privacy-policy:wa:insta:mail:facebook:phone>privacy-policy"/>
+    <file name="museconfig.js" crc="310584261" ref="phone>index:phone>services:phone>portfolio:phone>contact:index:services:contact:portfolio:phone>wa-launchpad:phone>insta-launchpad:phone>mail-launchpad:phone>facebook-launchpad:privacy-policy:wa:insta:mail:facebook:phone>privacy-policy"/>
+    <file name="jquery.watch.js" crc="51536988" ref="phone>index:phone>services:phone>portfolio:phone>contact:index:services:contact:portfolio:phone>wa-launchpad:phone>insta-launchpad:phone>mail-launchpad:phone>facebook-launchpad:privacy-policy:wa:insta:mail:facebook:phone>privacy-policy"/>
+    <file name="webpro.js" crc="4059564322" ref="phone>index:index"/>
+    <file name="musewpslideshow.js" crc="3862962738" ref="phone>index:index"/>
+    <file name="jquery.museoverlay.js" crc="4147669564" ref="phone>index:index"/>
+    <file name="touchswipe.js" crc="4075097462" ref="phone>index:index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4260645839" ref="index:services:phone>index"/>
+    <file name="jquery.musemenu.js" crc="510910590" ref="index:services:contact:privacy-policy:phone>index:phone>services:phone>contact:phone>privacy-policy"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:services:contact:portfolio:privacy-policy:phone>index:phone>services:phone>contact:wa:insta:mail:facebook:phone>portfolio:phone>mail-launchpad:phone>privacy-policy"/>
+    <file name="jquery.museresponsive.js" crc="527716135" ref="index"/>
+    <file name="require.js" crc="7928878" ref="phone>index:phone>services:phone>portfolio:phone>contact:index:services:contact:portfolio:phone>wa-launchpad:phone>insta-launchpad:phone>mail-launchpad:phone>facebook-launchpad:privacy-policy:wa:insta:mail:facebook:phone>privacy-policy"/>
+  </folder>
+  <folder name="images">
+    <file name="a-master-favicon.ico" crc="3918849811" ref="phone>index"/>
+    <file name="blank.gif" crc="4208392903" ref="phone>index:index:services"/>
+    <file name="icons-01-crop-u32424.png" crc="4182621488" seo="true" ref="phone>index:phone>services:phone>contact:phone>privacy-policy">
+      <caption webpage="index" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="privacy-policy" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="policy" alt=""/>
+    </file>
+    <file name="saarang studios-.jpg" crc="4040009401" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="saarang studios-1393.jpg" crc="509658092" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="saarang studios-1379.jpg" crc="4105206655" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="saarang studios-1381.jpg" crc="4009152558" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="saarang studios-1396.jpg" crc="3842969859" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="saarang studios-2.jpg" crc="4099672300" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="saarang studios-1216.jpg" crc="7787828" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="saarang studios-1228.jpg" crc="3979694809" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="saarang studios-1248.jpg" crc="4132446498" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_7158-2.jpg" crc="167946734" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="saarang studios-6528400368700182661.jpg" crc="4030122285" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="stills" alt=""/>
+      <caption webpage="stills" alt=""/>
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="saarang studios-2797.jpg" crc="98381176" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="loading.gif" crc="3815509949" ref="phone>index:index"/>
+    <file name="arrow.png" crc="201731658" ref="index:services">
+      <caption webpage="index" alt=""/>
+      <caption webpage="stills" alt=""/>
+      <caption webpage="stills" alt=""/>
+      <caption webpage="stills" alt=""/>
+      <caption webpage="stills" alt=""/>
+      <caption webpage="stories" alt=""/>
+      <caption webpage="stories" alt=""/>
+      <caption webpage="stories" alt=""/>
+      <caption webpage="stories" alt=""/>
+      <caption webpage="beforeafter" alt=""/>
+      <caption webpage="beforeafter" alt=""/>
+      <caption webpage="beforeafter" alt=""/>
+      <caption webpage="beforeafter" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="motion" alt=""/>
+      <caption webpage="motion" alt=""/>
+      <caption webpage="motion" alt=""/>
+      <caption webpage="motion" alt=""/>
+    </file>
+    <file name="arrow1.png" crc="30846836" ref="index:services">
+      <caption webpage="index" alt=""/>
+      <caption webpage="stills" alt=""/>
+      <caption webpage="contact" alt=""/>
+    </file>
+    <file name="asset 1.png" crc="27628882" seo="true" ref="index:services:contact:privacy-policy">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="privacy-policy" alt=""/>
+      <caption webpage="contact" alt=""/>
+    </file>
+    <file name="picture-portofilio-favicon.ico" crc="3918849811" ref="portfolio"/>
+    <file name="instagram-5-512.png" crc="303379228" seo="true" ref="contact">
+      <caption webpage="contact" alt=""/>
+    </file>
+    <file name="phone-39-512.png" crc="488389301" seo="true" ref="contact">
+      <caption webpage="contact" alt=""/>
+    </file>
+    <file name="iconmonstr-home-6-240.png" crc="3912401154" seo="true" ref="phone>index:phone>services:phone>contact:phone>privacy-policy">
+      <caption webpage="stills" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="policy" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="privacy-policy" alt=""/>
+      <caption webpage="beforeafter" alt=""/>
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="iconfinder_whatsapp_2142581.png" crc="510778864" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="iconfinder_instagram_2142569.png" crc="3883897784" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="iconfinder_mail_2142571.png" crc="4255266015" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="iconfinder_facebook_2142575.png" crc="314027065" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="iconmonstr-close-27-240.png" crc="365509920" ref="phone>index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="iconmonstr-arrow-27-240.png" crc="282311182" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="iconmonstr-facebook-1-240.png" crc="81119074" ref="index:services:phone>index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="iconmonstr-instagram-11-240.png" crc="4199324298" ref="index:services:phone>index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="iconmonstr-whatsapp-1-240.png" crc="4135474258" ref="index:services:phone>index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="iconmonstr-email-1-240.png" crc="3899682971" ref="index:services:phone>index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="services" alt=""/>
+    </file>
+  </folder>
+  <folder name="phone">
+    <folder name="css">
+      <file name="master_a-master.css" crc="4238744770" ref="phone>index:phone>contact:phone>services:phone>privacy-policy"/>
+      <file name="index.css" crc="4182488822" ref="phone>index"/>
+      <file name="portfolio.css" crc="104532016" ref="phone>portfolio"/>
+      <file name="contact.css" crc="4146888269" ref="phone>contact"/>
+      <file name="services.css" crc="4146888269" ref="phone>services"/>
+      <file name="wa-launchpad.css" crc="80146057" ref="phone>wa-launchpad"/>
+      <file name="mail-launchpad.css" crc="276377066" ref="phone>mail-launchpad"/>
+      <file name="facebook-launchpad.css" crc="117660168" ref="phone>facebook-launchpad"/>
+      <file name="insta-launchpad.css" crc="4021110813" ref="phone>insta-launchpad"/>
+      <file name="nomq_facebook-launchpad.css" crc="3824530138" ref="phone>facebook-launchpad"/>
+      <file name="nomq_preview_master_a-master.css" crc="3824530138" ref="phone>index:phone>services:phone>contact:phone>privacy-policy"/>
+      <file name="privacy-policy.css" crc="4024919572" ref="phone>privacy-policy"/>
+      <file name="nomq_privacy-policy.css" crc="3824530138" ref="phone>privacy-policy"/>
+      <file name="iefonts_privacy-policy.css" crc="3992881648" ref="phone>privacy-policy"/>
+    </folder>
+    <file name="index.html" crc="3970239640" seo="true" mt="1546944817659" redirect="true"/>
+    <file name="services.html" crc="363340900" seo="true" mt="1546944817659" redirect="true"/>
+    <file name="portfolio.html" crc="3980692088" seo="true" mt="1546678608673" redirect="true"/>
+    <file name="contact.html" crc="450085546" seo="true" mt="1546944817659" redirect="true"/>
+    <file name="wa-launchpad.html" crc="4052847277" seo="true" mt="1544247803646" redirect="true"/>
+    <file name="insta-launchpad.html" crc="349662990" seo="true" mt="1544181652010" redirect="true"/>
+    <file name="mail-launchpad.html" crc="354436696" seo="true" mt="1546943393916" redirect="true"/>
+    <file name="facebook-launchpad.html" crc="260481843" seo="true" mt="1546508308850" redirect="true"/>
+    <file name="privacy-policy.html" crc="4082498632" seo="true" mt="1546945196037" redirect="true"/>
+  </folder>
+  <file name="index.html" crc="96038946" seo="true" mt="1546944479894" redirect="true"/>
+  <file name="services.html" crc="88534970" seo="true" mt="1546944479894" redirect="true"/>
+  <file name="contact.html" crc="512006202" seo="true" mt="1546944479894" redirect="true"/>
+  <file name="portfolio.html" crc="3875548077" seo="true" mt="1546669192323" redirect="true"/>
+  <file name="privacy-policy.html" crc="357647722" seo="true" mt="1546945128803" redirect="true"/>
+  <file name="wa.html" crc="225723128" seo="true" mt="1546507856851" redirect="true"/>
+  <file name="insta.html" crc="457836226" seo="true" mt="1546508427228" redirect="true"/>
+  <file name="mail.html" crc="422533016" seo="true" mt="1546943347349" redirect="true"/>
+  <file name="facebook.html" crc="531099775" seo="true" mt="1546508431323" redirect="true"/>
+</manifest>
