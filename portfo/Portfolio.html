@@ -378,6 +378,15 @@
         #rightblur {
             background-color: hsla(0, 0%, 44%, 0.9);
         }
+         #leftblur1 {
+            background-color: hsla(0, 0%, 33%, 0.9);
+            
+
+        }
+
+        #rightblur1 {
+            background-color: hsla(0, 0%, 33%, 0.9);
+        }
     </style>
 </head>
 
@@ -393,8 +402,8 @@
             <table class="blueTable">
                 <tbody>
                     <tr>
-                        <th style="padding-top: 10px;" id="leftblur">PHOTOGRAPHY</th>
-                        <th style="padding-top: 10px;" id="rightblur">GRAPHICS DESIGN</th>
+                        <th style="padding-top: 10px;" id="leftblur1">PHOTOGRAPHY</th>
+                        <th style="padding-top: 10px;" id="rightblur1">GRAPHICS DESIGN</th>
 
                     </tr>
 
@@ -403,16 +412,16 @@
                         <td id="rightblur"><a href="!#">ABOUT DESIGNER</a></td>
                     </tr>
                     <tr>
-                        <td id="leftblur"><a href="!#">BRAND</a></td>
-                        <td id="rightblur"><a href="!#">BANNERS</a></td>
+                        <td id="leftblur1"><a href="!#">BRAND</a></td>
+                        <td id="rightblur1"><a href="!#">BANNERS</a></td>
                     </tr>
                     <tr>
                         <td id="leftblur"><a href="!#">FASHION</a></td>
                         <td id="rightblur"><a href="!#">LOGO</a></td>
                     </tr>
                     <tr>
-                        <td id="leftblur"><a href="!#">PORTFOLIO</a></td>
-                        <td id="rightblur"><a href="!#">BRANDING</a></td>
+                        <td id="leftblur1"><a href="!#">PORTFOLIO</a></td>
+                        <td id="rightblur1"><a href="!#">BRANDING</a></td>
                     </tr>
                     <tr>
                         <td id="leftblur"><a href="!#">COMMERCIAL</a></td>
@@ -421,8 +430,8 @@
                     </tr>
                     <tr>
 
-                        <td id="leftblur"><a href="!#">CANDID WEDDING</a></td>
-                        <td id="rightblur"><a href="!#">BROCHURES</a></td>
+                        <td id="leftblur1"><a href="!#">CANDID WEDDING</a></td>
+                        <td id="rightblur1"><a href="!#">BROCHURES</a></td>
                     </tr>
                     <tr>
 
@@ -431,8 +440,8 @@
                     </tr>
                     <tr>
 
-                        <td id="leftblur"><a href="!#">EXOTIC SHOOTS</a></td>
-                        <td id="rightblur"><a href="!#">INVITATION CARDS</a></td>
+                        <td id="leftblur1"><a href="!#">EXOTIC SHOOTS</a></td>
+                        <td id="rightblur1"><a href="!#">INVITATION CARDS</a></td>
 
 
                     </tr>
@@ -474,6 +483,8 @@
 
 
     <script>
+        
+        if($(window).width() > 800){
         $("#vegas, body").vegas({
             delay: 7000,
             timer: false,
@@ -496,9 +507,34 @@
             animation: 'myAnimation',
             transition: 'blur',
             animationDuration: '10000',
+            });
+        }
+        else{
+            $("#vegas, body").vegas({
+            delay: 7000,
+            timer: false,
+            shuffle: true,
+            firstTransition: 'fade',
+            firstTransitionDuration: '2000',
+            slides: [{
+                    src: "img/mobile1.jpg"
+                },
+                {
+                    src: "img/mobile2.jpg"
+                },
+                {
+                    src: "img/mobile3.jpg"
+                },
+                {
+                    src: "img/mobile4.jpg"
+                }
+            ],
+            animation: 'myAnimation',
+            transition: 'blur',
+            animationDuration: '10000',
+            });
             
-
-        });
+        }
     </script>
 </body>
 
